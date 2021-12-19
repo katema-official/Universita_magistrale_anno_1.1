@@ -1,0 +1,22 @@
+git init
+printf "uno" > U
+printf "due" > Z
+git add U Z
+git commit -m "primo"
+printf "tre\n" > B
+mkdir A
+git mv U A/U
+git add B
+git commit -m "bello"
+git rm -r .
+git commit -m "errore"
+git reset --hard HEAD^
+git branch ok
+printf "\naggiunta" >> Z
+git add Z
+git checkout ok
+git commit -m "finale"
+git checkout master 
+printf "studenti" >> B
+git add B
+printf " promossi" >> B
