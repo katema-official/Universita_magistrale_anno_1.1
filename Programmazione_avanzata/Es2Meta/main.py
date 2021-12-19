@@ -33,40 +33,15 @@ def translate(sentence, my_dict):
     list_of_digits = sentence.split(" ")
 
     list_of_words = [my_dict[digits] for digits in list_of_digits]
-
-    #array_of_final_strings = []
-    #array_of_final_strings_2 = []
-    #for words in list_of_words:
-    #    array_of_final_strings_2 = []
-        #caso base: la lista non ha nulla
-    #    if len(array_of_final_strings) == 0:
-    #        for word in words:
-    #            array_of_final_strings.append(word)
-    #        #array_of_final_strings.append([word for word in words])
-    #        print("init = " + str(array_of_final_strings))
-    #        continue
-
-    #    for i in range(len(array_of_final_strings)):
-    #        for word in words:
-    #            array_of_final_strings_2.append(array_of_final_strings[i] + " " + word)
-    #    array_of_final_strings = array_of_final_strings_2[:]
-
     array_of_final_strings = []
-    #array_of_final_strings = [[word for word in words] if (len(array_of_final_strings) == 0) else [[str(array_of_final_strings[i] + " " + word) for i in range(len(array_of_final_strings))] for word in words] for words in list_of_words]
-    #print("CIAO!!!", array_of_final_strings[0])
-    #return array_of_final_strings
-
     for words in list_of_words:
-        array_of_final_strings_2 = []
         # caso base: la lista non ha nulla
         if len(array_of_final_strings) == 0:
             array_of_final_strings = [word for word in words]
-            print("init = " + str(array_of_final_strings))
             continue
         else:
             array_of_final_strings = [str(array_of_final_strings[i] + " " + word)
                                   for i in range(len(array_of_final_strings)) for word in words]
-
     return array_of_final_strings
 
 def word_to_digits(word):
@@ -74,15 +49,14 @@ def word_to_digits(word):
 
 if __name__ == '__main__':
     #apriamo il file
-    file_words = open("C:\\Users\\aless\\PycharmProjects\\Es2Meta\\dictionary.txt", "r")
+    file_words = open("dictionary.txt", "r")
     list_of_words = []
     for word in file_words:
         word = word[:-1]
         list_of_words.append(word)
-    #print(list_of_words)
 
     dict_lorenzo = list_to_dict(list_of_words)
-    file_sentences = open("C:\\Users\\aless\\PycharmProjects\\Es2Meta\\t9_texts.txt", "r")
+    file_sentences = open("t9_texts.txt", "r")
     list_of_sentences = file_sentences.readlines()
     print(list_of_sentences)
     for sentence in list_of_sentences:
@@ -96,5 +70,3 @@ if __name__ == '__main__':
 
         for elem in tr:
             print(elem)
-
-
