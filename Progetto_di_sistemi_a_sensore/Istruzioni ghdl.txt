@@ -1,0 +1,18 @@
+Comandi per eseguire un file ghdl (con tanto di testbench)
+
+ghdl -a nomefile.vhdl (analisi sintattica del codice)
+
+ghdl -a nomefile_tb.vhdl (per il testbench)
+
+ghdl -e nomefile_tb (costruisci una versione eseguibile del codice vhdl)
+
+ghdl -r nomefile_tb (runna il codice eseguibile vhdl)
+
+ghdl -r nomefile_tb --vcd=filename.vcd (esegui il vhdl ma generane anche un dump chiamato
+filename.vcd. Mi servirà poi per GTKWave)
+
+gtkwave filename.vcd
+
+
+
+
