@@ -1,3 +1,10 @@
+#Pseudo-testo dell'esercizio: scrivere pretty(f, n) che, data una lambda
+#(f) e il numero dei suoi argomenti (n), printi la tabella di verità della
+#lambda (tutte le lambda sono infatti funzioni booleane, pertanto tutti gli
+#argomenti possono assumere come valore solo 1 e 0, cioè True e False)
+
+
+
 '''def pretty(lamb, arg_count):
    for i in range(2**arg_count):
       pass
