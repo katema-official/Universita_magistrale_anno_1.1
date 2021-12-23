@@ -1,0 +1,5 @@
+Compiler version: 19.05.10.3351 GPL Edition - windows
+Type: Precompile
+batch mode: True
+new session: True
+starting date: 12/16/2021 11:30:46.651 AM

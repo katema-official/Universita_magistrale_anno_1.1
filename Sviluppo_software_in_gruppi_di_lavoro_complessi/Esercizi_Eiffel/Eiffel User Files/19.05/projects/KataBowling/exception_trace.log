@@ -1,0 +1,50 @@
+
+katabowling: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+GAME                _invariant @5          valid_score:                 
+<0000000003F4397C>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+GAME                _invariant                                          
+<0000000003F4397C>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+GAME                default_create                                      
+<0000000003F4397C>  (From ANY)             Routine failure.              Fail
+-------------------------------------------------------------------------------
+NEW_TEST_SET_01     test_gutter_game @1                                 
+<0000000003F436E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<0000000003F43448>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003F43448>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+katabowling: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+GAME                roll @1                valid_pins:                  
+<0000000003E3F97C>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+NEW_TEST_SET_01     test_gutter_game @2                                 
+<0000000003E3F6E8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<0000000003E3F448>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003E3F448>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
