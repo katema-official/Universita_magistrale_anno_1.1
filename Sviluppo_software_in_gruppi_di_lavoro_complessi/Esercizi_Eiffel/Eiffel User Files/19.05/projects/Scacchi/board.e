@@ -110,10 +110,30 @@ feature
 			something_is_not_here: is_empty(where)
 		end
 
+	is_valid_move_not_null(fromw, tow: STRING): BOOLEAN	--consiglio di Davide: le precondizioni devono essere pubbliche, le
+														--postcondizioni possono essere private
+		local
+			p: detachable PIECE
+		do
+			p := get(fromw)
+			if p /= Void then
+				Result := p.is_valid_move (CuRREnt, fromw, tow)		--consiglio di Mattia: Eiffel è case insensitive
+			else
+				Result := False
+			end
+		end
+
 	move (fromw, tow: STRING)
 		require
+			valids: is_valid_code(fromw) and is_valid_code(tow)
 			ok_from: not is_empty (fromw)
 			ok_to: is_empty (tow)
+			move_is_acceptable: is_valid_move_not_null (fromw, tow)
+			--andava anche bene:
+			--move_is_acceptable: attached get (fromw) as o implies o.is_valid_move (Current, from, tow)
+			--infatti attach è una chiamata a un metodo boleano: attached get (fromw) = get(fromw) è diverso da Void?
+			--se sì, chiama il risultato o e vedi se è una mossa valida
+			--"hai detto esatamente bene" cit. Lorenzo
 		do
 			if attached get (fromw) as p then
 			remove (fromw)
@@ -148,8 +168,46 @@ feature
 		Result := Result + "%N"
 	end
 
+	check_number_of_kings: BOOLEAN
+		local
+			number_of_kings: INTEGER
+			row: INTEGER
+			control: KING
+
+			--la soluzione simil-professore è quella commentata
+			--p: detachable PIECE
+		do
+			create control.make("WHITE")
+			across matrix.lower |..| matrix.height as r loop
+				row := (matrix.height + matrix.lower) - r.item
+				across matrix.lower |..| matrix.width as c loop
+					--p := matrix[row, c.item].get_presence
+					--if p /= Void then
+					--	if p.name.is_equal ("KING") then
+					--		print("VA")
+					--	end
+					--end
+
+					if (attached matrix[row, c.item].get_presence as o implies o.same_type(control)) and matrix[row, c.item].get_presence /= Void then
+						number_of_kings := number_of_kings + 1
+					end
+				end
+			end
+			print("Number of kings = " + number_of_kings.out + "%N")
+			if number_of_kings <= 2 then
+				Result := True
+			end
+		end
 
 
-
+invariant
+	check_number_of_kings
+	--se mettessimo come invariante che i re devono essere sempre 2, avremmo come problemi che:
+	--1) durante la fase di inizializzazione, il numero di re sarà temporaneamente 0 o 1. In quel caso,
+	--l'invariant check fallisce.
+	--2) In una implementazione completa, ci potrebbero essere problemi anche in fase di fine partita.
+	--Se la partita termina quando si verifica uno scacco matto, allora l'invariante andrebbe bene.
+	--Se invece la partita termina quando un re viene mangiato dall'altro giocatore, potremmo avere una situazione
+	--di inconsistenza alla fine, perché i re non saranno più 2 ma 1.
 
 end

@@ -14,6 +14,7 @@ feature
 			board.is_valid_code (from_code) and board.is_valid_code (to_code)
 		deferred
 		end
+		
 -- English name of the piece
 	name: STRING
 	color: STRING
