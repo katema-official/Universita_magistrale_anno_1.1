@@ -10,6 +10,8 @@ deferred class
 feature
 	area: REAL
 		deferred
+		ensure
+		 Result > 0.0
 		end
 
 	perimeter: REAL

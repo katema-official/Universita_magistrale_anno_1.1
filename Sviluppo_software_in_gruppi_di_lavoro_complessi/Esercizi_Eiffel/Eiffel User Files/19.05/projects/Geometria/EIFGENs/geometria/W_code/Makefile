@@ -1,37 +1,36 @@
 INCLUDE_PATH = 
 SHELL = /bin/sh
-CC = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/gcc"
-CPP = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/gcc"
-CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/include" -I. $(INCLUDE_PATH)
-CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/include" -I. $(INCLUDE_PATH)
-LDFLAGS = 
-CCLDFLAGS =   -mconsole
-LDSHAREDFLAGS =  
-EIFLIB = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/lib/mingw/mtwkbench.a"
-EIFTEMPLATES = C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/templates
-LIBS = 
-MAKE = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/make.exe"
-AR = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ar"
-LD = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ld"
-MKDEP =   --
-MV = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/cp"
-CP = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/cp"
-RANLIB = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ranlib.exe"
-RM = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/rm" -f
+CC = gcc
+CPP = g++
+CFLAGS = -O0 -pipe -fPIC -D_GNU_SOURCE -m64 -DEIF_THREADS -DEIF_LINUXTHREADS  -DWORKBENCH -I"/opt/Eiffel_19.05/studio/spec/linux-x86-64/include" -I. $(INCLUDE_PATH)
+CPPFLAGS = -O0 -pipe -fPIC -D_GNU_SOURCE -m64 -DEIF_THREADS -DEIF_LINUXTHREADS  -DWORKBENCH -I"/opt/Eiffel_19.05/studio/spec/linux-x86-64/include" -I. $(INCLUDE_PATH)
+LDFLAGS = -m elf_x86_64
+CCLDFLAGS = -m64  
+LDSHAREDFLAGS =  -m elf_x86_64 -shared -o
+EIFLIB = "/opt/Eiffel_19.05/studio/spec/linux-x86-64/lib/libmtwkbench.a"
+EIFTEMPLATES = /opt/Eiffel_19.05/studio/config/linux-x86-64/templates
+LIBS = -lm -lpthread
+MAKE = make
+AR = ar
+LD = ld
+MKDEP = \$(EIFFEL_SRC)/C/mkdep $(DPFLAGS) --
+MV = /bin/mv
+CP = /bin/cp
+RANLIB = :
+RM = /bin/rm -f
 FILE_EXIST = 
-RMDIR = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/rd"
-X2C = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/bin/x2c.exe"
-SHAREDLINK = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dllwrap"
-SHAREDLIBS = -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ 
-SHARED_SUFFIX = .dll
+RMDIR = 
+X2C = "/opt/Eiffel_19.05/studio/spec/linux-x86-64/bin/x2c"
+SHAREDLINK = ld
+SHAREDLIBS = -lm
+SHARED_SUFFIX = .so
 COMMAND_MAKEFILE = 
 START_TEST = if [ ! -f finished ] ; then 
 END_TEST = ; fi 
-CREATE_TEST = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/touch" finished
-PATH := C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/libexec/gcc/mingw32/3.4.2;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\aless\AppData\Local\Microsoft\WindowsApps; 
-SYSTEM_IN_DYNAMIC_LIB = geometria.dll 
+CREATE_TEST = touch finished 
+SYSTEM_IN_DYNAMIC_LIB = geometria.so 
 
-.SUFFIXES:.cpp .o 
+.SUFFIXES:.cpp .o
 
 .c.o:
 	$(CC) $(CFLAGS) -c $<
@@ -43,68 +42,60 @@ SUBDIRS = C1 E1
 
 EXTERNALS = 
 
-all:: geometria.exe
-	echo done > completed.eif
+all: geometria
 
 C1/Cobj1.o: Makefile E1/estructure.h
-	cd C1 && $(START_TEST) $(MAKE) Cobj1.o $(END_TEST) && cd ..
+	cd C1 ; $(START_TEST) $(SHELL) Makefile.SH ; $(MAKE) $(END_TEST)
 
-E1/emain.o:  Makefile E1/Makefile
+E1/Makefile: E1/Makefile.SH
+	cd E1 ; $(SHELL) Makefile.SH
+
+E1/emain.o: Makefile E1/Makefile
 	$(CP) "$(EIFTEMPLATES)/emain.template" "E1/emain.c"
-	cd E1 && $(START_TEST) $(MAKE) emain.o  $(END_TEST) && cd ..
+	cd E1 ; $(MAKE) emain.o
 
-E1/eoption.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) eoption.o  $(END_TEST) && cd ..
+E1/eoption.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) eoption.o
 
-E1/epattern.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) epattern.o  $(END_TEST) && cd ..
+E1/epattern.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) epattern.o
 
-E1/efrozen.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) efrozen.o  $(END_TEST) && cd ..
+E1/efrozen.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) efrozen.o
 
-E1/ecall.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) ecall.o  $(END_TEST) && cd ..
+E1/ecall.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) ecall.o
 
-E1/eplug.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) eplug.o  $(END_TEST) && cd ..
+E1/eplug.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) eplug.o
 
-E1/eskelet.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) eskelet.o  $(END_TEST) && cd ..
+E1/eskelet.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) eskelet.o
 
-E1/enames.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) enames.o  $(END_TEST) && cd ..
+E1/enames.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) enames.o
 
-E1/evisib.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) evisib.o  $(END_TEST) && cd ..
+E1/evisib.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) evisib.o
 
-E1/ececil.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) ececil.o  $(END_TEST) && cd ..
+E1/ececil.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) ececil.o
 
-E1/einit.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) einit.o  $(END_TEST) && cd ..
+E1/einit.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) einit.o
 
-E1/eparents.o : Makefile E1/Makefile E1/estructure.h
-	cd E1 && $(START_TEST) $(MAKE) eparents.o  $(END_TEST) && cd ..
+E1/eparents.o: Makefile E1/Makefile E1/estructure.h
+	cd E1 ; $(MAKE) eparents.o
 
-OBJECTS = E1/eparents.o  E1/einit.o  E1/ececil.o  E1/evisib.o  E1/enames.o  E1/eskelet.o  E1/eplug.o  E1/ecall.o  E1/efrozen.o  E1/epattern.o  E1/eoption.o  C1/Cobj1.o 
+OBJECTS= C1/Cobj1.o  E1/eoption.o E1/epattern.o E1/efrozen.o E1/ecall.o E1/eplug.o E1/eskelet.o E1/enames.o E1/evisib.o E1/ececil.o E1/einit.o E1/eparents.o
 
-C_OBJECTS = C1/Cobj1.o 
-
-EOBJECTS = E1/eparents.o  E1/einit.o  E1/ececil.o  E1/evisib.o  E1/enames.o  E1/eskelet.o  E1/eplug.o  E1/ecall.o  E1/efrozen.o  E1/epattern.o  E1/eoption.o  
-
-PRECOMP_OBJECTS= "c:\users\aless\onedrive\documenti\eiffel user files\19.05\precomp\spec\windows\EIFGENs\base-scoop-safe\W_code/mingw/precomp.lib"
+PRECOMP_OBJECTS= "/home/ubuntu/.es/eiffel_user_files/19.05/precomp/spec/linux-x86-64/EIFGENs/base-scoop-safe/W_code/preobj.o"
 
 
-geometria.exe: E1/emain.o $(OBJECTS) geometria.res 
-	$(COMMAND_MAKEFILE)
-	$(RM) $@
-	$(CC) $(LDFLAGS) $(CCLDFLAGS) -o geometria.exe E1/emain.o $(PRECOMP_OBJECTS) geometria.res $(OBJECTS)  $(EIFLIB) -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ $(ISE_SHAREDLIBS)
-
-../../../geometria.rc:
-	if [ ! -f ../../../geometria.rc ] ; then $(MV) "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/mingw/eiffel.rc" ../../../geometria.rc ; fi 
-
-geometria.res: ../../../geometria.rc Makefile
-	"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/windres" --preprocessor='"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/cpp.exe"' -I../../.. ../../../geometria.rc -O coff -o geometria.res
+geometria: $(OBJECTS)  E1/emain.o Makefile
+	$(RM) geometria
+	$(CC) -o geometria $(CFLAGS) $(CCLDFLAGS)  $(OBJECTS) E1/emain.o \
+		$(PRECOMP_OBJECTS) $(EXTERNALS) $(EIFLIB) $(LIBS)
 
 RCECIL = MTdebug.o MTidrs.o MTinterp.o mtipc.o MTnetwork.o MTupdate.o \
 	MTwargv.o MTwbench.o MTwboolstr.o MTwcecil.o MTwcompress.o \
@@ -120,61 +111,38 @@ RCECIL = MTdebug.o MTidrs.o MTinterp.o mtipc.o MTnetwork.o MTupdate.o \
 	MTwsig.o MTwstore.o MTwtimer.o MTwtools.o MTwtraverse.o MTwumain.o \
 	MTwurgent.o 
 
-
-#STATIC_CECIL PART
-STATIC_CECIL = libgeometria.o
+STATIC_CECIL = libgeometria.a
 cecil: $(STATIC_CECIL)
-$(STATIC_CECIL): $(OBJECTS)
+$(STATIC_CECIL):  $(OBJECTS) 
 	$(AR) x $(EIFLIB)
-	$(AR) rc $(STATIC_CECIL) $(OBJECTS) $(EXTERNALS) $(PRECOMP_OBJECTS) $(RCECIL)
+	$(AR) cr $(STATIC_CECIL) $(OBJECTS) $(PRECOMP_OBJECTS) $(RCECIL)
 	$(RANLIB) $(STATIC_CECIL)
-	$(RM) $(RCECIL)
+	$(RM) $(RCECIL) 
 
-
-
-#SHARED_CECIL PART
 SHARED_CECIL = libgeometria$(SHARED_SUFFIX)
 dynamic_cecil: $(SHARED_CECIL) 
-DEF_FILE= c_geometria.def 
-c_geometria.def: 
-	$(RM) $@
-	@echo LIBRARY libgeometria.dll > $@
-	@type "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/templates/cecil.def" >> $@
-
 SHARED_CECIL_OBJECT = $(OBJECTS) \
 		E1/emain.o
-SHAREDFLAGS = $(LDSHAREDFLAGS) \
-\
-	--dlltool-name "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dlltool" \
-	--as "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/as" \
-	--def $(DEF_FILE) --output-lib c_dll_geometria.lib -o $(SHARED_CECIL)
-
-$(SHARED_CECIL): $(SHARED_CECIL_OBJECT)  $(DEF_FILE)
-	if [ -f $(SHARED_CECIL) ] ; then $(RM) $(SHARED_CECIL) ; fi
+SHAREDFLAGS = $(LDSHAREDFLAGS) $(SHARED_CECIL) 
+$(SHARED_CECIL): $(SHARED_CECIL_OBJECT) 
+	$(RM) $(SHARED_CECIL) 
 	$(SHAREDLINK) $(SHAREDFLAGS) $(SHARED_CECIL_OBJECT) $(PRECOMP_OBJECTS) $(EXTERNALS) $(EIFLIB) $(SHAREDLIBS) 
 
-#SYSTEM_IN_DYNAMIC_LIB PART
 
-DEF_FILE= geometria.def
+
 dynlib: $(SYSTEM_IN_DYNAMIC_LIB) 
 E1/egc_dynlib.o: Makefile E1/Makefile
 	$(CP) "$(EIFTEMPLATES)/egc_dynlib.template" E1/egc_dynlib.c
-	cd E1 && $(MAKE) egc_dynlib.o && cd ..
+	cd E1 ; $(MAKE) egc_dynlib.o ; cd ..
 E1/edynlib.o: Makefile E1/Makefile E1/edynlib.c 
-	cd E1 && $(MAKE) edynlib.o && cd ..
+	cd E1 ; $(MAKE) edynlib.o ; cd ..
 
 SYSTEM_IN_DYNAMIC_LIB_OBJ = $(OBJECTS) \
 		E1/edynlib.o E1/egc_dynlib.o 
-DYNLIBSHAREDFLAGS = $(LDSHAREDFLAGS) \
-\
-	--dlltool-name "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dlltool" \
-	--as "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/as" \
-	--def $(DEF_FILE) --output-lib dll_geometria.lib -o $(SYSTEM_IN_DYNAMIC_LIB)
-
-$(SYSTEM_IN_DYNAMIC_LIB): $(SYSTEM_IN_DYNAMIC_LIB_OBJ)  $(DEF_FILE)
-	if [ -f $(SYSTEM_IN_DYNAMIC_LIB) ] ; then $(RM) $(SYSTEM_IN_DYNAMIC_LIB) ; fi
+DYNLIBSHAREDFLAGS = $(LDSHAREDFLAGS) $(SYSTEM_IN_DYNAMIC_LIB) 
+$(SYSTEM_IN_DYNAMIC_LIB): $(SYSTEM_IN_DYNAMIC_LIB_OBJ) 
+	$(RM) $(SYSTEM_IN_DYNAMIC_LIB) 
 	$(SHAREDLINK) $(DYNLIBSHAREDFLAGS) $(SYSTEM_IN_DYNAMIC_LIB_OBJ) $(PRECOMP_OBJECTS) $(EXTERNALS) $(EIFLIB) $(SHAREDLIBS) 
-
 
 
 clean: sub_clean local_clean

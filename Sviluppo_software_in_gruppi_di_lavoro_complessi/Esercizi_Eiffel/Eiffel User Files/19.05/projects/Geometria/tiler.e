@@ -37,8 +37,12 @@ feature -- Initialization
 		end
 
 	tiled_square: SQUARE
+		require
+			count.power(.5).rounded = count.power(.5)
+			all_squares
+			all_equals
 		do
-			-- fake implementation
+			-- non implemento il metodo perché mi hai chiesto di non farlo
 			create Result.make_with_edge (42)
 		ensure
 			no_sovrappositions: Result.area = total_area

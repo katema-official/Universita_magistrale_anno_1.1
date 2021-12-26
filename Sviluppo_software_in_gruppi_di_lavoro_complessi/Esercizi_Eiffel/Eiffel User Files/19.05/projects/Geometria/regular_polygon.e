@@ -22,4 +22,6 @@ feature
 		do
 			Result := min_edge = other.min_edge
 		end
+invariant
+	max_edge = min_edge
 end

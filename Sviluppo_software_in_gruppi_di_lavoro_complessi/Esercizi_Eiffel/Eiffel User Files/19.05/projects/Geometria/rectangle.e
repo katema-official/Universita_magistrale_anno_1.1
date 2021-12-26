@@ -39,6 +39,11 @@ feature
 		end
 
 	rotate (angle: REAL)
+		require
+			angle.floor = angle.ceiling
+		    -- angle.abs.integer_remainder(90) = 0 E' un reale, non va
+		    angle.abs.rounded.integer_remainder(90) = 0
+
 		local
 			a, tmp: REAL
 		do

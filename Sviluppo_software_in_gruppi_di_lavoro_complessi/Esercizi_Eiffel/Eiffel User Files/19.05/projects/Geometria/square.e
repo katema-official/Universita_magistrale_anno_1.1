@@ -9,14 +9,20 @@ class
 
 inherit
 	RECTANGLE
+	  export {NONE}   -- "guarda che queste feature ereditate le voglio private"
+	      make
 		select
-			is_equal
+			is_equal	-- Se ho due feature ereditate con lo stesso nome dovrò select sul metodo che voglio utilizzare senza binding e rinominare gli altri in un altro modo.
 		end
 
-REGULAR_POLYGON
-	rename
+
+    REGULAR_POLYGON
+	   rename
 		is_equal as is_equal_as_rp
-	end
+	   export {NONE}
+			is_equal_as_rp
+	   end
+
 
 create
 	make_with_edge
@@ -26,5 +32,6 @@ feature
 		do
 			make (width, width)
 	end
+
 
 end
