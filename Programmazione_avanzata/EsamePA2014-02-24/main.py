@@ -50,7 +50,6 @@ def produce_new_expr_as_list(expr_as_list):
 class calculator:
     def __init__(self, expr):
         self.expr = list(expr)
-        #print(self.expr)
     def __str__(self):
         return "".join(self.expr)
 
