@@ -64,10 +64,25 @@ feature -- Basic operations
 		other.deposit (amount)
 	ensure
 		withdrawal_made: balance = old balance - amount
-		deposit_made: other.balance = old other.balance
+		deposit_made: other.balance = old other.balance + amount
 		same_credit_limit: credit_limit = old credit_limit
 		other_same_credit_limit: other.credit_limit = old other.credit_limit
 	end
+
+	merge(other: ACCOUNT)
+	require
+		niente_debiti: other.balance + Current.balance <= other.credit_limit.max(Current.credit_limit)
+		diversi: other /= Current
+	do
+		set_credit_limit (other.credit_limit.max (Current.credit_limit))
+		deposit (other.balance)
+		other.set_credit_limit (1000)
+	ensure
+		new_credit_limit: credit_limit = ((old other.credit_limit).max(old credit_limit))
+		new_balance: Current.balance = ((old Current.balance) + old other.balance)
+		other_is_0: other.balance = 0 and other.credit_limit = 1000
+	end
+
 feature
 	log_balance
 		local
@@ -83,5 +98,6 @@ feature
 invariant
 	credit_limit_not_negative: credit_limit > 0
 	balance_not_below_credit: balance >= - credit_limit
+	we_love_monga: available_amount = balance + credit_limit
 end
 
