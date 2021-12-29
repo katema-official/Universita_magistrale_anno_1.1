@@ -1,0 +1,10 @@
+about:approximately
+but:though
+change:vary
+interesting:fascinating,appealing
+awesome:astonishing
+beautiful:alluring
+funny:entertaining
+nevertheless:but
+boring:monotonous
+so:too
