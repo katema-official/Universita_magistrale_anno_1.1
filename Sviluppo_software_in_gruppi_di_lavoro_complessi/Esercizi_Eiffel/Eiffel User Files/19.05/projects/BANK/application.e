@@ -64,7 +64,7 @@ feature {NONE} -- Initialization
 									--Il valore di balance alla fine sarà, se tutto è andato bene, -(W+Z)
 
 			a.merge (b)
-
+			a.log_balance
 		end
 
 end

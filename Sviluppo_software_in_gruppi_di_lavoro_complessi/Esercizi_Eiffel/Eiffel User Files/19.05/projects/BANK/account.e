@@ -87,13 +87,22 @@ feature
 	log_balance
 		local
 			log: PLAIN_TEXT_FILE
+			i: INTEGER
 		do
+
+		if i<3 then
+			check -- failure
+				False
 			create log.make_open_append ("account.log")
 			log.put_string ("Balance is: " + balance.out +"%N") -- The next operation fails
-		check -- failure
-			False
 		end
-	end
+		rescue
+			i:=i+1
+
+				print(i.out)
+				retry
+			end
+		end
 
 invariant
 	credit_limit_not_negative: credit_limit > 0

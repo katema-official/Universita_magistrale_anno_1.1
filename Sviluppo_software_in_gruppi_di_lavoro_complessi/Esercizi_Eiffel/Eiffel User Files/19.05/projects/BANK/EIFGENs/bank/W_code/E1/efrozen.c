@@ -13517,6 +13517,17 @@ extern void F245_7112();
 extern void F245_7113();
 extern void F245_7114();
 extern void F960_7209();
+extern EIF_INTEGER_32 F960_7210();
+extern EIF_INTEGER_32 F960_7211();
+extern EIF_INTEGER_32 F960_7212();
+extern void F960_7213();
+extern void F960_7214();
+extern void F960_7215();
+extern void F960_7216();
+extern void F960_7217();
+extern void F960_7218();
+extern void F960_7220();
+extern void F961_7219();
 
 #ifdef __cplusplus
 }
@@ -27039,6 +27050,17 @@ fnptr egc_frozen_init[] = {
 (fnptr) F245_7113,
 (fnptr) F245_7114,
 (fnptr) F960_7209,
+(fnptr) F960_7210,
+(fnptr) F960_7211,
+(fnptr) F960_7212,
+(fnptr) F960_7213,
+(fnptr) F960_7214,
+(fnptr) F960_7215,
+(fnptr) F960_7216,
+(fnptr) F960_7217,
+(fnptr) F960_7218,
+(fnptr) F960_7220,
+(fnptr) F961_7219,
 };
 
 int egc_fpatidtab_init[] = {
@@ -40552,6 +40574,17 @@ int egc_fpatidtab_init[] = {
 121,
 109,
 5,
+5,
+16,
+16,
+16,
+25,
+25,
+25,
+112,
+3,
+5,
+0,
 5,
 };
 

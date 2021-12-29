@@ -1,1 +1,11 @@
-bank	APPLICATION	make	F960_7209	C1\ap960.c
+bank	ACCOUNT	make	F960_7209	C1\ac960.c
+bank	ACCOUNT	credit_limit	F960_7210	C1\ac960.c
+bank	ACCOUNT	available_amount	F960_7211	C1\ac960.c
+bank	ACCOUNT	balance	F960_7212	C1\ac960.c
+bank	ACCOUNT	set_credit_limit	F960_7213	C1\ac960.c
+bank	ACCOUNT	deposit	F960_7214	C1\ac960.c
+bank	ACCOUNT	withdraw	F960_7215	C1\ac960.c
+bank	ACCOUNT	transfer	F960_7216	C1\ac960.c
+bank	ACCOUNT	merge	F960_7217	C1\ac960.c
+bank	ACCOUNT	log_balance	F960_7218	C1\ac960.c
+bank	APPLICATION	make	F961_7219	C1\ap961.c

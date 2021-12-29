@@ -5506,6 +5506,12 @@ char *names959 [] =
 "value",
 };
 
+char *names960 [] =
+{
+"credit_limit",
+"balance",
+};
+
 
 
 #ifdef __cplusplus

@@ -3840,11 +3840,15 @@ static struct eif_par_types par957 = {957, ptf957, (uint16) 1, (uint16) 1, (char
 static EIF_TYPE_INDEX ptf958[] = {140,0xFFFF};
 static struct eif_par_types par958 = {958, ptf958, (uint16) 1, (uint16) 1, (char) 0};
 
-/* APPLICATION */
-static EIF_TYPE_INDEX ptf959[] = {147,0xFFFF};
+/* ACCOUNT */
+static EIF_TYPE_INDEX ptf959[] = {0,0xFFFF};
 static struct eif_par_types par959 = {959, ptf959, (uint16) 1, (uint16) 0, (char) 0};
 
-int egc_partab_size_init = 959				;
+/* APPLICATION */
+static EIF_TYPE_INDEX ptf960[] = {147,0xFFFF};
+static struct eif_par_types par960 = {960, ptf960, (uint16) 1, (uint16) 0, (char) 0};
+
+int egc_partab_size_init = 960				;
 				struct eif_par_types *egc_partab_init[] = {
 &par0,
 &par1,
@@ -4806,6 +4810,7 @@ int egc_partab_size_init = 959				;
 &par957,
 &par958,
 &par959,
+&par960,
 NULL};
 
 #ifdef __cplusplus
