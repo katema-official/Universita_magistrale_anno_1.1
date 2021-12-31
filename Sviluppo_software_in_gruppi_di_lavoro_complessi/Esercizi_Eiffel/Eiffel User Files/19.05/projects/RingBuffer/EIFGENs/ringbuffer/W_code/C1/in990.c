@@ -10,10 +10,10 @@
 extern "C" {
 #endif
 
-extern EIF_TYPED_VALUE F990_7501(EIF_REFERENCE);
-extern EIF_TYPED_VALUE F990_7502(EIF_REFERENCE);
-extern EIF_TYPED_VALUE F990_7503(EIF_REFERENCE);
-extern void F990_7504(EIF_REFERENCE, EIF_TYPED_VALUE);extern void en_local_host_name(EIF_POINTER);
+extern EIF_TYPED_VALUE F990_7507(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F990_7508(EIF_REFERENCE);
+extern EIF_TYPED_VALUE F990_7509(EIF_REFERENCE);
+extern void F990_7510(EIF_REFERENCE, EIF_TYPED_VALUE);extern void en_local_host_name(EIF_POINTER);
 
 extern void EIF_Minit990(void);
 
@@ -37,7 +37,7 @@ extern "C" {
 #endif
 
 /* {INET_ADDRESS_IMPL_V4}.local_host_name */
-EIF_TYPED_VALUE F990_7501 (EIF_REFERENCE Current)
+EIF_TYPED_VALUE F990_7507 (EIF_REFERENCE Current)
 {
 	GTCX
 	char *l_feature_name = "local_host_name";
@@ -66,12 +66,12 @@ EIF_TYPED_VALUE F990_7501 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Current);
 	RTLU(SK_REF, &loc1);
 	
-	RTEAA(l_feature_name, 989, Current, 1, 0, 13753);
+	RTEAA(l_feature_name, 989, Current, 1, 0, 13781);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(989, Current, 13753);
+	RTDBGEAA(989, Current, 13781);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTDBGAL(1, 0xF80000AB, 0, 0); /* loc1 */
@@ -83,7 +83,7 @@ EIF_TYPED_VALUE F990_7501 (EIF_REFERENCE Current)
 	RTHOOK(2);
 	tp1 = *(EIF_POINTER *)(loc1 + RTVA(3282, "item", loc1));
 	up1 = tp1;
-	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(5265, dtype))(Current, up1x);
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTWF(5270, dtype))(Current, up1x);
 	RTHOOK(3);
 	RTDBGAL(0, 0xF80000E8, 0,0); /* Result */
 	tr1 = RTLN(eif_new_type(232, 0x01).id);
@@ -106,8 +106,8 @@ EIF_TYPED_VALUE F990_7501 (EIF_REFERENCE Current)
 }
 
 /* {INET_ADDRESS_IMPL_V4}.any_local_address */
-RTOID (F990_7502)
-EIF_TYPED_VALUE F990_7502 (EIF_REFERENCE Current)
+RTOID (F990_7508)
+EIF_TYPED_VALUE F990_7508 (EIF_REFERENCE Current)
 {
 	GTCX
 	char *l_feature_name = "any_local_address";
@@ -124,7 +124,7 @@ EIF_TYPED_VALUE F990_7502 (EIF_REFERENCE Current)
 	RTLD;
 	
 #define Result RTOTRR
-	RTOTDR(F990_7502);
+	RTOTDR(F990_7508);
 	dtype = Dtype(Current);
 
 	RTLI(5);
@@ -137,12 +137,12 @@ EIF_TYPED_VALUE F990_7502 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 989, Current, 0, 0, 13750);
+	RTEAA(l_feature_name, 989, Current, 0, 0, 13782);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(989, Current, 13750);
+	RTDBGEAA(989, Current, 13782);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -151,7 +151,7 @@ EIF_TYPED_VALUE F990_7502 (EIF_REFERENCE Current)
 	tr2 = RTMS_EX_H("0.0.0.0",7,1402630960);
 	ur1 = tr2;
 	ur2 = NULL;
-	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTWC(5306, Dtype(tr1)))(tr1, ur1x, ur2x);
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTWC(5311, Dtype(tr1)))(tr1, ur1x, ur2x);
 	RTNHOOK(1,1);
 	Result = (EIF_REFERENCE) RTCCL(tr1);
 	RTVI(Current, RTAL);
@@ -170,8 +170,8 @@ EIF_TYPED_VALUE F990_7502 (EIF_REFERENCE Current)
 }
 
 /* {INET_ADDRESS_IMPL_V4}.loopback_address */
-RTOID (F990_7503)
-EIF_TYPED_VALUE F990_7503 (EIF_REFERENCE Current)
+RTOID (F990_7509)
+EIF_TYPED_VALUE F990_7509 (EIF_REFERENCE Current)
 {
 	GTCX
 	char *l_feature_name = "loopback_address";
@@ -192,7 +192,7 @@ EIF_TYPED_VALUE F990_7503 (EIF_REFERENCE Current)
 	RTLD;
 	
 #define Result RTOTRR
-	RTOTDR(F990_7503);
+	RTOTDR(F990_7509);
 	dtype = Dtype(Current);
 
 	RTLI(7);
@@ -207,12 +207,12 @@ EIF_TYPED_VALUE F990_7503 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 989, Current, 0, 0, 13751);
+	RTEAA(l_feature_name, 989, Current, 0, 0, 13783);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(989, Current, 13751);
+	RTDBGEAA(989, Current, 13783);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -237,7 +237,7 @@ EIF_TYPED_VALUE F990_7503 (EIF_REFERENCE Current)
 	*((EIF_NATURAL_8 *)tr4+3) = (EIF_NATURAL_8) (EIF_NATURAL_8) ((EIF_INTEGER_32) 1L);
 	tr3 = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE))  RTWF(2569, Dtype(tr4)))(tr4).it_r;
 	ur2 = tr3;
-	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTWC(5306, Dtype(tr1)))(tr1, ur1x, ur2x);
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTWC(5311, Dtype(tr1)))(tr1, ur1x, ur2x);
 	RTNHOOK(1,1);
 	Result = (EIF_REFERENCE) RTCCL(tr1);
 	RTVI(Current, RTAL);
@@ -257,7 +257,7 @@ EIF_TYPED_VALUE F990_7503 (EIF_REFERENCE Current)
 }
 
 /* {INET_ADDRESS_IMPL_V4}.get_local_host_name */
-void F990_7504 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
+void F990_7510 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 {
 	GTCX
 	char *l_feature_name = "get_local_host_name";
@@ -277,11 +277,11 @@ void F990_7504 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_POINTER,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 989, Current, 0, 1, 13752);
+	RTEAA(l_feature_name, 989, Current, 0, 1, 13784);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 1);
-	RTDBGEAA(989, Current, 13752);
+	RTDBGEAA(989, Current, 13784);
 	RTIV(Current, RTAL);en_local_host_name(arg1);
 	
 	RTVI(Current, RTAL);
@@ -298,8 +298,8 @@ void F990_7504 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 void EIF_Minit990 (void)
 {
 	GTCX
-	RTOTS (7502,F990_7502)
-	RTOTS (7503,F990_7503)
+	RTOTS (7508,F990_7508)
+	RTOTS (7509,F990_7509)
 }
 
 

@@ -55,14 +55,14 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C1_c.o 
 
-OLDOBJECTS =  ap960.o ap960d.o eq969.o eq969d.o in990.o in990d.o eq968.o eq968d.o \
-	it976.o it976d.o er991.o er991d.o eq967.o eq967d.o eq966.o eq966d.o \
-	in988.o in988d.o eq965.o eq965d.o ad975.o ad975d.o in989.o in989d.o \
-	in987.o in987d.o it986.o it986d.o eq964.o eq964d.o so974.o so974d.o \
-	c_963.o c_963d.o da984.o da984d.o da983.o da983d.o it962.o it962d.o \
-	so973.o so973d.o pa961.o pa961d.o ti980.o ti980d.o ti979.o ti979d.o \
-	da981.o da981d.o da982.o da982d.o gr972.o gr972d.o ti978.o ti978d.o \
-	co985.o co985d.o ti977.o ti977d.o da971.o da971d.o da970.o da970d.o 
+OLDOBJECTS =  in990.o in990d.o eq967.o eq967d.o eq975.o eq975d.o it974.o it974d.o \
+	er991.o er991d.o in988.o in988d.o ad973.o ad973d.o in989.o in989d.o \
+	in987.o in987d.o eq966.o eq966d.o eq965.o eq965d.o eq964.o eq964d.o \
+	it986.o it986d.o so972.o so972d.o c_963.o c_963d.o da985.o da985d.o \
+	da984.o da984d.o eq962.o eq962d.o it961.o it961d.o so971.o so971d.o \
+	pa960.o pa960d.o da982.o da982d.o da983.o da983d.o ti980.o ti980d.o \
+	ti981.o ti981d.o gr970.o gr970d.o ti979.o ti979d.o ti978.o ti978d.o \
+	co977.o co977d.o da969.o da969d.o da968.o da968d.o ne976.o ne976d.o 
 
 all: Cobj1.o
 

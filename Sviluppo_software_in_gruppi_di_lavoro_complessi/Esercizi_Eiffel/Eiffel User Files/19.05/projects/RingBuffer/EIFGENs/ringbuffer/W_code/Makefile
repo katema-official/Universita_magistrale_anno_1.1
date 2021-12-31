@@ -1,34 +1,34 @@
-INCLUDE_PATH =  -I"D:\Programmi\EiffelStudio\library\time\spec\include"
+INCLUDE_PATH =  -I"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL\library\time\spec\include"
 SHELL = /bin/sh
-CC = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/gcc"
-CPP = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/gcc"
-CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"D:\Programmi\EiffelStudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
-CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"D:\Programmi\EiffelStudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
+CC = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/gcc"
+CPP = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/gcc"
+CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/include" -I. $(INCLUDE_PATH)
+CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/include" -I. $(INCLUDE_PATH)
 LDFLAGS = 
 CCLDFLAGS =   -mconsole
 LDSHAREDFLAGS =  
-EIFLIB = "D:\Programmi\EiffelStudio/studio/spec/win64/lib/mingw/mtwkbench.a"
-EIFTEMPLATES = D:\Programmi\EiffelStudio/studio/config/win64/templates
+EIFLIB = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/lib/mingw/mtwkbench.a"
+EIFTEMPLATES = C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/templates
 LIBS = 
-MAKE = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/make.exe"
-AR = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/ar"
-LD = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/ld"
+MAKE = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/make.exe"
+AR = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ar"
+LD = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ld"
 MKDEP =   --
-MV = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/cp"
-CP = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/cp"
-RANLIB = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/ranlib.exe"
-RM = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/rm" -f
+MV = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/cp"
+CP = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/cp"
+RANLIB = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/ranlib.exe"
+RM = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/rm" -f
 FILE_EXIST = 
-RMDIR = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/rd"
-X2C = "D:\Programmi\EiffelStudio/studio/spec/win64/bin/x2c.exe"
-SHAREDLINK = "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/dllwrap"
+RMDIR = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/rd"
+X2C = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/spec/windows/bin/x2c.exe"
+SHAREDLINK = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dllwrap"
 SHAREDLIBS = -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ 
 SHARED_SUFFIX = .dll
 COMMAND_MAKEFILE = 
 START_TEST = if [ ! -f finished ] ; then 
 END_TEST = ; fi 
-CREATE_TEST = "D:\Programmi\EiffelStudio/gcc/win64/msys/1.0/bin/touch" finished
-PATH := D:\Programmi\EiffelStudio/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Programmi\Git\cmd;C:\Users\mirag\AppData\Local\Microsoft\WindowsApps; 
+CREATE_TEST = "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/msys/1.0/bin/touch" finished
+PATH := C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/libexec/gcc/mingw32/3.4.2;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\aless\AppData\Local\Microsoft\WindowsApps; 
 SYSTEM_IN_DYNAMIC_LIB = ringbuffer.dll 
 
 .SUFFIXES:.cpp .o 
@@ -42,7 +42,7 @@ SYSTEM_IN_DYNAMIC_LIB = ringbuffer.dll
 SUBDIRS = C1 C2 C3 E1
 
 EXTERNALS =  \
-	"D:\Programmi\EiffelStudio\library\net\spec\mingw\win64\lib\mtnet.lib" \
+	"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL\library\net\spec\mingw\windows\lib\mtnet.lib" \
 	-lmswsock
 
 all:: ringbuffer.exe
@@ -100,7 +100,7 @@ C_OBJECTS = C3/Cobj3.o C2/Cobj2.o C1/Cobj1.o
 
 EOBJECTS = E1/eparents.o  E1/einit.o  E1/ececil.o  E1/evisib.o  E1/enames.o  E1/eskelet.o  E1/eplug.o  E1/ecall.o  E1/efrozen.o  E1/epattern.o  E1/eoption.o  
 
-PRECOMP_OBJECTS= "c:\users\mirag\documents\eiffel user files\19.05\precomp\spec\win64\EIFGENs\base-scoop-safe\W_code/mingw/precomp.lib"
+PRECOMP_OBJECTS= "c:\users\aless\onedrive\documenti\eiffel user files\19.05\precomp\spec\windows\EIFGENs\base-scoop-safe\W_code/mingw/precomp.lib"
 
 
 ringbuffer.exe: E1/emain.o $(OBJECTS) ringbuffer.res 
@@ -109,10 +109,10 @@ ringbuffer.exe: E1/emain.o $(OBJECTS) ringbuffer.res
 	$(CC) $(LDFLAGS) $(CCLDFLAGS) -o ringbuffer.exe E1/emain.o $(PRECOMP_OBJECTS) ringbuffer.res $(OBJECTS) $(EXTERNALS) $(EIFLIB) -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ $(ISE_SHAREDLIBS)
 
 ../../../ringbuffer.rc:
-	if [ ! -f ../../../ringbuffer.rc ] ; then $(MV) "D:\Programmi\EiffelStudio/studio/config/win64/mingw/eiffel.rc" ../../../ringbuffer.rc ; fi 
+	if [ ! -f ../../../ringbuffer.rc ] ; then $(MV) "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/mingw/eiffel.rc" ../../../ringbuffer.rc ; fi 
 
 ringbuffer.res: ../../../ringbuffer.rc Makefile
-	"D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/windres" --preprocessor='"D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/cpp.exe"' -I../../.. ../../../ringbuffer.rc -O coff -o ringbuffer.res
+	"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/windres" --preprocessor='"C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/cpp.exe"' -I../../.. ../../../ringbuffer.rc -O coff -o ringbuffer.res
 
 RCECIL = MTdebug.o MTidrs.o MTinterp.o mtipc.o MTnetwork.o MTupdate.o \
 	MTwargv.o MTwbench.o MTwboolstr.o MTwcecil.o MTwcompress.o \
@@ -147,14 +147,14 @@ DEF_FILE= c_ringbuffer.def
 c_ringbuffer.def: 
 	$(RM) $@
 	@echo LIBRARY libringbuffer.dll > $@
-	@type "D:\Programmi\EiffelStudio/studio/config/win64/templates/cecil.def" >> $@
+	@type "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/studio/config/windows/templates/cecil.def" >> $@
 
 SHARED_CECIL_OBJECT = $(OBJECTS) \
 		E1/emain.o
 SHAREDFLAGS = $(LDSHAREDFLAGS) \
 \
-	--dlltool-name "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/dlltool" \
-	--as "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/as" \
+	--dlltool-name "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dlltool" \
+	--as "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/as" \
 	--def $(DEF_FILE) --output-lib c_dll_ringbuffer.lib -o $(SHARED_CECIL)
 
 $(SHARED_CECIL): $(SHARED_CECIL_OBJECT)  $(DEF_FILE)
@@ -175,8 +175,8 @@ SYSTEM_IN_DYNAMIC_LIB_OBJ = $(OBJECTS) \
 		E1/edynlib.o E1/egc_dynlib.o 
 DYNLIBSHAREDFLAGS = $(LDSHAREDFLAGS) \
 \
-	--dlltool-name "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/dlltool" \
-	--as "D:\Programmi\EiffelStudio/gcc/win64/mingw/bin/as" \
+	--dlltool-name "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/dlltool" \
+	--as "C:\Program Files (x86)\Eiffel Software\EiffelStudio 19.05 GPL/gcc/windows/mingw/bin/as" \
 	--def $(DEF_FILE) --output-lib dll_ringbuffer.lib -o $(SYSTEM_IN_DYNAMIC_LIB)
 
 $(SYSTEM_IN_DYNAMIC_LIB): $(SYSTEM_IN_DYNAMIC_LIB_OBJ)  $(DEF_FILE)

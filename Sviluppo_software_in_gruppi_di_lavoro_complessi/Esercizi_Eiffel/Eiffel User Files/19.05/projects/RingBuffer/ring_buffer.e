@@ -32,6 +32,7 @@ feature {NONE} -- Initialization
 		data.trim
 		start := 1
 		free := 1
+		create model.make (n)
 	ensure
 		empty_buffer: is_empty
 		capacity: capacity = n
@@ -47,10 +48,10 @@ feature -- Access
 			Result := data [start]
 		ensure
 			Result = data [start]
+			Result = model.item
 		end
 
 	model: BOUNDED_QUEUE[G]
-		 
 
 	count: INTEGER
 	-- Number of items in buffer.
@@ -60,13 +61,12 @@ feature -- Access
 			else
 				Result := data.count - start + free
 			end
-		end
 
 		ensure
 			free >= start implies Result = free - start
 			free <  start implies Result = data.count - start + free
 			Result >= 0
-			Result <= Current.capacity
+			Result <= capacity
 			free = old free
 			start = old start
 		end
@@ -86,7 +86,7 @@ feature -- Status report
 		do
 			Result := (start = free)
 		ensure
-			Result = (Current.count = 0)
+			Result = (count = 0)
 		--	Result = true implies Current.count = 0
 		--	Result = false implies Current.count > 0
 		end
@@ -116,11 +116,14 @@ feature -- Element change
 			else
 				free := free + 1
 			end
+			model.extend (a_value)
 		ensure
 			old free = data.count implies free = 1
 			old free /= data.count implies free = old free + 1
 			count = old count + 1
 			data [old free] = a_value
+
+			model.item = item
 		end
 
 	remove
@@ -133,18 +136,24 @@ feature -- Element change
 			else
 				start := start + 1
 			end
+			model.remove
 		ensure
 			count = old count - 1
 			old start = data.count implies start = 1
 			old start /= data.count implies start = old start + 1
+
+			old model.item = old item
+			--dovrebbe andare bene, però, anche model.item = item, fintanto che non si tratta dell'ultimo elemento. ESPLODE insomma.
 		end
 
 	wipe_out
 	-- Remove all elements from buffer.
 		do
 			start := free
+			model.wipe_out
 		ensure
 			is_empty
+			model.is_empty
 		end
 
 feature {NONE} -- Implementation
@@ -158,11 +167,12 @@ feature {NONE} -- Implementation
 invariant
 data_not_void: data /= Void
 capacity > 0
-count >= 0 and count < capacity
+count >= 0 and count <= capacity
 start > 0 and start < capacity
 --data.valid_index (start)
---data.valid_index (free)
-free > 0 and free < capacity
-is_empty /= is_full
+--data.valid_index (free)		--Davide dice: se ho un data di 10 posizioni, quindi da 0 (+1) a 9 (+1), questa è vera quando free sta tra 0 e 9 compresi
+free > 0 and free <= data.count		--qui invece free va da 1 a 10
+not (is_empty and is_full)
+
 
 end

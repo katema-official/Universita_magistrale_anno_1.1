@@ -22012,24 +22012,44 @@ static const int32 cn_attr959 [] =
 2097,
 };
 
-extern const char *names961[];
-static const uint32 types961 [] =
+extern const char *names960[];
+static const uint32 types960 [] =
 {
 SK_REF,
 };
 
-static const uint16 attr_flags961 [] =
+static const uint16 attr_flags960 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype961_0 [] = {0xFF01,171,0xFFFF};
+static const EIF_TYPE_INDEX g_atype960_0 [] = {0xFF01,171,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes961 [] = {
-g_atype961_0,
+static const EIF_TYPE_INDEX *gtypes960 [] = {
+g_atype960_0,
 };
 
-static const int32 cn_attr961 [] =
+static const int32 cn_attr960 [] =
 {
-5007,
+5020,
+};
+
+extern const char *names962[];
+static const uint32 types962 [] =
+{
+SK_REF,
+};
+
+static const uint16 attr_flags962 [] =
+{0,};
+
+static const EIF_TYPE_INDEX g_atype962_0 [] = {0xFF01,270,0xFF01,229,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes962 [] = {
+g_atype962_0,
+};
+
+static const int32 cn_attr962 [] =
+{
+5030,
 };
 
 extern const char *names963[];
@@ -22055,9 +22075,9 @@ g_atype963_2,
 
 static const int32 cn_attr963 [] =
 {
-5027,
-5011,
-5020,
+5053,
+5037,
+5046,
 };
 
 extern const char *names964[];
@@ -22069,7 +22089,7 @@ SK_REF,
 static const uint16 attr_flags964 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype964_0 [] = {0xFF01,270,0xFF01,229,0xFFFF};
+static const EIF_TYPE_INDEX g_atype964_0 [] = {0xFF01,964,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes964 [] = {
 g_atype964_0,
@@ -22077,19 +22097,19 @@ g_atype964_0,
 
 static const int32 cn_attr964 [] =
 {
-5043,
+5063,
 };
 
 extern const char *names965[];
 static const uint32 types965 [] =
 {
-SK_REF,
+SK_BOOL,
 };
 
 static const uint16 attr_flags965 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype965_0 [] = {1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype965_0 [] = {203,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes965 [] = {
 g_atype965_0,
@@ -22097,19 +22117,19 @@ g_atype965_0,
 
 static const int32 cn_attr965 [] =
 {
-5052,
+5081,
 };
 
 extern const char *names966[];
 static const uint32 types966 [] =
 {
-SK_BOOL,
+SK_REF,
 };
 
 static const uint16 attr_flags966 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype966_0 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype966_0 [] = {1029,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes966 [] = {
 g_atype966_0,
@@ -22117,31 +22137,31 @@ g_atype966_0,
 
 static const int32 cn_attr966 [] =
 {
-5058,
+5085,
 };
 
-extern const char *names967[];
-static const uint32 types967 [] =
+extern const char *names971[];
+static const uint32 types971 [] =
 {
 SK_REF,
 };
 
-static const uint16 attr_flags967 [] =
+static const uint16 attr_flags971 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype967_0 [] = {0xFF01,965,0xFFFF};
+static const EIF_TYPE_INDEX g_atype971_0 [] = {0xFF01,171,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes967 [] = {
-g_atype967_0,
+static const EIF_TYPE_INDEX *gtypes971 [] = {
+g_atype971_0,
 };
 
-static const int32 cn_attr967 [] =
+static const int32 cn_attr971 [] =
 {
-5060,
+5118,
 };
 
-extern const char *names969[];
-static const uint32 types969 [] =
+extern const char *names975[];
+static const uint32 types975 [] =
 {
 SK_REF,
 SK_REF,
@@ -22149,95 +22169,111 @@ SK_REF,
 SK_BOOL,
 };
 
-static const uint16 attr_flags969 [] =
+static const uint16 attr_flags975 [] =
 {0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype969_0 [] = {0xFF01,966,0xFFFF};
-static const EIF_TYPE_INDEX g_atype969_1 [] = {0xFF01,967,0xFFFF};
-static const EIF_TYPE_INDEX g_atype969_2 [] = {965,0xFFFF};
-static const EIF_TYPE_INDEX g_atype969_3 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype975_0 [] = {0xFF01,963,0xFFFF};
+static const EIF_TYPE_INDEX g_atype975_1 [] = {0xFF01,966,0xFFFF};
+static const EIF_TYPE_INDEX g_atype975_2 [] = {964,0xFFFF};
+static const EIF_TYPE_INDEX g_atype975_3 [] = {203,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes969 [] = {
-g_atype969_0,
-g_atype969_1,
-g_atype969_2,
-g_atype969_3,
+static const EIF_TYPE_INDEX *gtypes975 [] = {
+g_atype975_0,
+g_atype975_1,
+g_atype975_2,
+g_atype975_3,
 };
 
-static const int32 cn_attr969 [] =
+static const int32 cn_attr975 [] =
 {
-5091,
-5092,
-5102,
-5095,
+5150,
+5151,
+5161,
+5154,
 };
 
-extern const char *names973[];
-static const uint32 types973 [] =
+extern const char *names976[];
+static const uint32 types976 [] =
 {
 SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_BOOL,
 };
 
-static const uint16 attr_flags973 [] =
-{0,};
+static const uint16 attr_flags976 [] =
+{0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype973_0 [] = {0xFF01,171,0xFFFF};
+static const EIF_TYPE_INDEX g_atype976_0 [] = {0xFF01,963,0xFFFF};
+static const EIF_TYPE_INDEX g_atype976_1 [] = {0xFF01,966,0xFFFF};
+static const EIF_TYPE_INDEX g_atype976_2 [] = {964,0xFFFF};
+static const EIF_TYPE_INDEX g_atype976_3 [] = {0xFF01,1031,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype976_4 [] = {203,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes973 [] = {
-g_atype973_0,
+static const EIF_TYPE_INDEX *gtypes976 [] = {
+g_atype976_0,
+g_atype976_1,
+g_atype976_2,
+g_atype976_3,
+g_atype976_4,
 };
 
-static const int32 cn_attr973 [] =
+static const int32 cn_attr976 [] =
 {
-5137,
+5150,
+5151,
+5161,
+5168,
+5154,
 };
 
-extern const char *names980[];
-static const uint32 types980 [] =
+extern const char *names981[];
+static const uint32 types981 [] =
 {
 SK_INT32,
 SK_REAL64,
 };
 
-static const uint16 attr_flags980 [] =
+static const uint16 attr_flags981 [] =
 {0,0,};
 
-static const EIF_TYPE_INDEX g_atype980_0 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype980_1 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype981_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype981_1 [] = {206,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes980 [] = {
-g_atype980_0,
-g_atype980_1,
+static const EIF_TYPE_INDEX *gtypes981 [] = {
+g_atype981_0,
+g_atype981_1,
 };
 
-static const int32 cn_attr980 [] =
+static const int32 cn_attr981 [] =
 {
-5188,
-5187,
+5219,
+5218,
 };
 
-extern const char *names984[];
-static const uint32 types984 [] =
+extern const char *names985[];
+static const uint32 types985 [] =
 {
 SK_REF,
 SK_REF,
 };
 
-static const uint16 attr_flags984 [] =
+static const uint16 attr_flags985 [] =
 {0,0,};
 
-static const EIF_TYPE_INDEX g_atype984_0 [] = {0xFF01,979,0xFFFF};
-static const EIF_TYPE_INDEX g_atype984_1 [] = {0xFF01,1009,0xFFFF};
+static const EIF_TYPE_INDEX g_atype985_0 [] = {0xFF01,980,0xFFFF};
+static const EIF_TYPE_INDEX g_atype985_1 [] = {0xFF01,1010,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes984 [] = {
-g_atype984_0,
-g_atype984_1,
+static const EIF_TYPE_INDEX *gtypes985 [] = {
+g_atype985_0,
+g_atype985_1,
 };
 
-static const int32 cn_attr984 [] =
+static const int32 cn_attr985 [] =
 {
-5229,
-5230,
+5260,
+5261,
 };
 
 extern const char *names992[];
@@ -22257,7 +22293,7 @@ g_atype992_0,
 
 static const int32 cn_attr992 [] =
 {
-5268,
+5273,
 };
 
 extern const char *names993[];
@@ -22280,8 +22316,8 @@ g_atype993_1,
 
 static const int32 cn_attr993 [] =
 {
-5287,
-5272,
+5292,
+5277,
 };
 
 extern const char *names994[];
@@ -22316,12 +22352,12 @@ g_atype994_5,
 
 static const int32 cn_attr994 [] =
 {
-5287,
-5295,
-5297,
-5299,
-5272,
-5296,
+5292,
+5300,
+5302,
+5304,
+5277,
+5301,
 };
 
 extern const char *names995[];
@@ -22347,9 +22383,9 @@ g_atype995_2,
 
 static const int32 cn_attr995 [] =
 {
-5287,
-5272,
-5309,
+5292,
+5277,
+5314,
 };
 
 extern const char *names997[];
@@ -22372,8 +22408,8 @@ g_atype997_1,
 
 static const int32 cn_attr997 [] =
 {
-5323,
-5324,
+5328,
+5329,
 };
 
 extern const char *names1000[];
@@ -22393,11 +22429,39 @@ g_atype1000_0,
 
 static const int32 cn_attr1000 [] =
 {
-5137,
+5118,
 };
 
 extern const char *names1002[];
 static const uint32 types1002 [] =
+{
+SK_INT32,
+SK_INT32,
+SK_REAL64,
+};
+
+static const uint16 attr_flags1002 [] =
+{0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1002_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1002_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1002_2 [] = {206,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1002 [] = {
+g_atype1002_0,
+g_atype1002_1,
+g_atype1002_2,
+};
+
+static const int32 cn_attr1002 [] =
+{
+5505,
+5506,
+5504,
+};
+
+extern const char *names1003[];
+static const uint32 types1003 [] =
 {
 SK_REF,
 SK_INT32,
@@ -22405,55 +22469,27 @@ SK_INT32,
 SK_INT32,
 };
 
-static const uint16 attr_flags1002 [] =
+static const uint16 attr_flags1003 [] =
 {0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1002_0 [] = {1024,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1002_1 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1002_2 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1002_3 [] = {218,0xFFFF};
-
-static const EIF_TYPE_INDEX *gtypes1002 [] = {
-g_atype1002_0,
-g_atype1002_1,
-g_atype1002_2,
-g_atype1002_3,
-};
-
-static const int32 cn_attr1002 [] =
-{
-5485,
-5497,
-5498,
-5499,
-};
-
-extern const char *names1003[];
-static const uint32 types1003 [] =
-{
-SK_INT32,
-SK_INT32,
-SK_REAL64,
-};
-
-static const uint16 attr_flags1003 [] =
-{0,0,0,};
-
-static const EIF_TYPE_INDEX g_atype1003_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1003_0 [] = {1025,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1003_1 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1003_2 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1003_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1003_3 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1003 [] = {
 g_atype1003_0,
 g_atype1003_1,
 g_atype1003_2,
+g_atype1003_3,
 };
 
 static const int32 cn_attr1003 [] =
 {
-5517,
-5518,
-5516,
+5509,
+5521,
+5522,
+5523,
 };
 
 extern const char *names1004[];
@@ -22467,9 +22503,9 @@ SK_REF,
 static const uint16 attr_flags1004 [] =
 {0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1004_0 [] = {1027,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1004_1 [] = {0xFF01,1002,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1004_2 [] = {0xFF01,1001,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1004_0 [] = {1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1004_1 [] = {0xFF01,1001,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1004_2 [] = {0xFF01,1002,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1004 [] = {
 g_atype1004_0,
@@ -22479,49 +22515,9 @@ g_atype1004_2,
 
 static const int32 cn_attr1004 [] =
 {
-5524,
-5536,
-5537,
-};
-
-extern const char *names1006[];
-static const uint32 types1006 [] =
-{
-SK_REF,
-SK_REF,
-SK_REF,
-SK_BOOL,
-SK_INT32,
-SK_INT32,
-};
-
-static const uint16 attr_flags1006 [] =
-{0,0,0,0,0,0,};
-
-static const EIF_TYPE_INDEX g_atype1006_0 [] = {270,0xFF01,13,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1006_1 [] = {0xFF01,1016,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1006_2 [] = {0xFF01,185,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1006_3 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1006_4 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1006_5 [] = {218,0xFFFF};
-
-static const EIF_TYPE_INDEX *gtypes1006 [] = {
-g_atype1006_0,
-g_atype1006_1,
-g_atype1006_2,
-g_atype1006_3,
-g_atype1006_4,
-g_atype1006_5,
-};
-
-static const int32 cn_attr1006 [] =
-{
-967,
-5550,
-5552,
-5551,
-2856,
-5549,
+5529,
+5541,
+5542,
 };
 
 extern const char *names1007[];
@@ -22529,27 +22525,21 @@ static const uint32 types1007 [] =
 {
 SK_REF,
 SK_REF,
+SK_REF,
 SK_BOOL,
-SK_BOOL,
-SK_INT32,
-SK_INT32,
-SK_INT32,
 SK_INT32,
 SK_INT32,
 };
 
 static const uint16 attr_flags1007 [] =
-{0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1007_0 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1007_1 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1007_2 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1007_0 [] = {270,0xFF01,13,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1007_1 [] = {0xFF01,1017,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1007_2 [] = {0xFF01,185,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1007_3 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1007_4 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1007_5 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1007_6 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1007_7 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1007_8 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1007 [] = {
 g_atype1007_0,
@@ -22558,22 +22548,16 @@ g_atype1007_2,
 g_atype1007_3,
 g_atype1007_4,
 g_atype1007_5,
-g_atype1007_6,
-g_atype1007_7,
-g_atype1007_8,
 };
 
 static const int32 cn_attr1007 [] =
 {
-5559,
-5562,
+967,
 5556,
+5558,
 5557,
-5560,
-5561,
-5563,
-5564,
-5565,
+2856,
+5555,
 };
 
 extern const char *names1008[];
@@ -22581,31 +22565,51 @@ static const uint32 types1008 [] =
 {
 SK_REF,
 SK_REF,
-SK_REF,
-SK_REF,
+SK_BOOL,
+SK_BOOL,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
 };
 
 static const uint16 attr_flags1008 [] =
-{0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1008_0 [] = {0xFF01,1027,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1008_1 [] = {0xFF01,1027,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1008_2 [] = {0xFF01,964,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1008_3 [] = {0xFF01,240,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_0 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_1 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_2 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_3 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_4 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_5 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_6 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_7 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1008_8 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1008 [] = {
 g_atype1008_0,
 g_atype1008_1,
 g_atype1008_2,
 g_atype1008_3,
+g_atype1008_4,
+g_atype1008_5,
+g_atype1008_6,
+g_atype1008_7,
+g_atype1008_8,
 };
 
 static const int32 cn_attr1008 [] =
 {
-5591,
-5592,
-5594,
-5595,
+5565,
+5568,
+5562,
+5563,
+5566,
+5567,
+5569,
+5570,
+5571,
 };
 
 extern const char *names1009[];
@@ -22615,69 +22619,81 @@ SK_REF,
 SK_REF,
 SK_REF,
 SK_REF,
-SK_REF,
-SK_REF,
 };
 
 static const uint16 attr_flags1009 [] =
-{0,0,0,0,0,0,};
+{0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1009_0 [] = {0xFF01,1027,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1009_1 [] = {0xFF01,1027,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1009_2 [] = {0xFF01,964,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1009_0 [] = {0xFF01,1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1009_1 [] = {0xFF01,1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1009_2 [] = {0xFF01,965,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1009_3 [] = {0xFF01,240,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1009_4 [] = {0xFF01,964,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1009_5 [] = {0xFF01,964,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1009 [] = {
 g_atype1009_0,
 g_atype1009_1,
 g_atype1009_2,
 g_atype1009_3,
-g_atype1009_4,
-g_atype1009_5,
 };
 
 static const int32 cn_attr1009 [] =
 {
-5591,
-5592,
-5594,
-5595,
-5603,
-5604,
+5597,
+5598,
+5600,
+5601,
 };
 
 extern const char *names1010[];
 static const uint32 types1010 [] =
 {
-SK_INT32,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
 };
 
 static const uint16 attr_flags1010 [] =
-{0,};
+{0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1010_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_0 [] = {0xFF01,1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_1 [] = {0xFF01,1028,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_2 [] = {0xFF01,965,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_3 [] = {0xFF01,240,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_4 [] = {0xFF01,965,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1010_5 [] = {0xFF01,965,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1010 [] = {
 g_atype1010_0,
+g_atype1010_1,
+g_atype1010_2,
+g_atype1010_3,
+g_atype1010_4,
+g_atype1010_5,
 };
 
 static const int32 cn_attr1010 [] =
 {
-5607,
+5597,
+5598,
+5600,
+5601,
+5609,
+5610,
 };
 
 extern const char *names1011[];
 static const uint32 types1011 [] =
 {
-SK_POINTER,
+SK_INT32,
 };
 
 static const uint16 attr_flags1011 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype1011_0 [] = {227,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1011_0 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1011 [] = {
 g_atype1011_0,
@@ -22685,7 +22701,7 @@ g_atype1011_0,
 
 static const int32 cn_attr1011 [] =
 {
-5619,
+5613,
 };
 
 extern const char *names1012[];
@@ -22705,7 +22721,7 @@ g_atype1012_0,
 
 static const int32 cn_attr1012 [] =
 {
-5619,
+5625,
 };
 
 extern const char *names1013[];
@@ -22725,133 +22741,32 @@ g_atype1013_0,
 
 static const int32 cn_attr1013 [] =
 {
-5619,
+5625,
 };
 
 extern const char *names1014[];
 static const uint32 types1014 [] =
 {
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_CHAR8,
-SK_BOOL,
-SK_BOOL,
-SK_BOOL,
-SK_BOOL,
-SK_BOOL,
-SK_UINT8,
-SK_INT8,
-SK_UINT16,
-SK_INT16,
-SK_UINT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_REAL32,
-SK_UINT64,
-SK_INT64,
-SK_REAL64,
+SK_POINTER,
 };
 
 static const uint16 attr_flags1014 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,};
 
-static const EIF_TYPE_INDEX g_atype1014_0 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_1 [] = {972,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_2 [] = {972,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_3 [] = {232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_4 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_5 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_6 [] = {197,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_7 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_8 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_9 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_10 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_11 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_12 [] = {209,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_13 [] = {188,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_14 [] = {215,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_15 [] = {221,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_16 [] = {212,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_17 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_18 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_19 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_20 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_21 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_22 [] = {191,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_23 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_24 [] = {200,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1014_25 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1014_0 [] = {227,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1014 [] = {
 g_atype1014_0,
-g_atype1014_1,
-g_atype1014_2,
-g_atype1014_3,
-g_atype1014_4,
-g_atype1014_5,
-g_atype1014_6,
-g_atype1014_7,
-g_atype1014_8,
-g_atype1014_9,
-g_atype1014_10,
-g_atype1014_11,
-g_atype1014_12,
-g_atype1014_13,
-g_atype1014_14,
-g_atype1014_15,
-g_atype1014_16,
-g_atype1014_17,
-g_atype1014_18,
-g_atype1014_19,
-g_atype1014_20,
-g_atype1014_21,
-g_atype1014_22,
-g_atype1014_23,
-g_atype1014_24,
-g_atype1014_25,
 };
 
 static const int32 cn_attr1014 [] =
 {
-3535,
-5640,
-5641,
-5674,
-5679,
-5681,
-3534,
-5650,
-5668,
-5703,
-5704,
-5705,
-3545,
-3540,
-3544,
-3539,
-3542,
-3536,
-3548,
-5637,
-5638,
-5639,
-3546,
-3541,
-3538,
-3547,
+5625,
 };
 
 extern const char *names1015[];
 static const uint32 types1015 [] =
 {
-SK_REF,
 SK_REF,
 SK_REF,
 SK_REF,
@@ -22881,35 +22796,34 @@ SK_REAL64,
 };
 
 static const uint16 attr_flags1015 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
 static const EIF_TYPE_INDEX g_atype1015_0 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_1 [] = {972,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_2 [] = {972,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_1 [] = {970,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_2 [] = {970,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_3 [] = {232,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_4 [] = {171,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_5 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_6 [] = {1014,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_7 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_6 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_7 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_8 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_9 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_10 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_11 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_12 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_13 [] = {209,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_14 [] = {188,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_15 [] = {215,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_16 [] = {221,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_17 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_12 [] = {209,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_13 [] = {188,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_14 [] = {215,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_15 [] = {221,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_16 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_17 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_18 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_19 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_20 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1015_21 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_22 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_23 [] = {191,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_24 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_25 [] = {200,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1015_26 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_22 [] = {191,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_23 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_24 [] = {200,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1015_25 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1015 [] = {
 g_atype1015_0,
@@ -22938,24 +22852,22 @@ g_atype1015_22,
 g_atype1015_23,
 g_atype1015_24,
 g_atype1015_25,
-g_atype1015_26,
 };
 
 static const int32 cn_attr1015 [] =
 {
 3535,
-5640,
-5641,
-5674,
-5679,
-5681,
-5707,
+5646,
+5647,
+5680,
+5685,
+5687,
 3534,
-5650,
-5668,
-5703,
-5704,
-5705,
+5656,
+5674,
+5709,
+5710,
+5711,
 3545,
 3540,
 3544,
@@ -22963,9 +22875,9 @@ static const int32 cn_attr1015 [] =
 3542,
 3536,
 3548,
-5637,
-5638,
-5639,
+5643,
+5644,
+5645,
 3546,
 3541,
 3538,
@@ -22981,11 +22893,8 @@ SK_REF,
 SK_REF,
 SK_REF,
 SK_REF,
+SK_REF,
 SK_CHAR8,
-SK_BOOL,
-SK_BOOL,
-SK_BOOL,
-SK_BOOL,
 SK_BOOL,
 SK_BOOL,
 SK_BOOL,
@@ -23001,57 +22910,42 @@ SK_INT32,
 SK_INT32,
 SK_INT32,
 SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
 SK_REAL32,
-SK_UINT64,
 SK_UINT64,
 SK_INT64,
 SK_REAL64,
 };
 
 static const uint16 attr_flags1016 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
 static const EIF_TYPE_INDEX g_atype1016_0 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_1 [] = {999,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_2 [] = {999,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_1 [] = {970,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_2 [] = {970,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_3 [] = {232,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_4 [] = {171,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_5 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_6 [] = {197,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_7 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_6 [] = {1015,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_7 [] = {197,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_8 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_9 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_10 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_11 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_12 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_13 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_14 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_15 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_16 [] = {209,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_17 [] = {188,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_18 [] = {215,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_19 [] = {221,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_20 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_13 [] = {209,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_14 [] = {188,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_15 [] = {215,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_16 [] = {221,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_17 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_18 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_19 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_20 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_21 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1016_22 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_23 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_24 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_25 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_26 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_27 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_28 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_29 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_30 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_31 [] = {191,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_32 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_33 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_34 [] = {200,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1016_35 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_23 [] = {191,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_24 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_25 [] = {200,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1016_26 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1016 [] = {
 g_atype1016_0,
@@ -23081,35 +22975,23 @@ g_atype1016_23,
 g_atype1016_24,
 g_atype1016_25,
 g_atype1016_26,
-g_atype1016_27,
-g_atype1016_28,
-g_atype1016_29,
-g_atype1016_30,
-g_atype1016_31,
-g_atype1016_32,
-g_atype1016_33,
-g_atype1016_34,
-g_atype1016_35,
 };
 
 static const int32 cn_attr1016 [] =
 {
 3535,
-5640,
-5641,
-5674,
-5679,
-5681,
+5646,
+5647,
+5680,
+5685,
+5687,
+5713,
 3534,
-5650,
-5668,
-5703,
-5704,
-5705,
+5656,
+5674,
 5709,
 5710,
 5711,
-5748,
 3545,
 3540,
 3544,
@@ -23117,17 +22999,11 @@ static const int32 cn_attr1016 [] =
 3542,
 3536,
 3548,
-5637,
-5638,
-5639,
-5734,
-5735,
-5736,
-5737,
-5741,
+5643,
+5644,
+5645,
 3546,
 3541,
-5719,
 3538,
 3547,
 };
@@ -23135,7 +23011,6 @@ static const int32 cn_attr1016 [] =
 extern const char *names1017[];
 static const uint32 types1017 [] =
 {
-SK_REF,
 SK_REF,
 SK_REF,
 SK_REF,
@@ -23167,8 +23042,6 @@ SK_INT32,
 SK_INT32,
 SK_INT32,
 SK_INT32,
-SK_INT32,
-SK_INT32,
 SK_REAL32,
 SK_UINT64,
 SK_UINT64,
@@ -23177,7 +23050,7 @@ SK_REAL64,
 };
 
 static const uint16 attr_flags1017 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
 static const EIF_TYPE_INDEX g_atype1017_0 [] = {0xFF01,232,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_1 [] = {999,0xFFFF};
@@ -23185,8 +23058,8 @@ static const EIF_TYPE_INDEX g_atype1017_2 [] = {999,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_3 [] = {232,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_4 [] = {171,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_5 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_6 [] = {1016,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_7 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_6 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_7 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_8 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_9 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_10 [] = {203,0xFFFF};
@@ -23195,12 +23068,12 @@ static const EIF_TYPE_INDEX g_atype1017_12 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_13 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_14 [] = {203,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_15 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_16 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_17 [] = {209,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_18 [] = {188,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_19 [] = {215,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_20 [] = {221,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_21 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_16 [] = {209,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_17 [] = {188,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_18 [] = {215,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_19 [] = {221,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_20 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_21 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_22 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_23 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_24 [] = {218,0xFFFF};
@@ -23210,14 +23083,11 @@ static const EIF_TYPE_INDEX g_atype1017_27 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_28 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_29 [] = {218,0xFFFF};
 static const EIF_TYPE_INDEX g_atype1017_30 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_31 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_32 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_33 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_34 [] = {191,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_35 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_36 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_37 [] = {200,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1017_38 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_31 [] = {191,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_32 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_33 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_34 [] = {200,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1017_35 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1017 [] = {
 g_atype1017_0,
@@ -23256,30 +23126,26 @@ g_atype1017_32,
 g_atype1017_33,
 g_atype1017_34,
 g_atype1017_35,
-g_atype1017_36,
-g_atype1017_37,
-g_atype1017_38,
 };
 
 static const int32 cn_attr1017 [] =
 {
 3535,
-5640,
-5641,
-5674,
-5679,
-5681,
-5707,
+5646,
+5647,
+5680,
+5685,
+5687,
 3534,
-5650,
-5668,
-5703,
-5704,
-5705,
+5656,
+5674,
 5709,
 5710,
 5711,
-5748,
+5715,
+5716,
+5717,
+5754,
 3545,
 3540,
 3544,
@@ -23287,25 +23153,195 @@ static const int32 cn_attr1017 [] =
 3542,
 3536,
 3548,
-5637,
-5638,
-5639,
-5734,
-5735,
-5736,
-5737,
+5643,
+5644,
+5645,
+5740,
 5741,
-5758,
-5760,
+5742,
+5743,
+5747,
 3546,
 3541,
-5719,
+5725,
 3538,
 3547,
 };
 
 extern const char *names1018[];
 static const uint32 types1018 [] =
+{
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_CHAR8,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_UINT8,
+SK_INT8,
+SK_UINT16,
+SK_INT16,
+SK_UINT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_REAL32,
+SK_UINT64,
+SK_UINT64,
+SK_INT64,
+SK_REAL64,
+};
+
+static const uint16 attr_flags1018 [] =
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1018_0 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_1 [] = {999,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_2 [] = {999,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_3 [] = {232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_4 [] = {171,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_5 [] = {171,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_6 [] = {1017,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_7 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_8 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_9 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_10 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_11 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_12 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_13 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_14 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_15 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_16 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_17 [] = {209,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_18 [] = {188,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_19 [] = {215,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_20 [] = {221,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_21 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_22 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_23 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_24 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_25 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_26 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_27 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_28 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_29 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_30 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_31 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_32 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_33 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_34 [] = {191,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_35 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_36 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_37 [] = {200,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1018_38 [] = {206,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1018 [] = {
+g_atype1018_0,
+g_atype1018_1,
+g_atype1018_2,
+g_atype1018_3,
+g_atype1018_4,
+g_atype1018_5,
+g_atype1018_6,
+g_atype1018_7,
+g_atype1018_8,
+g_atype1018_9,
+g_atype1018_10,
+g_atype1018_11,
+g_atype1018_12,
+g_atype1018_13,
+g_atype1018_14,
+g_atype1018_15,
+g_atype1018_16,
+g_atype1018_17,
+g_atype1018_18,
+g_atype1018_19,
+g_atype1018_20,
+g_atype1018_21,
+g_atype1018_22,
+g_atype1018_23,
+g_atype1018_24,
+g_atype1018_25,
+g_atype1018_26,
+g_atype1018_27,
+g_atype1018_28,
+g_atype1018_29,
+g_atype1018_30,
+g_atype1018_31,
+g_atype1018_32,
+g_atype1018_33,
+g_atype1018_34,
+g_atype1018_35,
+g_atype1018_36,
+g_atype1018_37,
+g_atype1018_38,
+};
+
+static const int32 cn_attr1018 [] =
+{
+3535,
+5646,
+5647,
+5680,
+5685,
+5687,
+5713,
+3534,
+5656,
+5674,
+5709,
+5710,
+5711,
+5715,
+5716,
+5717,
+5754,
+3545,
+3540,
+3544,
+3539,
+3542,
+3536,
+3548,
+5643,
+5644,
+5645,
+5740,
+5741,
+5742,
+5743,
+5747,
+5764,
+5766,
+3546,
+3541,
+5725,
+3538,
+3547,
+};
+
+extern const char *names1019[];
+static const uint32 types1019 [] =
 {
 SK_REF,
 SK_REF,
@@ -23333,67 +23369,67 @@ SK_INT64,
 SK_REAL64,
 };
 
-static const uint16 attr_flags1018 [] =
+static const uint16 attr_flags1019 [] =
 {0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1018_0 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_1 [] = {0xFF01,229,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_2 [] = {171,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_3 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_4 [] = {197,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_5 [] = {197,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_6 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_7 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_8 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_9 [] = {209,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_10 [] = {188,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_11 [] = {215,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_12 [] = {221,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_13 [] = {212,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_14 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_15 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_16 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_17 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_18 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_19 [] = {191,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_20 [] = {227,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_21 [] = {224,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_22 [] = {200,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1018_23 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_0 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_1 [] = {0xFF01,229,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_2 [] = {171,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_3 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_4 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_5 [] = {197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_6 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_7 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_8 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_9 [] = {209,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_10 [] = {188,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_11 [] = {215,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_12 [] = {221,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_13 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_14 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_15 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_16 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_17 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_18 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_19 [] = {191,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_20 [] = {227,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_21 [] = {224,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_22 [] = {200,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1019_23 [] = {206,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes1018 [] = {
-g_atype1018_0,
-g_atype1018_1,
-g_atype1018_2,
-g_atype1018_3,
-g_atype1018_4,
-g_atype1018_5,
-g_atype1018_6,
-g_atype1018_7,
-g_atype1018_8,
-g_atype1018_9,
-g_atype1018_10,
-g_atype1018_11,
-g_atype1018_12,
-g_atype1018_13,
-g_atype1018_14,
-g_atype1018_15,
-g_atype1018_16,
-g_atype1018_17,
-g_atype1018_18,
-g_atype1018_19,
-g_atype1018_20,
-g_atype1018_21,
-g_atype1018_22,
-g_atype1018_23,
+static const EIF_TYPE_INDEX *gtypes1019 [] = {
+g_atype1019_0,
+g_atype1019_1,
+g_atype1019_2,
+g_atype1019_3,
+g_atype1019_4,
+g_atype1019_5,
+g_atype1019_6,
+g_atype1019_7,
+g_atype1019_8,
+g_atype1019_9,
+g_atype1019_10,
+g_atype1019_11,
+g_atype1019_12,
+g_atype1019_13,
+g_atype1019_14,
+g_atype1019_15,
+g_atype1019_16,
+g_atype1019_17,
+g_atype1019_18,
+g_atype1019_19,
+g_atype1019_20,
+g_atype1019_21,
+g_atype1019_22,
+g_atype1019_23,
 };
 
-static const int32 cn_attr1018 [] =
+static const int32 cn_attr1019 [] =
 {
 3535,
 3727,
 3729,
-5792,
+5798,
 3534,
 3643,
 2212,
@@ -23407,8 +23443,8 @@ static const int32 cn_attr1018 [] =
 3536,
 3548,
 3783,
-5787,
-5794,
+5793,
+5800,
 3546,
 3644,
 3541,
@@ -23416,92 +23452,68 @@ static const int32 cn_attr1018 [] =
 3547,
 };
 
-extern const char *names1019[];
-static const uint32 types1019 [] =
+extern const char *names1020[];
+static const uint32 types1020 [] =
 {
 SK_INT32,
 };
 
-static const uint16 attr_flags1019 [] =
+static const uint16 attr_flags1020 [] =
 {0,};
 
-static const EIF_TYPE_INDEX g_atype1019_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1020_0 [] = {218,0xFFFF};
 
-static const EIF_TYPE_INDEX *gtypes1019 [] = {
-g_atype1019_0,
+static const EIF_TYPE_INDEX *gtypes1020 [] = {
+g_atype1020_0,
 };
 
-static const int32 cn_attr1019 [] =
-{
-5800,
-};
-
-extern const char *names1021[];
-static const uint32 types1021 [] =
-{
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_BOOL,
-SK_BOOL,
-SK_INT32,
-};
-
-static const uint16 attr_flags1021 [] =
-{0,0,0,0,0,0,0,};
-
-static const EIF_TYPE_INDEX g_atype1021_0 [] = {0xFF01,535,0xFF01,1006,218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_1 [] = {0xFF01,248,0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_2 [] = {0xFF01,248,0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_3 [] = {1026,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_4 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_5 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1021_6 [] = {218,0xFFFF};
-
-static const EIF_TYPE_INDEX *gtypes1021 [] = {
-g_atype1021_0,
-g_atype1021_1,
-g_atype1021_2,
-g_atype1021_3,
-g_atype1021_4,
-g_atype1021_5,
-g_atype1021_6,
-};
-
-static const int32 cn_attr1021 [] =
+static const int32 cn_attr1020 [] =
 {
 5806,
-5825,
-5826,
-5829,
-5813,
-5827,
-5808,
 };
 
 extern const char *names1022[];
 static const uint32 types1022 [] =
 {
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_BOOL,
+SK_BOOL,
 SK_INT32,
-SK_REAL64,
 };
 
 static const uint16 attr_flags1022 [] =
-{0,0,};
+{0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1022_0 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1022_1 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_0 [] = {0xFF01,535,0xFF01,1007,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_1 [] = {0xFF01,248,0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_2 [] = {0xFF01,248,0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_3 [] = {1027,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_4 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_5 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1022_6 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1022 [] = {
 g_atype1022_0,
 g_atype1022_1,
+g_atype1022_2,
+g_atype1022_3,
+g_atype1022_4,
+g_atype1022_5,
+g_atype1022_6,
 };
 
 static const int32 cn_attr1022 [] =
 {
-5188,
-5187,
+5812,
+5831,
+5832,
+5835,
+5819,
+5833,
+5814,
 };
 
 extern const char *names1023[];
@@ -23524,28 +23536,32 @@ g_atype1023_1,
 
 static const int32 cn_attr1023 [] =
 {
-5188,
-5187,
+5219,
+5218,
 };
 
 extern const char *names1024[];
 static const uint32 types1024 [] =
 {
 SK_INT32,
+SK_REAL64,
 };
 
 static const uint16 attr_flags1024 [] =
-{0,};
+{0,0,};
 
 static const EIF_TYPE_INDEX g_atype1024_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1024_1 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1024 [] = {
 g_atype1024_0,
+g_atype1024_1,
 };
 
 static const int32 cn_attr1024 [] =
 {
-5607,
+5219,
+5218,
 };
 
 extern const char *names1025[];
@@ -23565,115 +23581,55 @@ g_atype1025_0,
 
 static const int32 cn_attr1025 [] =
 {
-5607,
+5613,
 };
 
 extern const char *names1026[];
 static const uint32 types1026 [] =
 {
 SK_INT32,
-SK_INT32,
-SK_REAL64,
 };
 
 static const uint16 attr_flags1026 [] =
-{0,0,0,};
+{0,};
 
 static const EIF_TYPE_INDEX g_atype1026_0 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1026_1 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1026_2 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1026 [] = {
 g_atype1026_0,
-g_atype1026_1,
-g_atype1026_2,
 };
 
 static const int32 cn_attr1026 [] =
 {
-5188,
-5607,
-5187,
+5613,
 };
 
 extern const char *names1027[];
 static const uint32 types1027 [] =
 {
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_BOOL,
 SK_INT32,
 SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_INT32,
-SK_REAL64,
 SK_REAL64,
 };
 
 static const uint16 attr_flags1027 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1027_0 [] = {232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_1 [] = {232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_2 [] = {0xFF01,535,0xFF01,1006,218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_3 [] = {248,0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_4 [] = {248,0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_5 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_6 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_7 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_8 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_9 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_10 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_11 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_12 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_13 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_14 [] = {206,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1027_15 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1027_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1027_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1027_2 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1027 [] = {
 g_atype1027_0,
 g_atype1027_1,
 g_atype1027_2,
-g_atype1027_3,
-g_atype1027_4,
-g_atype1027_5,
-g_atype1027_6,
-g_atype1027_7,
-g_atype1027_8,
-g_atype1027_9,
-g_atype1027_10,
-g_atype1027_11,
-g_atype1027_12,
-g_atype1027_13,
-g_atype1027_14,
-g_atype1027_15,
 };
 
 static const int32 cn_attr1027 [] =
 {
-5903,
-5928,
-5929,
-5930,
-5931,
-5911,
-5188,
-5607,
-5922,
-5923,
-5924,
-5925,
-5926,
-5932,
-5187,
-5927,
+5219,
+5613,
+5218,
 };
 
 extern const char *names1028[];
@@ -23681,19 +23637,41 @@ static const uint32 types1028 [] =
 {
 SK_REF,
 SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_BOOL,
 SK_INT32,
 SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_INT32,
+SK_REAL64,
 SK_REAL64,
 };
 
 static const uint16 attr_flags1028 [] =
-{0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1028_0 [] = {0xFF01,1022,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1028_1 [] = {0xFF01,1024,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1028_2 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1028_3 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1028_4 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_0 [] = {232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_1 [] = {232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_2 [] = {0xFF01,535,0xFF01,1007,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_3 [] = {248,0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_4 [] = {248,0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_5 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_6 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_7 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_8 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_9 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_10 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_11 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_12 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_13 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_14 [] = {206,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1028_15 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1028 [] = {
 g_atype1028_0,
@@ -23701,15 +23679,37 @@ g_atype1028_1,
 g_atype1028_2,
 g_atype1028_3,
 g_atype1028_4,
+g_atype1028_5,
+g_atype1028_6,
+g_atype1028_7,
+g_atype1028_8,
+g_atype1028_9,
+g_atype1028_10,
+g_atype1028_11,
+g_atype1028_12,
+g_atype1028_13,
+g_atype1028_14,
+g_atype1028_15,
 };
 
 static const int32 cn_attr1028 [] =
 {
-5229,
-5230,
-5188,
-5607,
-5187,
+5909,
+5934,
+5935,
+5936,
+5937,
+5917,
+5219,
+5613,
+5928,
+5929,
+5930,
+5931,
+5932,
+5938,
+5218,
+5933,
 };
 
 extern const char *names1029[];
@@ -23717,31 +23717,19 @@ static const uint32 types1029 [] =
 {
 SK_REF,
 SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_REF,
-SK_BOOL,
-SK_BOOL,
 SK_INT32,
 SK_INT32,
-SK_INT32,
+SK_REAL64,
 };
 
 static const uint16 attr_flags1029 [] =
-{0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1029_0 [] = {0xFF01,230,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_1 [] = {0xFF01,230,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_2 [] = {0xFF01,237,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_3 [] = {0xFF01,237,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_4 [] = {237,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_5 [] = {237,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_6 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_7 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_8 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_9 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1029_10 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1029_0 [] = {0xFF01,1023,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1029_1 [] = {0xFF01,1025,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1029_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1029_3 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1029_4 [] = {206,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1029 [] = {
 g_atype1029_0,
@@ -23749,27 +23737,15 @@ g_atype1029_1,
 g_atype1029_2,
 g_atype1029_3,
 g_atype1029_4,
-g_atype1029_5,
-g_atype1029_6,
-g_atype1029_7,
-g_atype1029_8,
-g_atype1029_9,
-g_atype1029_10,
 };
 
 static const int32 cn_attr1029 [] =
 {
-5962,
-5963,
-5964,
-5965,
-5967,
-5968,
-5970,
-5971,
-5961,
-5966,
-5969,
+5260,
+5261,
+5219,
+5613,
+5218,
 };
 
 extern const char *names1030[];
@@ -23781,39 +23757,27 @@ SK_REF,
 SK_REF,
 SK_REF,
 SK_REF,
-SK_REF,
-SK_REF,
 SK_BOOL,
 SK_BOOL,
-SK_BOOL,
-SK_BOOL,
-SK_UINT32,
-SK_UINT32,
 SK_INT32,
 SK_INT32,
 SK_INT32,
 };
 
 static const uint16 attr_flags1030 [] =
-{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+{0,0,0,0,0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1030_0 [] = {270,0xFF01,13,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_1 [] = {0xFF01,183,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_2 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_3 [] = {0xFF01,232,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_4 [] = {0xFF01,1016,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_5 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_6 [] = {0,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_7 [] = {0xFF01,996,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_8 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_9 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_10 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_11 [] = {203,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_12 [] = {212,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_13 [] = {212,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_14 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_15 [] = {218,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1030_16 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_0 [] = {0xFF01,230,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_1 [] = {0xFF01,230,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_2 [] = {0xFF01,237,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_3 [] = {0xFF01,237,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_4 [] = {237,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_5 [] = {237,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_6 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_7 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_8 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_9 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1030_10 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1030 [] = {
 g_atype1030_0,
@@ -23827,77 +23791,449 @@ g_atype1030_7,
 g_atype1030_8,
 g_atype1030_9,
 g_atype1030_10,
-g_atype1030_11,
-g_atype1030_12,
-g_atype1030_13,
-g_atype1030_14,
-g_atype1030_15,
-g_atype1030_16,
 };
 
 static const int32 cn_attr1030 [] =
 {
-967,
-5992,
-5996,
-5997,
-6000,
-6002,
-6004,
-6009,
-5981,
-5982,
-5983,
-6021,
-6001,
-6003,
-2856,
-6010,
-6011,
+5968,
+5969,
+5970,
+5971,
+5973,
+5974,
+5976,
+5977,
+5967,
+5972,
+5975,
 };
 
 extern const char *names1031[];
 static const uint32 types1031 [] =
 {
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_REF,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_BOOL,
+SK_UINT32,
+SK_UINT32,
+SK_INT32,
+SK_INT32,
 SK_INT32,
 };
 
 static const uint16 attr_flags1031 [] =
-{0,};
+{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1031_0 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_0 [] = {270,0xFF01,13,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_1 [] = {0xFF01,183,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_2 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_3 [] = {0xFF01,232,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_4 [] = {0xFF01,1017,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_5 [] = {0,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_6 [] = {0,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_7 [] = {0xFF01,996,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_8 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_9 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_10 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_11 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_12 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_13 [] = {212,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_14 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_15 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1031_16 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1031 [] = {
 g_atype1031_0,
+g_atype1031_1,
+g_atype1031_2,
+g_atype1031_3,
+g_atype1031_4,
+g_atype1031_5,
+g_atype1031_6,
+g_atype1031_7,
+g_atype1031_8,
+g_atype1031_9,
+g_atype1031_10,
+g_atype1031_11,
+g_atype1031_12,
+g_atype1031_13,
+g_atype1031_14,
+g_atype1031_15,
+g_atype1031_16,
 };
 
 static const int32 cn_attr1031 [] =
 {
+967,
+5998,
+6002,
+6003,
+6006,
+6008,
+6010,
+6015,
+5987,
+5988,
+5989,
+6027,
+6007,
+6009,
 2856,
+6016,
+6017,
 };
 
 extern const char *names1032[];
 static const uint32 types1032 [] =
 {
 SK_REF,
-SK_REF,
+SK_INT32,
+SK_INT32,
 };
 
 static const uint16 attr_flags1032 [] =
-{0,0,};
+{0,0,0,};
 
-static const EIF_TYPE_INDEX g_atype1032_0 [] = {0xFFF8,1,0xFFFF};
-static const EIF_TYPE_INDEX g_atype1032_1 [] = {0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1032_0 [] = {0xFF01,546,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1032_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1032_2 [] = {218,0xFFFF};
 
 static const EIF_TYPE_INDEX *gtypes1032 [] = {
 g_atype1032_0,
 g_atype1032_1,
+g_atype1032_2,
 };
 
 static const int32 cn_attr1032 [] =
 {
-5456,
-5457,
+6065,
+6066,
+6067,
+};
+
+extern const char *names1033[];
+static const uint32 types1033 [] =
+{
+SK_REF,
+SK_BOOL,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1033 [] =
+{0,0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1033_0 [] = {0xFF01,537,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1033_1 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1033_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1033_3 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1033 [] = {
+g_atype1033_0,
+g_atype1033_1,
+g_atype1033_2,
+g_atype1033_3,
+};
+
+static const int32 cn_attr1033 [] =
+{
+2963,
+2212,
+2964,
+2969,
+};
+
+extern const char *names1034[];
+static const uint32 types1034 [] =
+{
+SK_REF,
+SK_BOOL,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1034 [] =
+{0,0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1034_0 [] = {0xFF01,537,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1034_1 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1034_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1034_3 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1034 [] = {
+g_atype1034_0,
+g_atype1034_1,
+g_atype1034_2,
+g_atype1034_3,
+};
+
+static const int32 cn_attr1034 [] =
+{
+2963,
+2212,
+2964,
+2969,
+};
+
+extern const char *names1035[];
+static const uint32 types1035 [] =
+{
+SK_REF,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1035 [] =
+{0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1035_0 [] = {0xFF01,537,218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1035_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1035_2 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1035 [] = {
+g_atype1035_0,
+g_atype1035_1,
+g_atype1035_2,
+};
+
+static const int32 cn_attr1035 [] =
+{
+3184,
+3185,
+3186,
+};
+
+extern const char *names1036[];
+static const uint32 types1036 [] =
+{
+SK_BOOL,
+};
+
+static const uint16 attr_flags1036 [] =
+{0,};
+
+static const EIF_TYPE_INDEX g_atype1036_0 [] = {203,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1036 [] = {
+g_atype1036_0,
+};
+
+static const int32 cn_attr1036 [] =
+{
+2212,
+};
+
+extern const char *names1037[];
+static const uint32 types1037 [] =
+{
+SK_REF,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1037 [] =
+{0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1037_0 [] = {0xFF01,510,197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1037_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1037_2 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1037 [] = {
+g_atype1037_0,
+g_atype1037_1,
+g_atype1037_2,
+};
+
+static const int32 cn_attr1037 [] =
+{
+6065,
+6066,
+6067,
+};
+
+extern const char *names1038[];
+static const uint32 types1038 [] =
+{
+SK_REF,
+SK_BOOL,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1038 [] =
+{0,0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1038_0 [] = {0xFF01,506,197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1038_1 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1038_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1038_3 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1038 [] = {
+g_atype1038_0,
+g_atype1038_1,
+g_atype1038_2,
+g_atype1038_3,
+};
+
+static const int32 cn_attr1038 [] =
+{
+2963,
+2212,
+2964,
+2969,
+};
+
+extern const char *names1039[];
+static const uint32 types1039 [] =
+{
+SK_REF,
+SK_BOOL,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1039 [] =
+{0,0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1039_0 [] = {0xFF01,506,197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1039_1 [] = {203,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1039_2 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1039_3 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1039 [] = {
+g_atype1039_0,
+g_atype1039_1,
+g_atype1039_2,
+g_atype1039_3,
+};
+
+static const int32 cn_attr1039 [] =
+{
+2963,
+2212,
+2964,
+2969,
+};
+
+extern const char *names1040[];
+static const uint32 types1040 [] =
+{
+SK_REF,
+SK_INT32,
+SK_INT32,
+};
+
+static const uint16 attr_flags1040 [] =
+{0,0,0,};
+
+static const EIF_TYPE_INDEX g_atype1040_0 [] = {0xFF01,506,197,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1040_1 [] = {218,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1040_2 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1040 [] = {
+g_atype1040_0,
+g_atype1040_1,
+g_atype1040_2,
+};
+
+static const int32 cn_attr1040 [] =
+{
+3184,
+3185,
+3186,
+};
+
+extern const char *names1041[];
+static const uint32 types1041 [] =
+{
+SK_BOOL,
+};
+
+static const uint16 attr_flags1041 [] =
+{0,};
+
+static const EIF_TYPE_INDEX g_atype1041_0 [] = {203,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1041 [] = {
+g_atype1041_0,
+};
+
+static const int32 cn_attr1041 [] =
+{
+2212,
+};
+
+extern const char *names1042[];
+static const uint32 types1042 [] =
+{
+SK_BOOL,
+};
+
+static const uint16 attr_flags1042 [] =
+{0,};
+
+static const EIF_TYPE_INDEX g_atype1042_0 [] = {203,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1042 [] = {
+g_atype1042_0,
+};
+
+static const int32 cn_attr1042 [] =
+{
+2212,
+};
+
+extern const char *names1043[];
+static const uint32 types1043 [] =
+{
+SK_REF,
+SK_REF,
+};
+
+static const uint16 attr_flags1043 [] =
+{0,0,};
+
+static const EIF_TYPE_INDEX g_atype1043_0 [] = {0xFFF8,1,0xFFFF};
+static const EIF_TYPE_INDEX g_atype1043_1 [] = {0xFFF8,1,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1043 [] = {
+g_atype1043_0,
+g_atype1043_1,
+};
+
+static const int32 cn_attr1043 [] =
+{
+5461,
+5462,
+};
+
+extern const char *names1044[];
+static const uint32 types1044 [] =
+{
+SK_INT32,
+};
+
+static const uint16 attr_flags1044 [] =
+{0,};
+
+static const EIF_TYPE_INDEX g_atype1044_0 [] = {218,0xFFFF};
+
+static const EIF_TYPE_INDEX *gtypes1044 [] = {
+g_atype1044_0,
+};
+
+static const int32 cn_attr1044 [] =
+{
+2856,
 };
 
 const struct cnode egc_fsystem_init[] = {
@@ -24055,7 +24391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes10,
 	(uint16) 0x00,
 	cn_attr10,
-	112,
+	56,
 	14L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24071,7 +24407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes11,
 	(uint16) 0x00,
 	cn_attr11,
-	48,
+	32,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24119,7 +24455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes14,
 	(uint16) 0x00,
 	cn_attr14,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24135,7 +24471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes15,
 	(uint16) 0x00,
 	cn_attr15,
-	8,
+	4,
 	1L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24167,7 +24503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes17,
 	(uint16) 0x1000,
 	cn_attr17,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24375,7 +24711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes30,
 	(uint16) 0x00,
 	cn_attr30,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24439,7 +24775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes34,
 	(uint16) 0x00,
 	cn_attr34,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24471,7 +24807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes36,
 	(uint16) 0x1000,
 	cn_attr36,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24487,7 +24823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes37,
 	(uint16) 0x00,
 	cn_attr37,
-	8,
+	4,
 	1L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24519,7 +24855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes39,
 	(uint16) 0x1000,
 	cn_attr39,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24535,7 +24871,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes40,
 	(uint16) 0x1000,
 	cn_attr40,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24551,7 +24887,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes41,
 	(uint16) 0x00,
 	cn_attr41,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24663,7 +24999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes48,
 	(uint16) 0x1000,
 	cn_attr48,
-	24,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24679,7 +25015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes49,
 	(uint16) 0x1000,
 	cn_attr49,
-	56,
+	32,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24695,7 +25031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes50,
 	(uint16) 0x00,
 	cn_attr50,
-	56,
+	32,
 	6L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24711,7 +25047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes51,
 	(uint16) 0x00,
 	cn_attr51,
-	56,
+	32,
 	6L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24807,7 +25143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes57,
 	(uint16) 0x00,
 	cn_attr57,
-	32,
+	16,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24823,7 +25159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes58,
 	(uint16) 0x1000,
 	cn_attr58,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24839,7 +25175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes59,
 	(uint16) 0x2000,
 	cn_attr59,
-	48,
+	40,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24855,7 +25191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes60,
 	(uint16) 0x2000,
 	cn_attr60,
-	64,
+	56,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24871,7 +25207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes61,
 	(uint16) 0x2000,
 	cn_attr61,
-	48,
+	40,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24935,7 +25271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes65,
 	(uint16) 0x00,
 	cn_attr65,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24951,7 +25287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes66,
 	(uint16) 0x00,
 	cn_attr66,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24967,7 +25303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes67,
 	(uint16) 0x1000,
 	cn_attr67,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24983,7 +25319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes68,
 	(uint16) 0x1000,
 	cn_attr68,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -24999,7 +25335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes69,
 	(uint16) 0x00,
 	cn_attr69,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25015,7 +25351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes70,
 	(uint16) 0x1000,
 	cn_attr70,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25031,7 +25367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes71,
 	(uint16) 0x00,
 	cn_attr71,
-	64,
+	40,
 	6L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25047,7 +25383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes72,
 	(uint16) 0x00,
 	cn_attr72,
-	56,
+	32,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25063,7 +25399,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes73,
 	(uint16) 0x00,
 	cn_attr73,
-	56,
+	32,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25079,7 +25415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes74,
 	(uint16) 0x1000,
 	cn_attr74,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25095,7 +25431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes75,
 	(uint16) 0x00,
 	cn_attr75,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25111,7 +25447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes76,
 	(uint16) 0x00,
 	cn_attr76,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25127,7 +25463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes77,
 	(uint16) 0x00,
 	cn_attr77,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25143,7 +25479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes78,
 	(uint16) 0x1000,
 	cn_attr78,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25159,7 +25495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes79,
 	(uint16) 0x00,
 	cn_attr79,
-	56,
+	32,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25175,7 +25511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes80,
 	(uint16) 0x00,
 	cn_attr80,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25191,7 +25527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes81,
 	(uint16) 0x1000,
 	cn_attr81,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25207,7 +25543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes82,
 	(uint16) 0x1000,
 	cn_attr82,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25223,7 +25559,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes83,
 	(uint16) 0x00,
 	cn_attr83,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25239,7 +25575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes84,
 	(uint16) 0x00,
 	cn_attr84,
-	56,
+	32,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25255,7 +25591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes85,
 	(uint16) 0x1000,
 	cn_attr85,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25271,7 +25607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes86,
 	(uint16) 0x00,
 	cn_attr86,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25287,7 +25623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes87,
 	(uint16) 0x00,
 	cn_attr87,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25303,7 +25639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes88,
 	(uint16) 0x00,
 	cn_attr88,
-	56,
+	36,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25319,7 +25655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes89,
 	(uint16) 0x1000,
 	cn_attr89,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25335,7 +25671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes90,
 	(uint16) 0x00,
 	cn_attr90,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25351,7 +25687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes91,
 	(uint16) 0x00,
 	cn_attr91,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25367,7 +25703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes92,
 	(uint16) 0x00,
 	cn_attr92,
-	64,
+	36,
 	7L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25383,7 +25719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes93,
 	(uint16) 0x00,
 	cn_attr93,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25399,7 +25735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes94,
 	(uint16) 0x1000,
 	cn_attr94,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25415,7 +25751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes95,
 	(uint16) 0x00,
 	cn_attr95,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25431,7 +25767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes96,
 	(uint16) 0x00,
 	cn_attr96,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25447,7 +25783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes97,
 	(uint16) 0x1000,
 	cn_attr97,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25463,7 +25799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes98,
 	(uint16) 0x00,
 	cn_attr98,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25479,7 +25815,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes99,
 	(uint16) 0x00,
 	cn_attr99,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25495,7 +25831,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes100,
 	(uint16) 0x00,
 	cn_attr100,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25511,7 +25847,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes101,
 	(uint16) 0x00,
 	cn_attr101,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25527,7 +25863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes102,
 	(uint16) 0x00,
 	cn_attr102,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25543,7 +25879,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes103,
 	(uint16) 0x00,
 	cn_attr103,
-	48,
+	28,
 	5L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25559,7 +25895,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes104,
 	(uint16) 0x1000,
 	cn_attr104,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25575,7 +25911,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes105,
 	(uint16) 0x2000,
 	cn_attr105,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25591,7 +25927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes106,
 	(uint16) 0x2000,
 	cn_attr106,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25655,7 +25991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes110,
 	(uint16) 0x00,
 	cn_attr110,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25671,7 +26007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes111,
 	(uint16) 0x00,
 	cn_attr111,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25687,7 +26023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes112,
 	(uint16) 0x00,
 	cn_attr112,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25703,7 +26039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes113,
 	(uint16) 0x00,
 	cn_attr113,
-	48,
+	28,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25719,7 +26055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes114,
 	(uint16) 0x00,
 	cn_attr114,
-	64,
+	36,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25735,7 +26071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes115,
 	(uint16) 0x00,
 	cn_attr115,
-	64,
+	36,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25751,7 +26087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes116,
 	(uint16) 0x00,
 	cn_attr116,
-	72,
+	40,
 	8L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25815,7 +26151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes120,
 	(uint16) 0x00,
 	cn_attr120,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25847,7 +26183,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes122,
 	(uint16) 0x00,
 	cn_attr122,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25863,7 +26199,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes123,
 	(uint16) 0x00,
 	cn_attr123,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25895,7 +26231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes125,
 	(uint16) 0x00,
 	cn_attr125,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25911,7 +26247,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes126,
 	(uint16) 0x00,
 	cn_attr126,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -25943,7 +26279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes128,
 	(uint16) 0x00,
 	cn_attr128,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26023,7 +26359,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes133,
 	(uint16) 0x1000,
 	cn_attr133,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26055,7 +26391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes135,
 	(uint16) 0x00,
 	cn_attr135,
-	48,
+	32,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26071,7 +26407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes136,
 	(uint16) 0x00,
 	cn_attr136,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26087,7 +26423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes137,
 	(uint16) 0x00,
 	cn_attr137,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26119,7 +26455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes139,
 	(uint16) 0x00,
 	cn_attr139,
-	80,
+	48,
 	8L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26151,7 +26487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes141,
 	(uint16) 0x1000,
 	cn_attr141,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26199,7 +26535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes144,
 	(uint16) 0x00,
 	cn_attr144,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26215,7 +26551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes145,
 	(uint16) 0x00,
 	cn_attr145,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26231,7 +26567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes146,
 	(uint16) 0x00,
 	cn_attr146,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26279,7 +26615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes149,
 	(uint16) 0x00,
 	cn_attr149,
-	16,
+	12,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26295,7 +26631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes150,
 	(uint16) 0x00,
 	cn_attr150,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26327,7 +26663,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes152,
 	(uint16) 0x00,
 	cn_attr152,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26359,7 +26695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes154,
 	(uint16) 0x00,
 	cn_attr154,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26375,7 +26711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes155,
 	(uint16) 0x00,
 	cn_attr155,
-	32,
+	16,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26391,7 +26727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes156,
 	(uint16) 0x00,
 	cn_attr156,
-	32,
+	16,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26423,7 +26759,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes158,
 	(uint16) 0x00,
 	cn_attr158,
-	112,
+	60,
 	12L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26439,7 +26775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes159,
 	(uint16) 0x00,
 	cn_attr159,
-	104,
+	68,
 	9L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26455,7 +26791,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes160,
 	(uint16) 0x00,
 	cn_attr160,
-	88,
+	60,
 	7L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26471,7 +26807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes161,
 	(uint16) 0x00,
 	cn_attr161,
-	88,
+	64,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26487,7 +26823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes162,
 	(uint16) 0x00,
 	cn_attr162,
-	24,
+	20,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26503,7 +26839,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes163,
 	(uint16) 0x00,
 	cn_attr163,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26567,7 +26903,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes167,
 	(uint16) 0x00,
 	cn_attr167,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26583,7 +26919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes168,
 	(uint16) 0x00,
 	cn_attr168,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26615,7 +26951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes170,
 	(uint16) 0x0400,
 	cn_attr170,
-	16,
+	8,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26631,7 +26967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes171,
 	(uint16) 0x0400,
 	cn_attr171,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26647,7 +26983,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes172,
 	(uint16) 0x0400,
 	cn_attr172,
-	24,
+	20,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26663,7 +26999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes173,
 	(uint16) 0x0400,
 	cn_attr173,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26695,7 +27031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes175,
 	(uint16) 0x0400,
 	cn_attr175,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26711,7 +27047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes176,
 	(uint16) 0x0400,
 	cn_attr176,
-	48,
+	24,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26727,7 +27063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes177,
 	(uint16) 0x0400,
 	cn_attr177,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26743,7 +27079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes178,
 	(uint16) 0x0400,
 	cn_attr178,
-	16,
+	8,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26759,7 +27095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes179,
 	(uint16) 0x0400,
 	cn_attr179,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26775,7 +27111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes180,
 	(uint16) 0x1400,
 	cn_attr180,
-	56,
+	52,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26791,7 +27127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes181,
 	(uint16) 0x0400,
 	cn_attr181,
-	72,
+	64,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26807,7 +27143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes182,
 	(uint16) 0x1400,
 	cn_attr182,
-	88,
+	72,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26823,7 +27159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes183,
 	(uint16) 0x0400,
 	cn_attr183,
-	96,
+	76,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26839,7 +27175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes184,
 	(uint16) 0x0400,
 	cn_attr184,
-	88,
+	72,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26871,7 +27207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes186,
 	(uint16) 0x00,
 	cn_attr186,
-	24,
+	12,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26903,7 +27239,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes188,
 	(uint16) 0x00,
 	cn_attr188,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26919,7 +27255,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes189,
 	(uint16) 0x2306,
 	cn_attr189,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26935,7 +27271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes190,
 	(uint16) 0x2100,
 	cn_attr190,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26951,7 +27287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes191,
 	(uint16) 0x00,
 	cn_attr191,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26967,7 +27303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes192,
 	(uint16) 0x2304,
 	cn_attr192,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26983,7 +27319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes193,
 	(uint16) 0x2100,
 	cn_attr193,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -26999,7 +27335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes194,
 	(uint16) 0x00,
 	cn_attr194,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27015,7 +27351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes195,
 	(uint16) 0x230E,
 	cn_attr195,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27031,7 +27367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes196,
 	(uint16) 0x2100,
 	cn_attr196,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27047,7 +27383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes197,
 	(uint16) 0x00,
 	cn_attr197,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27063,7 +27399,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes198,
 	(uint16) 0x2302,
 	cn_attr198,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27079,7 +27415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes199,
 	(uint16) 0x2100,
 	cn_attr199,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27143,7 +27479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes203,
 	(uint16) 0x00,
 	cn_attr203,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27159,7 +27495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes204,
 	(uint16) 0x2301,
 	cn_attr204,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27175,7 +27511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes205,
 	(uint16) 0x2100,
 	cn_attr205,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27239,7 +27575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes209,
 	(uint16) 0x00,
 	cn_attr209,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27255,7 +27591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes210,
 	(uint16) 0x230A,
 	cn_attr210,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27271,7 +27607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes211,
 	(uint16) 0x2100,
 	cn_attr211,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27287,7 +27623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes212,
 	(uint16) 0x00,
 	cn_attr212,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27303,7 +27639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes213,
 	(uint16) 0x230C,
 	cn_attr213,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27319,7 +27655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes214,
 	(uint16) 0x2100,
 	cn_attr214,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27335,7 +27671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes215,
 	(uint16) 0x00,
 	cn_attr215,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27351,7 +27687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes216,
 	(uint16) 0x230B,
 	cn_attr216,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27367,7 +27703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes217,
 	(uint16) 0x2100,
 	cn_attr217,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27383,7 +27719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes218,
 	(uint16) 0x00,
 	cn_attr218,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27399,7 +27735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes219,
 	(uint16) 0x2308,
 	cn_attr219,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27415,7 +27751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes220,
 	(uint16) 0x2100,
 	cn_attr220,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27431,7 +27767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes221,
 	(uint16) 0x00,
 	cn_attr221,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27447,7 +27783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes222,
 	(uint16) 0x2307,
 	cn_attr222,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27463,7 +27799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes223,
 	(uint16) 0x2100,
 	cn_attr223,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27527,7 +27863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes227,
 	(uint16) 0x00,
 	cn_attr227,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27543,7 +27879,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes228,
 	(uint16) 0x2305,
 	cn_attr228,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27559,7 +27895,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes229,
 	(uint16) 0x2100,
 	cn_attr229,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27591,7 +27927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes231,
 	(uint16) 0x1000,
 	cn_attr231,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27623,7 +27959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes233,
 	(uint16) 0x00,
 	cn_attr233,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27639,7 +27975,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes234,
 	(uint16) 0x00,
 	cn_attr234,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27655,7 +27991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes235,
 	(uint16) 0x1000,
 	cn_attr235,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27671,7 +28007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes236,
 	(uint16) 0x00,
 	cn_attr236,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27687,7 +28023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes237,
 	(uint16) 0x00,
 	cn_attr237,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27703,7 +28039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes238,
 	(uint16) 0x1000,
 	cn_attr238,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27719,7 +28055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes239,
 	(uint16) 0x00,
 	cn_attr239,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27751,7 +28087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes241,
 	(uint16) 0x2000,
 	cn_attr241,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27767,7 +28103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes242,
 	(uint16) 0x2000,
 	cn_attr242,
-	24,
+	20,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27783,7 +28119,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes243,
 	(uint16) 0x0400,
 	cn_attr243,
-	88,
+	72,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27799,7 +28135,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes244,
 	(uint16) 0x00,
 	cn_attr244,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27815,7 +28151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes245,
 	(uint16) 0x00,
 	cn_attr245,
-	32,
+	20,
 	3L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27831,7 +28167,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes246,
 	(uint16) 0x2000,
 	cn_attr246,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27863,7 +28199,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes248,
 	(uint16) 0x2000,
 	cn_attr248,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27879,7 +28215,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes249,
 	(uint16) 0x00,
 	cn_attr249,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27911,7 +28247,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes251,
 	(uint16) 0x00,
 	cn_attr251,
-	72,
+	44,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27927,7 +28263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes252,
 	(uint16) 0x2305,
 	cn_attr252,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27943,7 +28279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes253,
 	(uint16) 0x2100,
 	cn_attr253,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27959,7 +28295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes254,
 	(uint16) 0x2000,
 	cn_attr254,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27975,7 +28311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes255,
 	(uint16) 0x1000,
 	cn_attr255,
-	72,
+	44,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -27991,7 +28327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes256,
 	(uint16) 0x1000,
 	cn_attr256,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28055,7 +28391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes260,
 	(uint16) 0x00,
 	cn_attr260,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28087,7 +28423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes262,
 	(uint16) 0x1000,
 	cn_attr262,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28103,7 +28439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes263,
 	(uint16) 0x1000,
 	cn_attr263,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28119,7 +28455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes264,
 	(uint16) 0x1000,
 	cn_attr264,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28135,7 +28471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes265,
 	(uint16) 0x00,
 	cn_attr265,
-	72,
+	44,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28151,7 +28487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes266,
 	(uint16) 0x1000,
 	cn_attr266,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28167,7 +28503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes267,
 	(uint16) 0x1000,
 	cn_attr267,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28183,7 +28519,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes268,
 	(uint16) 0x1000,
 	cn_attr268,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28199,7 +28535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes269,
 	(uint16) 0x1000,
 	cn_attr269,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28215,7 +28551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes270,
 	(uint16) 0x1000,
 	cn_attr270,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28231,7 +28567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes271,
 	(uint16) 0x00,
 	cn_attr271,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28247,7 +28583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes272,
 	(uint16) 0x1000,
 	cn_attr272,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28263,7 +28599,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes273,
 	(uint16) 0x1000,
 	cn_attr273,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28279,7 +28615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes274,
 	(uint16) 0x1000,
 	cn_attr274,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28295,7 +28631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes275,
 	(uint16) 0x1000,
 	cn_attr275,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28311,7 +28647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes276,
 	(uint16) 0x00,
 	cn_attr276,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28343,7 +28679,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes278,
 	(uint16) 0x00,
 	cn_attr278,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28359,7 +28695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes279,
 	(uint16) 0x1000,
 	cn_attr279,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28375,7 +28711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes280,
 	(uint16) 0x00,
 	cn_attr280,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28391,7 +28727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes281,
 	(uint16) 0x00,
 	cn_attr281,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28407,7 +28743,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes282,
 	(uint16) 0x1000,
 	cn_attr282,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28423,7 +28759,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes283,
 	(uint16) 0x1000,
 	cn_attr283,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28439,7 +28775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes284,
 	(uint16) 0x1000,
 	cn_attr284,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28455,7 +28791,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes285,
 	(uint16) 0x1000,
 	cn_attr285,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28471,7 +28807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes286,
 	(uint16) 0x1000,
 	cn_attr286,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28487,7 +28823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes287,
 	(uint16) 0x1000,
 	cn_attr287,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28503,7 +28839,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes288,
 	(uint16) 0x1000,
 	cn_attr288,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28519,7 +28855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes289,
 	(uint16) 0x1000,
 	cn_attr289,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28535,7 +28871,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes290,
 	(uint16) 0x1000,
 	cn_attr290,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28583,7 +28919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes293,
 	(uint16) 0x1000,
 	cn_attr293,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28631,7 +28967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes296,
 	(uint16) 0x00,
 	cn_attr296,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28663,7 +28999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes298,
 	(uint16) 0x1000,
 	cn_attr298,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28679,7 +29015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes299,
 	(uint16) 0x1000,
 	cn_attr299,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28695,7 +29031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes300,
 	(uint16) 0x1000,
 	cn_attr300,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28711,7 +29047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes301,
 	(uint16) 0x1000,
 	cn_attr301,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28727,7 +29063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes302,
 	(uint16) 0x1000,
 	cn_attr302,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28743,7 +29079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes303,
 	(uint16) 0x1000,
 	cn_attr303,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28759,7 +29095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes304,
 	(uint16) 0x1000,
 	cn_attr304,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28775,7 +29111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes305,
 	(uint16) 0x1000,
 	cn_attr305,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28791,7 +29127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes306,
 	(uint16) 0x00,
 	cn_attr306,
-	32,
+	20,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28807,7 +29143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes307,
 	(uint16) 0x2000,
 	cn_attr307,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28823,7 +29159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes308,
 	(uint16) 0x2000,
 	cn_attr308,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28839,7 +29175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes309,
 	(uint16) 0x2000,
 	cn_attr309,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28855,7 +29191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes310,
 	(uint16) 0x2000,
 	cn_attr310,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28871,7 +29207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes311,
 	(uint16) 0x2000,
 	cn_attr311,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28887,7 +29223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes312,
 	(uint16) 0x2000,
 	cn_attr312,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28903,7 +29239,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes313,
 	(uint16) 0x2000,
 	cn_attr313,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28919,7 +29255,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes314,
 	(uint16) 0x2000,
 	cn_attr314,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28935,7 +29271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes315,
 	(uint16) 0x2000,
 	cn_attr315,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28951,7 +29287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes316,
 	(uint16) 0x2000,
 	cn_attr316,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28967,7 +29303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes317,
 	(uint16) 0x2000,
 	cn_attr317,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28983,7 +29319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes318,
 	(uint16) 0x2000,
 	cn_attr318,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -28999,7 +29335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes319,
 	(uint16) 0x2000,
 	cn_attr319,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29015,7 +29351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes320,
 	(uint16) 0x00,
 	cn_attr320,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29031,7 +29367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes321,
 	(uint16) 0x1000,
 	cn_attr321,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29127,7 +29463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes327,
 	(uint16) 0x00,
 	cn_attr327,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29175,7 +29511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes330,
 	(uint16) 0x2000,
 	cn_attr330,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29191,7 +29527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes331,
 	(uint16) 0x00,
 	cn_attr331,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29207,7 +29543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes332,
 	(uint16) 0x1000,
 	cn_attr332,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29223,7 +29559,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes333,
 	(uint16) 0x1000,
 	cn_attr333,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29239,7 +29575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes334,
 	(uint16) 0x1000,
 	cn_attr334,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29255,7 +29591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes335,
 	(uint16) 0x1000,
 	cn_attr335,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29271,7 +29607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes336,
 	(uint16) 0x1000,
 	cn_attr336,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29287,7 +29623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes337,
 	(uint16) 0x1000,
 	cn_attr337,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29303,7 +29639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes338,
 	(uint16) 0x1000,
 	cn_attr338,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29319,7 +29655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes339,
 	(uint16) 0x1000,
 	cn_attr339,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29335,7 +29671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes340,
 	(uint16) 0x1000,
 	cn_attr340,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29351,7 +29687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes341,
 	(uint16) 0x00,
 	cn_attr341,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29367,7 +29703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes342,
 	(uint16) 0x00,
 	cn_attr342,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29383,7 +29719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes343,
 	(uint16) 0x1000,
 	cn_attr343,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29399,7 +29735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes344,
 	(uint16) 0x1000,
 	cn_attr344,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29415,7 +29751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes345,
 	(uint16) 0x1000,
 	cn_attr345,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29431,7 +29767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes346,
 	(uint16) 0x1000,
 	cn_attr346,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29447,7 +29783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes347,
 	(uint16) 0x1000,
 	cn_attr347,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29463,7 +29799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes348,
 	(uint16) 0x1000,
 	cn_attr348,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29479,7 +29815,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes349,
 	(uint16) 0x1000,
 	cn_attr349,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29495,7 +29831,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes350,
 	(uint16) 0x1000,
 	cn_attr350,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29511,7 +29847,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes351,
 	(uint16) 0x1000,
 	cn_attr351,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29527,7 +29863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes352,
 	(uint16) 0x1000,
 	cn_attr352,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29543,7 +29879,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes353,
 	(uint16) 0x1000,
 	cn_attr353,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29559,7 +29895,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes354,
 	(uint16) 0x00,
 	cn_attr354,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29575,7 +29911,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes355,
 	(uint16) 0x00,
 	cn_attr355,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29591,7 +29927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes356,
 	(uint16) 0x00,
 	cn_attr356,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29623,7 +29959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes358,
 	(uint16) 0x1000,
 	cn_attr358,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29703,7 +30039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes363,
 	(uint16) 0x00,
 	cn_attr363,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29735,7 +30071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes365,
 	(uint16) 0x1000,
 	cn_attr365,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29751,7 +30087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes366,
 	(uint16) 0x1000,
 	cn_attr366,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29767,7 +30103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes367,
 	(uint16) 0x1000,
 	cn_attr367,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29783,7 +30119,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes368,
 	(uint16) 0x1000,
 	cn_attr368,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29799,7 +30135,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes369,
 	(uint16) 0x1000,
 	cn_attr369,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29815,7 +30151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes370,
 	(uint16) 0x1000,
 	cn_attr370,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29831,7 +30167,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes371,
 	(uint16) 0x1000,
 	cn_attr371,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29847,7 +30183,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes372,
 	(uint16) 0x1000,
 	cn_attr372,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29863,7 +30199,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes373,
 	(uint16) 0x00,
 	cn_attr373,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29879,7 +30215,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes374,
 	(uint16) 0x00,
 	cn_attr374,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29895,7 +30231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes375,
 	(uint16) 0x1000,
 	cn_attr375,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29927,7 +30263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes377,
 	(uint16) 0x00,
 	cn_attr377,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29943,7 +30279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes378,
 	(uint16) 0x2000,
 	cn_attr378,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29959,7 +30295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes379,
 	(uint16) 0x1000,
 	cn_attr379,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29975,7 +30311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes380,
 	(uint16) 0x1000,
 	cn_attr380,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -29991,7 +30327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes381,
 	(uint16) 0x1000,
 	cn_attr381,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30007,7 +30343,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes382,
 	(uint16) 0x1000,
 	cn_attr382,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30023,7 +30359,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes383,
 	(uint16) 0x1000,
 	cn_attr383,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30039,7 +30375,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes384,
 	(uint16) 0x1000,
 	cn_attr384,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30055,7 +30391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes385,
 	(uint16) 0x1000,
 	cn_attr385,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30071,7 +30407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes386,
 	(uint16) 0x1000,
 	cn_attr386,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30087,7 +30423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes387,
 	(uint16) 0x1000,
 	cn_attr387,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30103,7 +30439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes388,
 	(uint16) 0x1000,
 	cn_attr388,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30119,7 +30455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes389,
 	(uint16) 0x1000,
 	cn_attr389,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30135,7 +30471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes390,
 	(uint16) 0x00,
 	cn_attr390,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30151,7 +30487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes391,
 	(uint16) 0x00,
 	cn_attr391,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30167,7 +30503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes392,
 	(uint16) 0x1000,
 	cn_attr392,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30247,7 +30583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes397,
 	(uint16) 0x00,
 	cn_attr397,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30279,7 +30615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes399,
 	(uint16) 0x1000,
 	cn_attr399,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30295,7 +30631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes400,
 	(uint16) 0x1000,
 	cn_attr400,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30311,7 +30647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes401,
 	(uint16) 0x1000,
 	cn_attr401,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30327,7 +30663,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes402,
 	(uint16) 0x1000,
 	cn_attr402,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30343,7 +30679,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes403,
 	(uint16) 0x1000,
 	cn_attr403,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30359,7 +30695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes404,
 	(uint16) 0x1000,
 	cn_attr404,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30375,7 +30711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes405,
 	(uint16) 0x1000,
 	cn_attr405,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30391,7 +30727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes406,
 	(uint16) 0x1000,
 	cn_attr406,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30439,7 +30775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes409,
 	(uint16) 0x00,
 	cn_attr409,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30455,7 +30791,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes410,
 	(uint16) 0x00,
 	cn_attr410,
-	24,
+	12,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30471,7 +30807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes411,
 	(uint16) 0x1000,
 	cn_attr411,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30487,7 +30823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes412,
 	(uint16) 0x1000,
 	cn_attr412,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30503,7 +30839,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes413,
 	(uint16) 0x00,
 	cn_attr413,
-	88,
+	60,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30519,7 +30855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes414,
 	(uint16) 0x1000,
 	cn_attr414,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30535,7 +30871,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes415,
 	(uint16) 0x00,
 	cn_attr415,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30583,7 +30919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes418,
 	(uint16) 0x00,
 	cn_attr418,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30615,7 +30951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes420,
 	(uint16) 0x1000,
 	cn_attr420,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30695,7 +31031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes425,
 	(uint16) 0x00,
 	cn_attr425,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30727,7 +31063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes427,
 	(uint16) 0x1000,
 	cn_attr427,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30743,7 +31079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes428,
 	(uint16) 0x1000,
 	cn_attr428,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30759,7 +31095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes429,
 	(uint16) 0x1000,
 	cn_attr429,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30775,7 +31111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes430,
 	(uint16) 0x1000,
 	cn_attr430,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30791,7 +31127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes431,
 	(uint16) 0x1000,
 	cn_attr431,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30807,7 +31143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes432,
 	(uint16) 0x1000,
 	cn_attr432,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30823,7 +31159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes433,
 	(uint16) 0x1000,
 	cn_attr433,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30839,7 +31175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes434,
 	(uint16) 0x1000,
 	cn_attr434,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30855,7 +31191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes435,
 	(uint16) 0x00,
 	cn_attr435,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30871,7 +31207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes436,
 	(uint16) 0x00,
 	cn_attr436,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30887,7 +31223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes437,
 	(uint16) 0x1000,
 	cn_attr437,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30919,7 +31255,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes439,
 	(uint16) 0x00,
 	cn_attr439,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30935,7 +31271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes440,
 	(uint16) 0x2000,
 	cn_attr440,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30951,7 +31287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes441,
 	(uint16) 0x1000,
 	cn_attr441,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30967,7 +31303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes442,
 	(uint16) 0x1000,
 	cn_attr442,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30983,7 +31319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes443,
 	(uint16) 0x1000,
 	cn_attr443,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -30999,7 +31335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes444,
 	(uint16) 0x1000,
 	cn_attr444,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31015,7 +31351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes445,
 	(uint16) 0x1000,
 	cn_attr445,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31031,7 +31367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes446,
 	(uint16) 0x1000,
 	cn_attr446,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31047,7 +31383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes447,
 	(uint16) 0x1000,
 	cn_attr447,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31063,7 +31399,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes448,
 	(uint16) 0x1000,
 	cn_attr448,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31079,7 +31415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes449,
 	(uint16) 0x1000,
 	cn_attr449,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31095,7 +31431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes450,
 	(uint16) 0x1000,
 	cn_attr450,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31111,7 +31447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes451,
 	(uint16) 0x1000,
 	cn_attr451,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31127,7 +31463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes452,
 	(uint16) 0x00,
 	cn_attr452,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31143,7 +31479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes453,
 	(uint16) 0x00,
 	cn_attr453,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31159,7 +31495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes454,
 	(uint16) 0x00,
 	cn_attr454,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31191,7 +31527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes456,
 	(uint16) 0x1000,
 	cn_attr456,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31271,7 +31607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes461,
 	(uint16) 0x00,
 	cn_attr461,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31303,7 +31639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes463,
 	(uint16) 0x1000,
 	cn_attr463,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31319,7 +31655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes464,
 	(uint16) 0x1000,
 	cn_attr464,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31335,7 +31671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes465,
 	(uint16) 0x1000,
 	cn_attr465,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31351,7 +31687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes466,
 	(uint16) 0x1000,
 	cn_attr466,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31367,7 +31703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes467,
 	(uint16) 0x1000,
 	cn_attr467,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31383,7 +31719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes468,
 	(uint16) 0x1000,
 	cn_attr468,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31399,7 +31735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes469,
 	(uint16) 0x1000,
 	cn_attr469,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31415,7 +31751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes470,
 	(uint16) 0x1000,
 	cn_attr470,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31431,7 +31767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes471,
 	(uint16) 0x00,
 	cn_attr471,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31447,7 +31783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes472,
 	(uint16) 0x00,
 	cn_attr472,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31463,7 +31799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes473,
 	(uint16) 0x1000,
 	cn_attr473,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31495,7 +31831,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes475,
 	(uint16) 0x00,
 	cn_attr475,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31511,7 +31847,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes476,
 	(uint16) 0x2000,
 	cn_attr476,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31527,7 +31863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes477,
 	(uint16) 0x1000,
 	cn_attr477,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31543,7 +31879,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes478,
 	(uint16) 0x1000,
 	cn_attr478,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31559,7 +31895,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes479,
 	(uint16) 0x1000,
 	cn_attr479,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31575,7 +31911,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes480,
 	(uint16) 0x1000,
 	cn_attr480,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31591,7 +31927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes481,
 	(uint16) 0x1000,
 	cn_attr481,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31607,7 +31943,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes482,
 	(uint16) 0x1000,
 	cn_attr482,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31623,7 +31959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes483,
 	(uint16) 0x1000,
 	cn_attr483,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31639,7 +31975,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes484,
 	(uint16) 0x1000,
 	cn_attr484,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31655,7 +31991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes485,
 	(uint16) 0x1000,
 	cn_attr485,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31671,7 +32007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes486,
 	(uint16) 0x1000,
 	cn_attr486,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31687,7 +32023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes487,
 	(uint16) 0x1000,
 	cn_attr487,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31703,7 +32039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes488,
 	(uint16) 0x00,
 	cn_attr488,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31719,7 +32055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes489,
 	(uint16) 0x00,
 	cn_attr489,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31735,7 +32071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes490,
 	(uint16) 0x2000,
 	cn_attr490,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31751,7 +32087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes491,
 	(uint16) 0x2000,
 	cn_attr491,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31767,7 +32103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes492,
 	(uint16) 0x1000,
 	cn_attr492,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31831,7 +32167,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes496,
 	(uint16) 0x00,
 	cn_attr496,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31863,7 +32199,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes498,
 	(uint16) 0x1000,
 	cn_attr498,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31879,7 +32215,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes499,
 	(uint16) 0x1000,
 	cn_attr499,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31895,7 +32231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes500,
 	(uint16) 0x1000,
 	cn_attr500,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31911,7 +32247,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes501,
 	(uint16) 0x1000,
 	cn_attr501,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31927,7 +32263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes502,
 	(uint16) 0x1000,
 	cn_attr502,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31943,7 +32279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes503,
 	(uint16) 0x1000,
 	cn_attr503,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31959,7 +32295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes504,
 	(uint16) 0x1000,
 	cn_attr504,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31975,7 +32311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes505,
 	(uint16) 0x1000,
 	cn_attr505,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -31991,7 +32327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes506,
 	(uint16) 0x1000,
 	cn_attr506,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32039,7 +32375,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes509,
 	(uint16) 0x00,
 	cn_attr509,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32055,7 +32391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes510,
 	(uint16) 0x2000,
 	cn_attr510,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32071,7 +32407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes511,
 	(uint16) 0x00,
 	cn_attr511,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32087,7 +32423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes512,
 	(uint16) 0x00,
 	cn_attr512,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32103,7 +32439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes513,
 	(uint16) 0x00,
 	cn_attr513,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32119,7 +32455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes514,
 	(uint16) 0x1000,
 	cn_attr514,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32135,7 +32471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes515,
 	(uint16) 0x1000,
 	cn_attr515,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32151,7 +32487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes516,
 	(uint16) 0x1000,
 	cn_attr516,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32167,7 +32503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes517,
 	(uint16) 0x1000,
 	cn_attr517,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32183,7 +32519,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes518,
 	(uint16) 0x1000,
 	cn_attr518,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32199,7 +32535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes519,
 	(uint16) 0x1000,
 	cn_attr519,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32215,7 +32551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes520,
 	(uint16) 0x1000,
 	cn_attr520,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32231,7 +32567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes521,
 	(uint16) 0x1000,
 	cn_attr521,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32247,7 +32583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes522,
 	(uint16) 0x1000,
 	cn_attr522,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32263,7 +32599,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes523,
 	(uint16) 0x1000,
 	cn_attr523,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32279,7 +32615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes524,
 	(uint16) 0x1000,
 	cn_attr524,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32295,7 +32631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes525,
 	(uint16) 0x00,
 	cn_attr525,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32311,7 +32647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes526,
 	(uint16) 0x00,
 	cn_attr526,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32327,7 +32663,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes527,
 	(uint16) 0x00,
 	cn_attr527,
-	40,
+	28,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32343,7 +32679,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes528,
 	(uint16) 0x2305,
 	cn_attr528,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32359,7 +32695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes529,
 	(uint16) 0x2100,
 	cn_attr529,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32375,7 +32711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes530,
 	(uint16) 0x2000,
 	cn_attr530,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32391,7 +32727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes531,
 	(uint16) 0x00,
 	cn_attr531,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32407,7 +32743,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes532,
 	(uint16) 0x2305,
 	cn_attr532,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32423,7 +32759,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes533,
 	(uint16) 0x2100,
 	cn_attr533,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32439,7 +32775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes534,
 	(uint16) 0x2000,
 	cn_attr534,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32455,7 +32791,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes535,
 	(uint16) 0x00,
 	cn_attr535,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32471,7 +32807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes536,
 	(uint16) 0x00,
 	cn_attr536,
-	88,
+	60,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32487,7 +32823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes537,
 	(uint16) 0x2000,
 	cn_attr537,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32583,7 +32919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes543,
 	(uint16) 0x00,
 	cn_attr543,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32615,7 +32951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes545,
 	(uint16) 0x00,
 	cn_attr545,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32631,7 +32967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes546,
 	(uint16) 0x1000,
 	cn_attr546,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32647,7 +32983,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes547,
 	(uint16) 0x00,
 	cn_attr547,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32663,7 +32999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes548,
 	(uint16) 0x1000,
 	cn_attr548,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32679,7 +33015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes549,
 	(uint16) 0x1000,
 	cn_attr549,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32695,7 +33031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes550,
 	(uint16) 0x1000,
 	cn_attr550,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32711,7 +33047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes551,
 	(uint16) 0x1000,
 	cn_attr551,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32727,7 +33063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes552,
 	(uint16) 0x1000,
 	cn_attr552,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32743,7 +33079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes553,
 	(uint16) 0x1000,
 	cn_attr553,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32759,7 +33095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes554,
 	(uint16) 0x1000,
 	cn_attr554,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32775,7 +33111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes555,
 	(uint16) 0x1000,
 	cn_attr555,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32791,7 +33127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes556,
 	(uint16) 0x1000,
 	cn_attr556,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32807,7 +33143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes557,
 	(uint16) 0x00,
 	cn_attr557,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32823,7 +33159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes558,
 	(uint16) 0x00,
 	cn_attr558,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32839,7 +33175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes559,
 	(uint16) 0x1000,
 	cn_attr559,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32855,7 +33191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes560,
 	(uint16) 0x1000,
 	cn_attr560,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32871,7 +33207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes561,
 	(uint16) 0x1000,
 	cn_attr561,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32887,7 +33223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes562,
 	(uint16) 0x1000,
 	cn_attr562,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32903,7 +33239,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes563,
 	(uint16) 0x1000,
 	cn_attr563,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32919,7 +33255,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes564,
 	(uint16) 0x1000,
 	cn_attr564,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32935,7 +33271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes565,
 	(uint16) 0x1000,
 	cn_attr565,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32951,7 +33287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes566,
 	(uint16) 0x1000,
 	cn_attr566,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32967,7 +33303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes567,
 	(uint16) 0x1000,
 	cn_attr567,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32983,7 +33319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes568,
 	(uint16) 0x1000,
 	cn_attr568,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -32999,7 +33335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes569,
 	(uint16) 0x1000,
 	cn_attr569,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33015,7 +33351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes570,
 	(uint16) 0x00,
 	cn_attr570,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33031,7 +33367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes571,
 	(uint16) 0x00,
 	cn_attr571,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33047,7 +33383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes572,
 	(uint16) 0x00,
 	cn_attr572,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33095,7 +33431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes575,
 	(uint16) 0x00,
 	cn_attr575,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33111,7 +33447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes576,
 	(uint16) 0x2305,
 	cn_attr576,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33127,7 +33463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes577,
 	(uint16) 0x2100,
 	cn_attr577,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33143,7 +33479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes578,
 	(uint16) 0x2000,
 	cn_attr578,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33159,7 +33495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes579,
 	(uint16) 0x00,
 	cn_attr579,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33175,7 +33511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes580,
 	(uint16) 0x00,
 	cn_attr580,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33191,7 +33527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes581,
 	(uint16) 0x00,
 	cn_attr581,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33207,7 +33543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes582,
 	(uint16) 0x2305,
 	cn_attr582,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33223,7 +33559,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes583,
 	(uint16) 0x2100,
 	cn_attr583,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33239,7 +33575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes584,
 	(uint16) 0x2000,
 	cn_attr584,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33255,7 +33591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes585,
 	(uint16) 0x00,
 	cn_attr585,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33271,7 +33607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes586,
 	(uint16) 0x2305,
 	cn_attr586,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33287,7 +33623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes587,
 	(uint16) 0x2100,
 	cn_attr587,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33303,7 +33639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes588,
 	(uint16) 0x2000,
 	cn_attr588,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33319,7 +33655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes589,
 	(uint16) 0x00,
 	cn_attr589,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33335,7 +33671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes590,
 	(uint16) 0x2305,
 	cn_attr590,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33351,7 +33687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes591,
 	(uint16) 0x2100,
 	cn_attr591,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33367,7 +33703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes592,
 	(uint16) 0x2000,
 	cn_attr592,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33383,7 +33719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes593,
 	(uint16) 0x00,
 	cn_attr593,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33399,7 +33735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes594,
 	(uint16) 0x2305,
 	cn_attr594,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33415,7 +33751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes595,
 	(uint16) 0x2100,
 	cn_attr595,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33431,7 +33767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes596,
 	(uint16) 0x2000,
 	cn_attr596,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33447,7 +33783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes597,
 	(uint16) 0x00,
 	cn_attr597,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33463,7 +33799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes598,
 	(uint16) 0x2305,
 	cn_attr598,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33479,7 +33815,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes599,
 	(uint16) 0x2100,
 	cn_attr599,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33495,7 +33831,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes600,
 	(uint16) 0x2000,
 	cn_attr600,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33511,7 +33847,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes601,
 	(uint16) 0x00,
 	cn_attr601,
-	80,
+	60,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33527,7 +33863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes602,
 	(uint16) 0x00,
 	cn_attr602,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33575,7 +33911,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes605,
 	(uint16) 0x00,
 	cn_attr605,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33591,7 +33927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes606,
 	(uint16) 0x2305,
 	cn_attr606,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33607,7 +33943,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes607,
 	(uint16) 0x2100,
 	cn_attr607,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33623,7 +33959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes608,
 	(uint16) 0x2000,
 	cn_attr608,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33639,7 +33975,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes609,
 	(uint16) 0x00,
 	cn_attr609,
-	40,
+	24,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33655,7 +33991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes610,
 	(uint16) 0x00,
 	cn_attr610,
-	40,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33671,7 +34007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes611,
 	(uint16) 0x00,
 	cn_attr611,
-	40,
+	28,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33687,7 +34023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes612,
 	(uint16) 0x2305,
 	cn_attr612,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33703,7 +34039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes613,
 	(uint16) 0x2100,
 	cn_attr613,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33719,7 +34055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes614,
 	(uint16) 0x2000,
 	cn_attr614,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33735,7 +34071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes615,
 	(uint16) 0x00,
 	cn_attr615,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33847,7 +34183,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes622,
 	(uint16) 0x00,
 	cn_attr622,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33879,7 +34215,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes624,
 	(uint16) 0x00,
 	cn_attr624,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33895,7 +34231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes625,
 	(uint16) 0x1000,
 	cn_attr625,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33911,7 +34247,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes626,
 	(uint16) 0x2000,
 	cn_attr626,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33927,7 +34263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes627,
 	(uint16) 0x00,
 	cn_attr627,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33943,7 +34279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes628,
 	(uint16) 0x1000,
 	cn_attr628,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33959,7 +34295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes629,
 	(uint16) 0x1000,
 	cn_attr629,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33975,7 +34311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes630,
 	(uint16) 0x1000,
 	cn_attr630,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -33991,7 +34327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes631,
 	(uint16) 0x1000,
 	cn_attr631,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34007,7 +34343,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes632,
 	(uint16) 0x1000,
 	cn_attr632,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34023,7 +34359,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes633,
 	(uint16) 0x1000,
 	cn_attr633,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34039,7 +34375,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes634,
 	(uint16) 0x1000,
 	cn_attr634,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34055,7 +34391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes635,
 	(uint16) 0x1000,
 	cn_attr635,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34071,7 +34407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes636,
 	(uint16) 0x1000,
 	cn_attr636,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34087,7 +34423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes637,
 	(uint16) 0x00,
 	cn_attr637,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34103,7 +34439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes638,
 	(uint16) 0x00,
 	cn_attr638,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34119,7 +34455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes639,
 	(uint16) 0x1000,
 	cn_attr639,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34135,7 +34471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes640,
 	(uint16) 0x1000,
 	cn_attr640,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34151,7 +34487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes641,
 	(uint16) 0x1000,
 	cn_attr641,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34167,7 +34503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes642,
 	(uint16) 0x1000,
 	cn_attr642,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34183,7 +34519,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes643,
 	(uint16) 0x1000,
 	cn_attr643,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34199,7 +34535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes644,
 	(uint16) 0x1000,
 	cn_attr644,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34215,7 +34551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes645,
 	(uint16) 0x1000,
 	cn_attr645,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34231,7 +34567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes646,
 	(uint16) 0x1000,
 	cn_attr646,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34247,7 +34583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes647,
 	(uint16) 0x1000,
 	cn_attr647,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34263,7 +34599,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes648,
 	(uint16) 0x1000,
 	cn_attr648,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34279,7 +34615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes649,
 	(uint16) 0x1000,
 	cn_attr649,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34295,7 +34631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes650,
 	(uint16) 0x00,
 	cn_attr650,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34311,7 +34647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes651,
 	(uint16) 0x00,
 	cn_attr651,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34423,7 +34759,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes658,
 	(uint16) 0x00,
 	cn_attr658,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34455,7 +34791,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes660,
 	(uint16) 0x00,
 	cn_attr660,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34471,7 +34807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes661,
 	(uint16) 0x1000,
 	cn_attr661,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34487,7 +34823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes662,
 	(uint16) 0x2000,
 	cn_attr662,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34503,7 +34839,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes663,
 	(uint16) 0x00,
 	cn_attr663,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34519,7 +34855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes664,
 	(uint16) 0x1000,
 	cn_attr664,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34535,7 +34871,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes665,
 	(uint16) 0x1000,
 	cn_attr665,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34551,7 +34887,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes666,
 	(uint16) 0x1000,
 	cn_attr666,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34567,7 +34903,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes667,
 	(uint16) 0x1000,
 	cn_attr667,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34583,7 +34919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes668,
 	(uint16) 0x1000,
 	cn_attr668,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34599,7 +34935,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes669,
 	(uint16) 0x1000,
 	cn_attr669,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34615,7 +34951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes670,
 	(uint16) 0x1000,
 	cn_attr670,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34631,7 +34967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes671,
 	(uint16) 0x1000,
 	cn_attr671,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34647,7 +34983,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes672,
 	(uint16) 0x1000,
 	cn_attr672,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34663,7 +34999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes673,
 	(uint16) 0x00,
 	cn_attr673,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34679,7 +35015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes674,
 	(uint16) 0x00,
 	cn_attr674,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34695,7 +35031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes675,
 	(uint16) 0x1000,
 	cn_attr675,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34711,7 +35047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes676,
 	(uint16) 0x1000,
 	cn_attr676,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34727,7 +35063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes677,
 	(uint16) 0x1000,
 	cn_attr677,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34743,7 +35079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes678,
 	(uint16) 0x1000,
 	cn_attr678,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34759,7 +35095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes679,
 	(uint16) 0x1000,
 	cn_attr679,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34775,7 +35111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes680,
 	(uint16) 0x1000,
 	cn_attr680,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34791,7 +35127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes681,
 	(uint16) 0x1000,
 	cn_attr681,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34807,7 +35143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes682,
 	(uint16) 0x1000,
 	cn_attr682,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34823,7 +35159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes683,
 	(uint16) 0x1000,
 	cn_attr683,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34839,7 +35175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes684,
 	(uint16) 0x1000,
 	cn_attr684,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34855,7 +35191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes685,
 	(uint16) 0x1000,
 	cn_attr685,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34871,7 +35207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes686,
 	(uint16) 0x00,
 	cn_attr686,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34887,7 +35223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes687,
 	(uint16) 0x00,
 	cn_attr687,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -34999,7 +35335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes694,
 	(uint16) 0x00,
 	cn_attr694,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35031,7 +35367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes696,
 	(uint16) 0x00,
 	cn_attr696,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35047,7 +35383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes697,
 	(uint16) 0x1000,
 	cn_attr697,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35063,7 +35399,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes698,
 	(uint16) 0x2000,
 	cn_attr698,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35079,7 +35415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes699,
 	(uint16) 0x00,
 	cn_attr699,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35095,7 +35431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes700,
 	(uint16) 0x1000,
 	cn_attr700,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35111,7 +35447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes701,
 	(uint16) 0x1000,
 	cn_attr701,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35127,7 +35463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes702,
 	(uint16) 0x1000,
 	cn_attr702,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35143,7 +35479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes703,
 	(uint16) 0x1000,
 	cn_attr703,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35159,7 +35495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes704,
 	(uint16) 0x1000,
 	cn_attr704,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35175,7 +35511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes705,
 	(uint16) 0x1000,
 	cn_attr705,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35191,7 +35527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes706,
 	(uint16) 0x1000,
 	cn_attr706,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35207,7 +35543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes707,
 	(uint16) 0x1000,
 	cn_attr707,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35223,7 +35559,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes708,
 	(uint16) 0x1000,
 	cn_attr708,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35239,7 +35575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes709,
 	(uint16) 0x00,
 	cn_attr709,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35255,7 +35591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes710,
 	(uint16) 0x00,
 	cn_attr710,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35271,7 +35607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes711,
 	(uint16) 0x1000,
 	cn_attr711,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35287,7 +35623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes712,
 	(uint16) 0x1000,
 	cn_attr712,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35303,7 +35639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes713,
 	(uint16) 0x1000,
 	cn_attr713,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35319,7 +35655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes714,
 	(uint16) 0x1000,
 	cn_attr714,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35335,7 +35671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes715,
 	(uint16) 0x1000,
 	cn_attr715,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35351,7 +35687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes716,
 	(uint16) 0x1000,
 	cn_attr716,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35367,7 +35703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes717,
 	(uint16) 0x1000,
 	cn_attr717,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35383,7 +35719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes718,
 	(uint16) 0x1000,
 	cn_attr718,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35399,7 +35735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes719,
 	(uint16) 0x1000,
 	cn_attr719,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35415,7 +35751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes720,
 	(uint16) 0x1000,
 	cn_attr720,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35431,7 +35767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes721,
 	(uint16) 0x1000,
 	cn_attr721,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35447,7 +35783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes722,
 	(uint16) 0x00,
 	cn_attr722,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35463,7 +35799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes723,
 	(uint16) 0x00,
 	cn_attr723,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35511,7 +35847,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes726,
 	(uint16) 0x00,
 	cn_attr726,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35527,7 +35863,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes727,
 	(uint16) 0x1000,
 	cn_attr727,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35543,7 +35879,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes728,
 	(uint16) 0x2000,
 	cn_attr728,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35559,7 +35895,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes729,
 	(uint16) 0x00,
 	cn_attr729,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35575,7 +35911,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes730,
 	(uint16) 0x00,
 	cn_attr730,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35591,7 +35927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes731,
 	(uint16) 0x00,
 	cn_attr731,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35607,7 +35943,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes732,
 	(uint16) 0x1000,
 	cn_attr732,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35623,7 +35959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes733,
 	(uint16) 0x1000,
 	cn_attr733,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35639,7 +35975,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes734,
 	(uint16) 0x1000,
 	cn_attr734,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35655,7 +35991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes735,
 	(uint16) 0x1000,
 	cn_attr735,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35671,7 +36007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes736,
 	(uint16) 0x1000,
 	cn_attr736,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35687,7 +36023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes737,
 	(uint16) 0x1000,
 	cn_attr737,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35703,7 +36039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes738,
 	(uint16) 0x1000,
 	cn_attr738,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35719,7 +36055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes739,
 	(uint16) 0x1000,
 	cn_attr739,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35735,7 +36071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes740,
 	(uint16) 0x1000,
 	cn_attr740,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35751,7 +36087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes741,
 	(uint16) 0x1000,
 	cn_attr741,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35767,7 +36103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes742,
 	(uint16) 0x1000,
 	cn_attr742,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35783,7 +36119,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes743,
 	(uint16) 0x00,
 	cn_attr743,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35799,7 +36135,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes744,
 	(uint16) 0x00,
 	cn_attr744,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35815,7 +36151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes745,
 	(uint16) 0x2000,
 	cn_attr745,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35927,7 +36263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes752,
 	(uint16) 0x00,
 	cn_attr752,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35959,7 +36295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes754,
 	(uint16) 0x00,
 	cn_attr754,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35975,7 +36311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes755,
 	(uint16) 0x1000,
 	cn_attr755,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -35991,7 +36327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes756,
 	(uint16) 0x2000,
 	cn_attr756,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36007,7 +36343,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes757,
 	(uint16) 0x00,
 	cn_attr757,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36023,7 +36359,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes758,
 	(uint16) 0x1000,
 	cn_attr758,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36039,7 +36375,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes759,
 	(uint16) 0x1000,
 	cn_attr759,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36055,7 +36391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes760,
 	(uint16) 0x1000,
 	cn_attr760,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36071,7 +36407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes761,
 	(uint16) 0x1000,
 	cn_attr761,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36087,7 +36423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes762,
 	(uint16) 0x1000,
 	cn_attr762,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36103,7 +36439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes763,
 	(uint16) 0x1000,
 	cn_attr763,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36119,7 +36455,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes764,
 	(uint16) 0x1000,
 	cn_attr764,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36135,7 +36471,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes765,
 	(uint16) 0x1000,
 	cn_attr765,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36151,7 +36487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes766,
 	(uint16) 0x1000,
 	cn_attr766,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36167,7 +36503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes767,
 	(uint16) 0x00,
 	cn_attr767,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36183,7 +36519,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes768,
 	(uint16) 0x00,
 	cn_attr768,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36199,7 +36535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes769,
 	(uint16) 0x1000,
 	cn_attr769,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36215,7 +36551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes770,
 	(uint16) 0x1000,
 	cn_attr770,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36231,7 +36567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes771,
 	(uint16) 0x1000,
 	cn_attr771,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36247,7 +36583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes772,
 	(uint16) 0x1000,
 	cn_attr772,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36263,7 +36599,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes773,
 	(uint16) 0x1000,
 	cn_attr773,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36279,7 +36615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes774,
 	(uint16) 0x1000,
 	cn_attr774,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36295,7 +36631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes775,
 	(uint16) 0x1000,
 	cn_attr775,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36311,7 +36647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes776,
 	(uint16) 0x1000,
 	cn_attr776,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36327,7 +36663,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes777,
 	(uint16) 0x1000,
 	cn_attr777,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36343,7 +36679,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes778,
 	(uint16) 0x1000,
 	cn_attr778,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36359,7 +36695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes779,
 	(uint16) 0x1000,
 	cn_attr779,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36375,7 +36711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes780,
 	(uint16) 0x00,
 	cn_attr780,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36391,7 +36727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes781,
 	(uint16) 0x00,
 	cn_attr781,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36407,7 +36743,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes782,
 	(uint16) 0x00,
 	cn_attr782,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36519,7 +36855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes789,
 	(uint16) 0x00,
 	cn_attr789,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36551,7 +36887,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes791,
 	(uint16) 0x00,
 	cn_attr791,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36567,7 +36903,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes792,
 	(uint16) 0x1000,
 	cn_attr792,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36583,7 +36919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes793,
 	(uint16) 0x00,
 	cn_attr793,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36599,7 +36935,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes794,
 	(uint16) 0x1000,
 	cn_attr794,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36615,7 +36951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes795,
 	(uint16) 0x1000,
 	cn_attr795,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36631,7 +36967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes796,
 	(uint16) 0x1000,
 	cn_attr796,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36647,7 +36983,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes797,
 	(uint16) 0x1000,
 	cn_attr797,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36663,7 +36999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes798,
 	(uint16) 0x1000,
 	cn_attr798,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36679,7 +37015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes799,
 	(uint16) 0x1000,
 	cn_attr799,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36695,7 +37031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes800,
 	(uint16) 0x1000,
 	cn_attr800,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36711,7 +37047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes801,
 	(uint16) 0x1000,
 	cn_attr801,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36727,7 +37063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes802,
 	(uint16) 0x1000,
 	cn_attr802,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36743,7 +37079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes803,
 	(uint16) 0x00,
 	cn_attr803,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36759,7 +37095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes804,
 	(uint16) 0x00,
 	cn_attr804,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36775,7 +37111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes805,
 	(uint16) 0x1000,
 	cn_attr805,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36791,7 +37127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes806,
 	(uint16) 0x1000,
 	cn_attr806,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36807,7 +37143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes807,
 	(uint16) 0x1000,
 	cn_attr807,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36823,7 +37159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes808,
 	(uint16) 0x1000,
 	cn_attr808,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36839,7 +37175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes809,
 	(uint16) 0x1000,
 	cn_attr809,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36855,7 +37191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes810,
 	(uint16) 0x1000,
 	cn_attr810,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36871,7 +37207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes811,
 	(uint16) 0x1000,
 	cn_attr811,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36887,7 +37223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes812,
 	(uint16) 0x1000,
 	cn_attr812,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36903,7 +37239,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes813,
 	(uint16) 0x1000,
 	cn_attr813,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36919,7 +37255,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes814,
 	(uint16) 0x1000,
 	cn_attr814,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36935,7 +37271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes815,
 	(uint16) 0x1000,
 	cn_attr815,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36951,7 +37287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes816,
 	(uint16) 0x00,
 	cn_attr816,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36967,7 +37303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes817,
 	(uint16) 0x00,
 	cn_attr817,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36983,7 +37319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes818,
 	(uint16) 0x00,
 	cn_attr818,
-	80,
+	48,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -36999,7 +37335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes819,
 	(uint16) 0x00,
 	cn_attr819,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37015,7 +37351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes820,
 	(uint16) 0x2305,
 	cn_attr820,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37031,7 +37367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes821,
 	(uint16) 0x2100,
 	cn_attr821,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37047,7 +37383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes822,
 	(uint16) 0x2000,
 	cn_attr822,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37079,7 +37415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes824,
 	(uint16) 0x00,
 	cn_attr824,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37095,7 +37431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes825,
 	(uint16) 0x00,
 	cn_attr825,
-	40,
+	32,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37111,7 +37447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes826,
 	(uint16) 0x00,
 	cn_attr826,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37127,7 +37463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes827,
 	(uint16) 0x00,
 	cn_attr827,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37143,7 +37479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes828,
 	(uint16) 0x1000,
 	cn_attr828,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37159,7 +37495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes829,
 	(uint16) 0x1000,
 	cn_attr829,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37175,7 +37511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes830,
 	(uint16) 0x00,
 	cn_attr830,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37191,7 +37527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes831,
 	(uint16) 0x1000,
 	cn_attr831,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37207,7 +37543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes832,
 	(uint16) 0x00,
 	cn_attr832,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37223,7 +37559,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes833,
 	(uint16) 0x00,
 	cn_attr833,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37239,7 +37575,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes834,
 	(uint16) 0x00,
 	cn_attr834,
-	40,
+	28,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37255,7 +37591,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes835,
 	(uint16) 0x2305,
 	cn_attr835,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37271,7 +37607,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes836,
 	(uint16) 0x2100,
 	cn_attr836,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37287,7 +37623,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes837,
 	(uint16) 0x2000,
 	cn_attr837,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37303,7 +37639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes838,
 	(uint16) 0x00,
 	cn_attr838,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37319,7 +37655,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes839,
 	(uint16) 0x2305,
 	cn_attr839,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37335,7 +37671,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes840,
 	(uint16) 0x2100,
 	cn_attr840,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37351,7 +37687,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes841,
 	(uint16) 0x2000,
 	cn_attr841,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37367,7 +37703,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes842,
 	(uint16) 0x00,
 	cn_attr842,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37383,7 +37719,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes843,
 	(uint16) 0x00,
 	cn_attr843,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37399,7 +37735,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes844,
 	(uint16) 0x2305,
 	cn_attr844,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37415,7 +37751,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes845,
 	(uint16) 0x2100,
 	cn_attr845,
-	8,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37431,7 +37767,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes846,
 	(uint16) 0x2000,
 	cn_attr846,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37447,7 +37783,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes847,
 	(uint16) 0x00,
 	cn_attr847,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37463,7 +37799,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes848,
 	(uint16) 0x00,
 	cn_attr848,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37479,7 +37815,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes849,
 	(uint16) 0x00,
 	cn_attr849,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37591,7 +37927,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes856,
 	(uint16) 0x00,
 	cn_attr856,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37623,7 +37959,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes858,
 	(uint16) 0x00,
 	cn_attr858,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37639,7 +37975,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes859,
 	(uint16) 0x1000,
 	cn_attr859,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37655,7 +37991,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes860,
 	(uint16) 0x2000,
 	cn_attr860,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37671,7 +38007,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes861,
 	(uint16) 0x00,
 	cn_attr861,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37687,7 +38023,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes862,
 	(uint16) 0x1000,
 	cn_attr862,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37703,7 +38039,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes863,
 	(uint16) 0x1000,
 	cn_attr863,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37719,7 +38055,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes864,
 	(uint16) 0x1000,
 	cn_attr864,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37735,7 +38071,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes865,
 	(uint16) 0x1000,
 	cn_attr865,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37751,7 +38087,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes866,
 	(uint16) 0x1000,
 	cn_attr866,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37767,7 +38103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes867,
 	(uint16) 0x1000,
 	cn_attr867,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37783,7 +38119,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes868,
 	(uint16) 0x1000,
 	cn_attr868,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37799,7 +38135,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes869,
 	(uint16) 0x1000,
 	cn_attr869,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37815,7 +38151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes870,
 	(uint16) 0x1000,
 	cn_attr870,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37831,7 +38167,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes871,
 	(uint16) 0x00,
 	cn_attr871,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37847,7 +38183,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes872,
 	(uint16) 0x00,
 	cn_attr872,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37863,7 +38199,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes873,
 	(uint16) 0x1000,
 	cn_attr873,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37879,7 +38215,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes874,
 	(uint16) 0x1000,
 	cn_attr874,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37895,7 +38231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes875,
 	(uint16) 0x1000,
 	cn_attr875,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37911,7 +38247,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes876,
 	(uint16) 0x1000,
 	cn_attr876,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37927,7 +38263,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes877,
 	(uint16) 0x1000,
 	cn_attr877,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37943,7 +38279,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes878,
 	(uint16) 0x1000,
 	cn_attr878,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37959,7 +38295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes879,
 	(uint16) 0x1000,
 	cn_attr879,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37975,7 +38311,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes880,
 	(uint16) 0x1000,
 	cn_attr880,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -37991,7 +38327,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes881,
 	(uint16) 0x1000,
 	cn_attr881,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38007,7 +38343,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes882,
 	(uint16) 0x1000,
 	cn_attr882,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38023,7 +38359,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes883,
 	(uint16) 0x1000,
 	cn_attr883,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38039,7 +38375,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes884,
 	(uint16) 0x00,
 	cn_attr884,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38055,7 +38391,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes885,
 	(uint16) 0x00,
 	cn_attr885,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38071,7 +38407,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes886,
 	(uint16) 0x00,
 	cn_attr886,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38087,7 +38423,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes887,
 	(uint16) 0x00,
 	cn_attr887,
-	80,
+	60,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38103,7 +38439,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes888,
 	(uint16) 0x1000,
 	cn_attr888,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38151,7 +38487,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes891,
 	(uint16) 0x00,
 	cn_attr891,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38167,7 +38503,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes892,
 	(uint16) 0x00,
 	cn_attr892,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38183,7 +38519,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes893,
 	(uint16) 0x00,
 	cn_attr893,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38199,7 +38535,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes894,
 	(uint16) 0x00,
 	cn_attr894,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38215,7 +38551,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes895,
 	(uint16) 0x1000,
 	cn_attr895,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38231,7 +38567,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes896,
 	(uint16) 0x1000,
 	cn_attr896,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38247,7 +38583,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes897,
 	(uint16) 0x00,
 	cn_attr897,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38263,7 +38599,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes898,
 	(uint16) 0x00,
 	cn_attr898,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38279,7 +38615,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes899,
 	(uint16) 0x00,
 	cn_attr899,
-	40,
+	32,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38295,7 +38631,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes900,
 	(uint16) 0x00,
 	cn_attr900,
-	72,
+	44,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38311,7 +38647,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes901,
 	(uint16) 0x00,
 	cn_attr901,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38327,7 +38663,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes902,
 	(uint16) 0x00,
 	cn_attr902,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38343,7 +38679,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes903,
 	(uint16) 0x1000,
 	cn_attr903,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38359,7 +38695,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes904,
 	(uint16) 0x1000,
 	cn_attr904,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38375,7 +38711,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes905,
 	(uint16) 0x00,
 	cn_attr905,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38391,7 +38727,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes906,
 	(uint16) 0x00,
 	cn_attr906,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38407,7 +38743,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes907,
 	(uint16) 0x00,
 	cn_attr907,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38423,7 +38759,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes908,
 	(uint16) 0x00,
 	cn_attr908,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38439,7 +38775,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes909,
 	(uint16) 0x00,
 	cn_attr909,
-	24,
+	16,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38471,7 +38807,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes911,
 	(uint16) 0x1000,
 	cn_attr911,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38487,7 +38823,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes912,
 	(uint16) 0x1000,
 	cn_attr912,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38503,7 +38839,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes913,
 	(uint16) 0x2000,
 	cn_attr913,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38519,7 +38855,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes914,
 	(uint16) 0x00,
 	cn_attr914,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38551,7 +38887,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes916,
 	(uint16) 0x00,
 	cn_attr916,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38567,7 +38903,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes917,
 	(uint16) 0x1000,
 	cn_attr917,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38583,7 +38919,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes918,
 	(uint16) 0x00,
 	cn_attr918,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38599,7 +38935,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes919,
 	(uint16) 0x00,
 	cn_attr919,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38615,7 +38951,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes920,
 	(uint16) 0x1000,
 	cn_attr920,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38631,7 +38967,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes921,
 	(uint16) 0x1000,
 	cn_attr921,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38647,7 +38983,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes922,
 	(uint16) 0x1000,
 	cn_attr922,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38663,7 +38999,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes923,
 	(uint16) 0x1000,
 	cn_attr923,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38679,7 +39015,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes924,
 	(uint16) 0x1000,
 	cn_attr924,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38695,7 +39031,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes925,
 	(uint16) 0x1000,
 	cn_attr925,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38711,7 +39047,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes926,
 	(uint16) 0x1000,
 	cn_attr926,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38727,7 +39063,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes927,
 	(uint16) 0x00,
 	cn_attr927,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38743,7 +39079,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes928,
 	(uint16) 0x00,
 	cn_attr928,
-	88,
+	60,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38759,7 +39095,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes929,
 	(uint16) 0x00,
 	cn_attr929,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38775,7 +39111,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes930,
 	(uint16) 0x00,
 	cn_attr930,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38791,7 +39127,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes931,
 	(uint16) 0x00,
 	cn_attr931,
-	40,
+	32,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38807,7 +39143,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes932,
 	(uint16) 0x00,
 	cn_attr932,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38823,7 +39159,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes933,
 	(uint16) 0x00,
 	cn_attr933,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38839,7 +39175,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes934,
 	(uint16) 0x00,
 	cn_attr934,
-	80,
+	60,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38855,7 +39191,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes935,
 	(uint16) 0x00,
 	cn_attr935,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38871,7 +39207,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes936,
 	(uint16) 0x00,
 	cn_attr936,
-	80,
+	60,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38887,7 +39223,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes937,
 	(uint16) 0x1000,
 	cn_attr937,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38935,7 +39271,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes940,
 	(uint16) 0x00,
 	cn_attr940,
-	88,
+	48,
 	9L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38951,7 +39287,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes941,
 	(uint16) 0x00,
 	cn_attr941,
-	24,
+	16,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38967,7 +39303,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes942,
 	(uint16) 0x1000,
 	cn_attr942,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38983,7 +39319,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes943,
 	(uint16) 0x00,
 	cn_attr943,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -38999,7 +39335,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes944,
 	(uint16) 0x00,
 	cn_attr944,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39015,7 +39351,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes945,
 	(uint16) 0x00,
 	cn_attr945,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39031,7 +39367,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes946,
 	(uint16) 0x00,
 	cn_attr946,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39047,7 +39383,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes947,
 	(uint16) 0x00,
 	cn_attr947,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39063,7 +39399,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes948,
 	(uint16) 0x00,
 	cn_attr948,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39079,7 +39415,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes949,
 	(uint16) 0x00,
 	cn_attr949,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39095,7 +39431,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes950,
 	(uint16) 0x1000,
 	cn_attr950,
-	8,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39111,7 +39447,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes951,
 	(uint16) 0x00,
 	cn_attr951,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39127,7 +39463,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes952,
 	(uint16) 0x00,
 	cn_attr952,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39143,7 +39479,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes953,
 	(uint16) 0x00,
 	cn_attr953,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39159,7 +39495,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes954,
 	(uint16) 0x00,
 	cn_attr954,
-	32,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39175,7 +39511,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes955,
 	(uint16) 0x00,
 	cn_attr955,
-	32,
+	20,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39191,7 +39527,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes956,
 	(uint16) 0x00,
 	cn_attr956,
-	32,
+	24,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39207,7 +39543,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes957,
 	(uint16) 0x00,
 	cn_attr957,
-	32,
+	28,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39239,24 +39575,8 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes959,
 	(uint16) 0x00,
 	cn_attr959,
-	32,
+	28,
 	1L,
-	(int32) 0,
-	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
-	NULL
-},
-{
-	(long) 0,
-	(long) 0,
-	"APPLICATION",
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	(uint16) 0x00,
-	(int32 *) 0,
-	0,
-	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
@@ -39265,13 +39585,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"PACKET",
-	names961,
-	types961,
-	attr_flags961,
-	gtypes961,
+	names960,
+	types960,
+	attr_flags960,
+	gtypes960,
 	(uint16) 0x00,
-	cn_attr961,
-	8,
+	cn_attr960,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39294,6 +39614,22 @@ const struct cnode egc_fsystem_init[] = {
 	NULL
 },
 {
+	(long) 1,
+	(long) 1,
+	"EQA_SYSTEM_PATH",
+	names962,
+	types962,
+	attr_flags962,
+	gtypes962,
+	(uint16) 0x00,
+	cn_attr962,
+	4,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
 	(long) 3,
 	(long) 3,
 	"C_DATE",
@@ -39303,7 +39639,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes963,
 	(uint16) 0x00,
 	cn_attr963,
-	16,
+	12,
 	1L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39312,30 +39648,14 @@ const struct cnode egc_fsystem_init[] = {
 {
 	(long) 1,
 	(long) 1,
-	"EQA_SYSTEM_PATH",
+	"EQA_FILE_SYSTEM",
 	names964,
 	types964,
 	attr_flags964,
 	gtypes964,
 	(uint16) 0x00,
 	cn_attr964,
-	8,
-	1L,
-	(int32) 0,
-	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
-	NULL
-},
-{
-	(long) 1,
-	(long) 1,
-	"EQA_TEST_INVOCATION_RESPONSE",
-	names965,
-	types965,
-	attr_flags965,
-	gtypes965,
-	(uint16) 0x00,
-	cn_attr965,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39345,13 +39665,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"EQA_ASSERTIONS",
-	names966,
-	types966,
-	attr_flags966,
-	gtypes966,
+	names965,
+	types965,
+	attr_flags965,
+	gtypes965,
 	(uint16) 0x00,
-	cn_attr966,
-	8,
+	cn_attr965,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39360,14 +39680,14 @@ const struct cnode egc_fsystem_init[] = {
 {
 	(long) 1,
 	(long) 1,
-	"EQA_FILE_SYSTEM",
-	names967,
-	types967,
-	attr_flags967,
-	gtypes967,
+	"EQA_TEST_INVOCATION_RESPONSE",
+	names966,
+	types966,
+	attr_flags966,
+	gtypes966,
 	(uint16) 0x00,
-	cn_attr967,
-	8,
+	cn_attr966,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39386,22 +39706,6 @@ const struct cnode egc_fsystem_init[] = {
 	0,
 	0L,
 	(int32) 32,
-	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
-	NULL
-},
-{
-	(long) 4,
-	(long) 4,
-	"EQA_TEST_SET",
-	names969,
-	types969,
-	attr_flags969,
-	gtypes969,
-	(uint16) 0x1000,
-	cn_attr969,
-	32,
-	3L,
-	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -39457,13 +39761,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"SOCKET_ADDRESS",
-	names973,
-	types973,
-	attr_flags973,
-	gtypes973,
+	names971,
+	types971,
+	attr_flags971,
+	gtypes971,
 	(uint16) 0x00,
-	cn_attr973,
-	8,
+	cn_attr971,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39505,6 +39809,54 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 0,
 	(long) 0,
 	"ITP_SHARED_CONSTANTS",
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	(uint16) 0x00,
+	(int32 *) 0,
+	0,
+	0L,
+	(int32) 32,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 4,
+	(long) 4,
+	"EQA_TEST_SET",
+	names975,
+	types975,
+	attr_flags975,
+	gtypes975,
+	(uint16) 0x1000,
+	cn_attr975,
+	16,
+	3L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 5,
+	(long) 5,
+	"NEW_TEST_SET",
+	names976,
+	types976,
+	attr_flags976,
+	gtypes976,
+	(uint16) 0x00,
+	cn_attr976,
+	20,
+	4L,
+	(int32) 32,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 0,
+	(long) 0,
+	"CODE_VALIDITY_CHECKER",
 	NULL,
 	NULL,
 	NULL,
@@ -39569,13 +39921,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 2,
 	(long) 2,
 	"TIME_VALUE",
-	names980,
-	types980,
-	attr_flags980,
-	gtypes980,
+	names981,
+	types981,
+	attr_flags981,
+	gtypes981,
 	(uint16) 0x00,
-	cn_attr980,
-	16,
+	cn_attr981,
+	12,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39633,31 +39985,15 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 2,
 	(long) 2,
 	"DATE_TIME_VALUE",
-	names984,
-	types984,
-	attr_flags984,
-	gtypes984,
+	names985,
+	types985,
+	attr_flags985,
+	gtypes985,
 	(uint16) 0x1000,
-	cn_attr984,
-	16,
+	cn_attr985,
+	8,
 	2L,
 	(int32) 0,
-	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
-	NULL
-},
-{
-	(long) 0,
-	(long) 0,
-	"CODE_VALIDITY_CHECKER",
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	(uint16) 0x00,
-	(int32 *) 0,
-	0,
-	0L,
-	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
@@ -39767,7 +40103,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes992,
 	(uint16) 0x00,
 	cn_attr992,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39783,7 +40119,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes993,
 	(uint16) 0x1000,
 	cn_attr993,
-	16,
+	8,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39799,7 +40135,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes994,
 	(uint16) 0x00,
 	cn_attr994,
-	40,
+	24,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39815,7 +40151,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes995,
 	(uint16) 0x00,
 	cn_attr995,
-	16,
+	12,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39847,7 +40183,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes997,
 	(uint16) 0x00,
 	cn_attr997,
-	16,
+	8,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39895,7 +40231,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes1000,
 	(uint16) 0x00,
 	cn_attr1000,
-	8,
+	4,
 	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39918,25 +40254,25 @@ const struct cnode egc_fsystem_init[] = {
 	NULL
 },
 {
-	(long) 4,
-	(long) 4,
-	"DATE_DURATION",
+	(long) 3,
+	(long) 3,
+	"TIME_DURATION",
 	names1002,
 	types1002,
 	attr_flags1002,
 	gtypes1002,
 	(uint16) 0x00,
 	cn_attr1002,
-	24,
-	1L,
+	16,
+	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },
 {
-	(long) 3,
-	(long) 3,
-	"TIME_DURATION",
+	(long) 4,
+	(long) 4,
+	"DATE_DURATION",
 	names1003,
 	types1003,
 	attr_flags1003,
@@ -39944,7 +40280,7 @@ const struct cnode egc_fsystem_init[] = {
 	(uint16) 0x00,
 	cn_attr1003,
 	16,
-	0L,
+	1L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
@@ -39959,7 +40295,7 @@ const struct cnode egc_fsystem_init[] = {
 	gtypes1004,
 	(uint16) 0x00,
 	cn_attr1004,
-	24,
+	12,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -39982,16 +40318,32 @@ const struct cnode egc_fsystem_init[] = {
 	NULL
 },
 {
+	(long) 0,
+	(long) 0,
+	"APPLICATION",
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	(uint16) 0x00,
+	(int32 *) 0,
+	0,
+	0L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
 	(long) 6,
 	(long) 6,
 	"EQA_EVALUATOR",
-	names1006,
-	types1006,
-	attr_flags1006,
-	gtypes1006,
+	names1007,
+	types1007,
+	attr_flags1007,
+	gtypes1007,
 	(uint16) 0x2000,
-	cn_attr1006,
-	40,
+	cn_attr1007,
+	24,
 	3L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40001,13 +40353,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 9,
 	(long) 9,
 	"DATE_TIME_CODE",
-	names1007,
-	types1007,
-	attr_flags1007,
-	gtypes1007,
+	names1008,
+	types1008,
+	attr_flags1008,
+	gtypes1008,
 	(uint16) 0x00,
-	cn_attr1007,
-	40,
+	cn_attr1008,
+	32,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40017,13 +40369,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 4,
 	(long) 4,
 	"EQA_PARTIAL_RESULT",
-	names1008,
-	types1008,
-	attr_flags1008,
-	gtypes1008,
+	names1009,
+	types1009,
+	attr_flags1009,
+	gtypes1009,
 	(uint16) 0x00,
-	cn_attr1008,
-	32,
+	cn_attr1009,
+	16,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40033,13 +40385,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 6,
 	(long) 6,
 	"EQA_RESULT",
-	names1009,
-	types1009,
-	attr_flags1009,
-	gtypes1009,
+	names1010,
+	types1010,
+	attr_flags1010,
+	gtypes1010,
 	(uint16) 0x00,
-	cn_attr1009,
-	48,
+	cn_attr1010,
+	24,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40049,13 +40401,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"DATE_VALUE",
-	names1010,
-	types1010,
-	attr_flags1010,
-	gtypes1010,
+	names1011,
+	types1011,
+	attr_flags1011,
+	gtypes1011,
 	(uint16) 0x00,
-	cn_attr1010,
-	8,
+	cn_attr1011,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40065,13 +40417,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"EXTERNAL_OBJECT",
-	names1011,
-	types1011,
-	attr_flags1011,
-	gtypes1011,
+	names1012,
+	types1012,
+	attr_flags1012,
+	gtypes1012,
 	(uint16) 0x1400,
-	cn_attr1011,
-	8,
+	cn_attr1012,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40081,13 +40433,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"ADDRINFO_1",
-	names1012,
-	types1012,
-	attr_flags1012,
-	gtypes1012,
+	names1013,
+	types1013,
+	attr_flags1013,
+	gtypes1013,
 	(uint16) 0x0400,
-	cn_attr1012,
-	8,
+	cn_attr1013,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40097,13 +40449,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"ADDRINFO_2",
-	names1013,
-	types1013,
-	attr_flags1013,
-	gtypes1013,
+	names1014,
+	types1014,
+	attr_flags1014,
+	gtypes1014,
 	(uint16) 0x0400,
-	cn_attr1013,
-	8,
+	cn_attr1014,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40113,13 +40465,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 26,
 	(long) 26,
 	"SOCKET",
-	names1014,
-	types1014,
-	attr_flags1014,
-	gtypes1014,
+	names1015,
+	types1015,
+	attr_flags1015,
+	gtypes1015,
 	(uint16) 0x1400,
-	cn_attr1014,
-	112,
+	cn_attr1015,
+	88,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40129,13 +40481,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 27,
 	(long) 27,
 	"STREAM_SOCKET",
-	names1015,
-	types1015,
-	attr_flags1015,
-	gtypes1015,
+	names1016,
+	types1016,
+	attr_flags1016,
+	gtypes1016,
 	(uint16) 0x1400,
-	cn_attr1015,
-	120,
+	cn_attr1016,
+	92,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40145,13 +40497,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 36,
 	(long) 36,
 	"NETWORK_SOCKET",
-	names1016,
-	types1016,
-	attr_flags1016,
-	gtypes1016,
+	names1017,
+	types1017,
+	attr_flags1017,
+	gtypes1017,
 	(uint16) 0x1400,
-	cn_attr1016,
-	144,
+	cn_attr1017,
+	120,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40161,13 +40513,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 39,
 	(long) 39,
 	"NETWORK_STREAM_SOCKET",
-	names1017,
-	types1017,
-	attr_flags1017,
-	gtypes1017,
+	names1018,
+	types1018,
+	attr_flags1018,
+	gtypes1018,
 	(uint16) 0x0400,
-	cn_attr1017,
-	160,
+	cn_attr1018,
+	132,
 	7L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40177,13 +40529,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 24,
 	(long) 23,
 	"EQA_TEST_OUTPUT_BUFFER",
-	names1018,
-	types1018,
-	attr_flags1018,
-	gtypes1018,
+	names1019,
+	types1019,
+	attr_flags1019,
+	gtypes1019,
 	(uint16) 0x0400,
-	cn_attr1018,
-	104,
+	cn_attr1019,
+	84,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40193,13 +40545,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"ITP_VARIABLE",
-	names1019,
-	types1019,
-	attr_flags1019,
-	gtypes1019,
+	names1020,
+	types1020,
+	attr_flags1020,
+	gtypes1020,
 	(uint16) 0x00,
-	cn_attr1019,
-	8,
+	cn_attr1020,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40225,13 +40577,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 7,
 	(long) 7,
 	"DATE_TIME_CODE_STRING",
-	names1021,
-	types1021,
-	attr_flags1021,
-	gtypes1021,
+	names1022,
+	types1022,
+	attr_flags1022,
+	gtypes1022,
 	(uint16) 0x00,
-	cn_attr1021,
-	40,
+	cn_attr1022,
+	24,
 	4L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40241,13 +40593,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 2,
 	(long) 2,
 	"TIME_VALIDITY_CHECKER",
-	names1022,
-	types1022,
-	attr_flags1022,
-	gtypes1022,
+	names1023,
+	types1023,
+	attr_flags1023,
+	gtypes1023,
 	(uint16) 0x00,
-	cn_attr1022,
-	16,
+	cn_attr1023,
+	12,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40257,13 +40609,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 2,
 	(long) 2,
 	"TIME",
-	names1023,
-	types1023,
-	attr_flags1023,
-	gtypes1023,
+	names1024,
+	types1024,
+	attr_flags1024,
+	gtypes1024,
 	(uint16) 0x00,
-	cn_attr1023,
-	16,
+	cn_attr1024,
+	12,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40273,13 +40625,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"DATE_VALIDITY_CHECKER",
-	names1024,
-	types1024,
-	attr_flags1024,
-	gtypes1024,
+	names1025,
+	types1025,
+	attr_flags1025,
+	gtypes1025,
 	(uint16) 0x00,
-	cn_attr1024,
-	8,
+	cn_attr1025,
+	4,
 	0L,
 	(int32) 32,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40289,13 +40641,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"DATE",
-	names1025,
-	types1025,
-	attr_flags1025,
-	gtypes1025,
+	names1026,
+	types1026,
+	attr_flags1026,
+	gtypes1026,
 	(uint16) 0x00,
-	cn_attr1025,
-	8,
+	cn_attr1026,
+	4,
 	0L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40305,12 +40657,12 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 3,
 	(long) 3,
 	"DATE_TIME_VALIDITY_CHECKER",
-	names1026,
-	types1026,
-	attr_flags1026,
-	gtypes1026,
+	names1027,
+	types1027,
+	attr_flags1027,
+	gtypes1027,
 	(uint16) 0x00,
-	cn_attr1026,
+	cn_attr1027,
 	16,
 	0L,
 	(int32) 32,
@@ -40321,13 +40673,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 16,
 	(long) 16,
 	"DATE_TIME_PARSER",
-	names1027,
-	types1027,
-	attr_flags1027,
-	gtypes1027,
+	names1028,
+	types1028,
+	attr_flags1028,
+	gtypes1028,
 	(uint16) 0x00,
-	cn_attr1027,
-	96,
+	cn_attr1028,
+	72,
 	5L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40337,13 +40689,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 5,
 	(long) 5,
 	"DATE_TIME",
-	names1028,
-	types1028,
-	attr_flags1028,
-	gtypes1028,
+	names1029,
+	types1029,
+	attr_flags1029,
+	gtypes1029,
 	(uint16) 0x00,
-	cn_attr1028,
-	32,
+	cn_attr1029,
+	24,
 	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40353,13 +40705,13 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 11,
 	(long) 11,
 	"EQA_TEST_INVOCATION_EXCEPTION",
-	names1029,
-	types1029,
-	attr_flags1029,
-	gtypes1029,
+	names1030,
+	types1030,
+	attr_flags1030,
+	gtypes1030,
 	(uint16) 0x00,
-	cn_attr1029,
-	64,
+	cn_attr1030,
+	40,
 	6L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
@@ -40369,14 +40721,206 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 17,
 	(long) 17,
 	"ITP_INTERPRETER",
-	names1030,
-	types1030,
-	attr_flags1030,
-	gtypes1030,
+	names1031,
+	types1031,
+	attr_flags1031,
+	gtypes1031,
 	(uint16) 0x00,
-	cn_attr1030,
-	88,
+	cn_attr1031,
+	56,
 	8L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 3,
+	(long) 3,
+	"RING_BUFFER",
+	names1032,
+	types1032,
+	attr_flags1032,
+	gtypes1032,
+	(uint16) 0x00,
+	cn_attr1032,
+	12,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 4,
+	(long) 4,
+	"BOUNDED_QUEUE",
+	names1033,
+	types1033,
+	attr_flags1033,
+	gtypes1033,
+	(uint16) 0x00,
+	cn_attr1033,
+	16,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 4,
+	(long) 4,
+	"ARRAYED_QUEUE",
+	names1034,
+	types1034,
+	attr_flags1034,
+	gtypes1034,
+	(uint16) 0x00,
+	cn_attr1034,
+	16,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 3,
+	(long) 3,
+	"ARRAYED_QUEUE_ITERATION_CURSOR",
+	names1035,
+	types1035,
+	attr_flags1035,
+	gtypes1035,
+	(uint16) 0x00,
+	cn_attr1035,
+	12,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 1,
+	(long) 1,
+	"QUEUE",
+	names1036,
+	types1036,
+	attr_flags1036,
+	gtypes1036,
+	(uint16) 0x1000,
+	cn_attr1036,
+	4,
+	0L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 3,
+	(long) 3,
+	"RING_BUFFER",
+	names1037,
+	types1037,
+	attr_flags1037,
+	gtypes1037,
+	(uint16) 0x00,
+	cn_attr1037,
+	12,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 4,
+	(long) 4,
+	"BOUNDED_QUEUE",
+	names1038,
+	types1038,
+	attr_flags1038,
+	gtypes1038,
+	(uint16) 0x00,
+	cn_attr1038,
+	16,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 4,
+	(long) 4,
+	"ARRAYED_QUEUE",
+	names1039,
+	types1039,
+	attr_flags1039,
+	gtypes1039,
+	(uint16) 0x00,
+	cn_attr1039,
+	16,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 3,
+	(long) 3,
+	"ARRAYED_QUEUE_ITERATION_CURSOR",
+	names1040,
+	types1040,
+	attr_flags1040,
+	gtypes1040,
+	(uint16) 0x00,
+	cn_attr1040,
+	12,
+	1L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 1,
+	(long) 1,
+	"QUEUE",
+	names1041,
+	types1041,
+	attr_flags1041,
+	gtypes1041,
+	(uint16) 0x1000,
+	cn_attr1041,
+	4,
+	0L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 1,
+	(long) 1,
+	"DISPENSER",
+	names1042,
+	types1042,
+	attr_flags1042,
+	gtypes1042,
+	(uint16) 0x1000,
+	cn_attr1042,
+	4,
+	0L,
+	(int32) 0,
+	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
+	NULL
+},
+{
+	(long) 2,
+	(long) 2,
+	"INTERVAL",
+	names1043,
+	types1043,
+	attr_flags1043,
+	gtypes1043,
+	(uint16) 0x00,
+	cn_attr1043,
+	8,
+	2L,
 	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
@@ -40385,31 +40929,15 @@ const struct cnode egc_fsystem_init[] = {
 	(long) 1,
 	(long) 1,
 	"EQA_TEST_EVALUATOR",
-	names1031,
-	types1031,
-	attr_flags1031,
-	gtypes1031,
+	names1044,
+	types1044,
+	attr_flags1044,
+	gtypes1044,
 	(uint16) 0x00,
-	cn_attr1031,
-	8,
+	cn_attr1044,
+	4,
 	0L,
 	(int32) 32,
-	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
-	NULL
-},
-{
-	(long) 2,
-	(long) 2,
-	"INTERVAL",
-	names1032,
-	types1032,
-	attr_flags1032,
-	gtypes1032,
-	(uint16) 0x00,
-	cn_attr1032,
-	16,
-	2L,
-	(int32) 0,
 	{(int32) 0, (int) 0, (char **) 0, (char *) 0},
 	NULL
 },};

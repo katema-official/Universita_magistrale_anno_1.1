@@ -42,6 +42,7 @@ feature -- Test routines
 			b.remove
 				assert("Capacity after remove 2",b.capacity = 10)
 				assert("Count after remove 2", b.count = 0)
+			print("Ziogiak 1%N")
 		end
 
 	test_queries
@@ -49,22 +50,27 @@ feature -- Test routines
 			assert("Empty", b.is_empty)
 			assert("Not full", not b.is_full)
 
+			print("Ziogiak 1.1%N")
 			across 1 |..| 10 as i loop b.extend (i.item) end
+			print("Ziogiak 1.2%N")
 
 			assert("Not Empty", not b.is_empty)
 			assert("Full", b.is_full)
+			print("Ziogiak 1.5%N")
 			b.remove
 			assert("Not Empty", not b.is_empty)
 			assert("Not Full", not b.is_full)
+			print("Ziogiak 2%N")
 	end
 
 	test_wipe_out
 		do
-			b.extend (-1)
+		--	b.extend (-1)
 			b.extend (-2)
 			assert("Not Empty", not b.is_empty)
 			b.wipe_out
 			assert("Empty", b.is_empty)
+			print("Ziogiak 3%N")
 		end
 
 	test_char
