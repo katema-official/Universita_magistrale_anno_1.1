@@ -58,13 +58,13 @@ static const struct desc_info desc_991[] = {
 	{EIF_NON_GENERIC(0x07BD /*990*/), 28, 0xFFFFFFFF},
 	{EIF_NON_GENERIC(0x01C7 /*227*/), 29, 0xFFFFFFFF},
 	{EIF_GENERIC(egt_12_991), 30, 0xFFFFFFFF},
-	{EIF_GENERIC(egt_13_991), 13754, 0xFFFFFFFF},
+	{EIF_GENERIC(egt_13_991), 13785, 0xFFFFFFFF},
 };
 void Init991(void)
 {
 	IDSC(desc_991, 0, 990);
 	IDSC(desc_991 + 1, 1, 990);
-	IDSC(desc_991 + 32, 377, 990);
+	IDSC(desc_991 + 32, 376, 990);
 }
 
 

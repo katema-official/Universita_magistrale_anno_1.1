@@ -10,8 +10,8 @@
 extern "C" {
 #endif
 
-extern void F996_7577(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
-extern void F996_7578(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
+extern void F996_7583(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
+extern void F996_7584(EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE);
 extern void EIF_Minit996(void);
 
 #ifdef __cplusplus
@@ -35,7 +35,7 @@ extern "C" {
 #endif
 
 /* {EQA_EXTERNALS}.invoke_routine */
-void F996_7577 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg2x)
+void F996_7583 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg2x)
 {
 	GTCX
 	char *l_feature_name = "invoke_routine";
@@ -58,12 +58,12 @@ void F996_7577 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE ar
 	RTLU(SK_INT32,&arg2);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 995, Current, 0, 2, 13814);
+	RTEAA(l_feature_name, 995, Current, 0, 2, 13845);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 1);
-	RTDBGEAA(995, Current, 13814);
-	RTCC(arg1, 995, l_feature_name, 1, eif_new_type(968, 0x01), 0x01);
+	RTDBGEAA(995, Current, 13845);
+	RTCC(arg1, 995, l_feature_name, 1, eif_new_type(974, 0x01), 0x01);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
 		RTHOOK(1);
@@ -93,7 +93,7 @@ body:;
 }
 
 /* {EQA_EXTERNALS}.override_byte_code_of_body */
-void F996_7578 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg2x, EIF_TYPED_VALUE arg3x, EIF_TYPED_VALUE arg4x)
+void F996_7584 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE arg2x, EIF_TYPED_VALUE arg3x, EIF_TYPED_VALUE arg4x)
 {
 	GTCX
 	char *l_feature_name = "override_byte_code_of_body";
@@ -123,11 +123,11 @@ void F996_7578 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE ar
 	RTLU(SK_INT32,&arg4);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 995, Current, 0, 4, 13815);
+	RTEAA(l_feature_name, 995, Current, 0, 4, 13846);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 1);
-	RTDBGEAA(995, Current, 13815);
+	RTDBGEAA(995, Current, 13846);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
 		RTHOOK(1);

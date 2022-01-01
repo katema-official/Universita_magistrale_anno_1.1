@@ -55,9 +55,12 @@ $spitshell >>Makefile <<'!NO!SUBS!'
 
 OBJECTS = big_file_C3_c.o 
 
-OLDOBJECTS =  it1030.o it1030d.o eq1031.o eq1031d.o da1028.o da1028d.o eq1029.o \
-	eq1029d.o da1025.o da1025d.o da1026.o da1026d.o da1027.o da1027d.o \
-	in1032.o in1032d.o 
+OLDOBJECTS =  bo1033.o bo1033d.o bo1038.o bo1038d.o ar1035.o ar1035d.o ar1040.o \
+	ar1040d.o di1042.o di1042d.o qu1036.o qu1036d.o qu1041.o qu1041d.o \
+	ar1034.o ar1034d.o ar1039.o ar1039d.o it1031.o it1031d.o eq1044.o \
+	eq1044d.o da1029.o da1029d.o eq1030.o eq1030d.o da1026.o da1026d.o \
+	da1027.o da1027d.o da1028.o da1028d.o da1025.o da1025d.o in1043.o \
+	in1043d.o ri1032.o ri1032d.o ri1037.o ri1037d.o 
 
 all: Cobj3.o
 

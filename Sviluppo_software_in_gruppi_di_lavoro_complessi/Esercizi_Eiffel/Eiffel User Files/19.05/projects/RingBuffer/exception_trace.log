@@ -1,0 +1,28 @@
+
+ringbuffer: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+RING_BUFFER         _invariant @3          free > 0 and free <= capacity:
+<000000000404CAC0>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+RING_BUFFER         _invariant                                          
+<000000000404CAC0>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+RING_BUFFER         extend @12                                          
+<000000000404CAC0>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+NEW_TEST_SET        test_queries @4                                     
+<000000000404C82C>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @9                                             
+<000000000404C448>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000000404C448>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

@@ -1058,6 +1058,18 @@ extern void Init1029(void);
 extern void Init1030(void);
 extern void Init1031(void);
 extern void Init1032(void);
+extern void Init1033(void);
+extern void Init1034(void);
+extern void Init1035(void);
+extern void Init1036(void);
+extern void Init1037(void);
+extern void Init1038(void);
+extern void Init1039(void);
+extern void Init1040(void);
+extern void Init1041(void);
+extern void Init1042(void);
+extern void Init1043(void);
+extern void Init1044(void);
 
 void egc_tabinit_init(void)
 {
@@ -2093,14 +2105,26 @@ void egc_tabinit_init(void)
 	Init1030();
 	Init1031();
 	Init1032();
+	Init1033();
+	Init1034();
+	Init1035();
+	Init1036();
+	Init1037();
+	Init1038();
+	Init1039();
+	Init1040();
+	Init1041();
+	Init1042();
+	Init1043();
+	Init1044();
 }
 
 extern void egc_einit_init(void);
 void egc_einit_init (void)
 {
-	ccount = 435;
-	eif_nb_org_routines = 8505;
-	eif_nb_features = 14713;
+	ccount = 436;
+	eif_nb_org_routines = 8550;
+	eif_nb_features = 14833;
 }
 
 extern void EIF_Minit1(void);
@@ -3135,6 +3159,18 @@ extern void EIF_Minit1029(void);
 extern void EIF_Minit1030(void);
 extern void EIF_Minit1031(void);
 extern void EIF_Minit1032(void);
+extern void EIF_Minit1033(void);
+extern void EIF_Minit1034(void);
+extern void EIF_Minit1035(void);
+extern void EIF_Minit1036(void);
+extern void EIF_Minit1037(void);
+extern void EIF_Minit1038(void);
+extern void EIF_Minit1039(void);
+extern void EIF_Minit1040(void);
+extern void EIF_Minit1041(void);
+extern void EIF_Minit1042(void);
+extern void EIF_Minit1043(void);
+extern void EIF_Minit1044(void);
 
 extern void egc_system_mod_init_init(void);
 void egc_system_mod_init_init (void)
@@ -4172,6 +4208,18 @@ void egc_system_mod_init_init (void)
 	EIF_Minit1030();
 	EIF_Minit1031();
 	EIF_Minit1032();
+	EIF_Minit1033();
+	EIF_Minit1034();
+	EIF_Minit1035();
+	EIF_Minit1036();
+	EIF_Minit1037();
+	EIF_Minit1038();
+	EIF_Minit1039();
+	EIF_Minit1040();
+	EIF_Minit1041();
+	EIF_Minit1042();
+	EIF_Minit1043();
+	EIF_Minit1044();
 }
 
 #ifdef __cplusplus
