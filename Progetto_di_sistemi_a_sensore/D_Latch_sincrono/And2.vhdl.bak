@@ -1,0 +1,13 @@
+entity Gate is
+	port(In1, In2: in bit;
+		Out1: out bit);
+end entity Gate;
+
+architecture Beh of Gate is
+	begin
+		Out1 <= In1 and In2 after 2 ns;
+end architecture Beh;
+
+
+
+
