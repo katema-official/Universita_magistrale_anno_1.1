@@ -221,7 +221,11 @@ feature
       		if row.item /= board.height then
         		Result.append_string ("%N" + hline + "%N")
       		end
+
       	end
+      	ensure then
+      		not result.ends_with("%N")
+
    end
 
 invariant
