@@ -8,6 +8,7 @@ public class BumpUp : MonoBehaviour
     public float push = 300f;
     public float fadeTime = 10f;
     public float updateAlphaFrequency = 0.05F;    //aggiorno l'alpha questo numero di volte al secondo
+    private bool fadeStarted = false;
     void Start()
     {
         
@@ -23,7 +24,10 @@ public class BumpUp : MonoBehaviour
 
     private void OnMouseDown()
     {
-        StartCoroutine(Fade());
+        if (!fadeStarted) {
+            fadeStarted = true;
+            StartCoroutine(Fade());
+        }
     }
 
     IEnumerator Fade()

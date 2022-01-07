@@ -6,11 +6,12 @@ public class Rotation : MonoBehaviour
 {
 
     public float rotationalSpeed = 90f;
+    public Material[] materialsArray;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        GetComponent<Renderer>().material = materialsArray[Random.Range(0, materialsArray.Length)];
     }
 
     //void onCollisionEnter(Collision c)
