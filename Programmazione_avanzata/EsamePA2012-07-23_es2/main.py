@@ -13,24 +13,32 @@ class TestClass2(TestClass):
     def sety(self, z): self.y=z
     def gety(self): return self.y
 
-def SelectorPresenceTest(clazz, inztance):
-    print("1")
-    class wrapper(unittest.TestCase):
-        print("2")
-        def get_test(self):
-            print("3")
-            #pippo = [el for el in inztance.__dict__.keys()]
-            #print(pippo)
+def get_all_methods(clazz, methods):
+    methods += clazz.__dict__.keys()
+    if clazz.__name__ != "object":
+        for parent in clazz.__bases__:
+            print("parent = " + parent.__name__)
+            methods += get_all_methods(parent, methods[:])
+    return methods
 
-            data = [1, 2, 3]
-            result = sum(data)
-            self.assertEqual(result, 7)
-            for i in range(1):
-                with self.subTest(i = i):
-                    self.assertEqual("pippo", 0)
-        def pippo(self):
-            self.assertEqual(1, 0)
-    print("4")
+def SelectorPresenceTest(clazz, inztance):
+    class wrapper(unittest.TestCase):
+        def test_getters(self):
+            pippo = [el for el in inztance.__dict__.keys()]
+            print("pippo = " + str(pippo))
+            methods_i_want = set(map(lambda x : "get" + x, pippo))
+            #nota: hasattr va a controllare anche gli attributi del/dei padri.
+            ms = get_all_methods(clazz, [])
+            for m in methods_i_want:
+                    self.assertIn(m, ms, "AssertionError: Warning! " + str(m) + " doesn’t exists!!!")
+
+        def test_setters(self):
+            pippo = [el for el in inztance.__dict__.keys()]
+            methods_i_want = set(map(lambda x: "set" + x, pippo))
+            ms = get_all_methods(clazz, [])
+            for m in methods_i_want:
+                self.assertIn(m, ms)
+
     return wrapper
 
 
@@ -45,6 +53,7 @@ ClassesToTest = [SelectorPresenceTest(TestClass, TestClass(7,25)),
 
 class NumbersTest(unittest.TestCase):
     def test_even(self):
+        print("5")
         for i in range(0, 6):
             with self.subTest(i=i):
                 self.assertEqual(i % 2, 0)
