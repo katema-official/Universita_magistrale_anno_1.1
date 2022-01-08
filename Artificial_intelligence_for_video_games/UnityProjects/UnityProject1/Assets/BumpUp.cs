@@ -32,7 +32,7 @@ public class BumpUp : MonoBehaviour
 
     IEnumerator Fade()
     {
-        Material m = GetComponent<Renderer>().sharedMaterial;
+        Material m = GetComponent<Renderer>().material;
         Color c;
         Debug.Log(updateAlphaFrequency + "/" + fadeTime + " = " + 1/(fadeTime/updateAlphaFrequency));
         for(float f = 1f; f >= 0; f -= 1 / (fadeTime / updateAlphaFrequency))

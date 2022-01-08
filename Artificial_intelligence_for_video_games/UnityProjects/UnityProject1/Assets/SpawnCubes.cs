@@ -19,7 +19,7 @@ public class SpawnCubes : MonoBehaviour
         Debug.Log("CIAOOOOOO");
         while(whatToSpwan != null)
         {
-            Instantiate(whatToSpwan, GetComponent<Transform>().position + Random.insideUnitSphere, Quaternion.identity);
+            Instantiate(whatToSpwan, GetComponent<Transform>().position + Random.insideUnitSphere * 7, Quaternion.identity);
             yield return new WaitForSeconds(1f);
         }
         
