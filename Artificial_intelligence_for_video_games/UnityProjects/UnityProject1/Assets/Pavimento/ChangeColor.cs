@@ -20,17 +20,13 @@ public class ChangeColor : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             Material actualColor = GetComponent<Renderer>().material;
-            //Debug.Log("current material is " + actualColor.name.Replace(" (Instance)", "") + ", myColor name is " + myColor.name);
-
 
             if(actualColor.name.Replace(" (Instance)", "") != myColor.name)
             {
-                Debug.Log("Change material to myColor");
                 actualColor = myColor;
             }
             else
             {
-                Debug.Log("Change material to beginColor");
                 actualColor = beginColor;
             }
             GetComponent<Renderer>().material = actualColor;

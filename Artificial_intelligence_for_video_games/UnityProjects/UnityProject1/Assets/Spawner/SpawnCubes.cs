@@ -6,7 +6,8 @@ public class SpawnCubes : MonoBehaviour
 {
 
     public GameObject whatToSpwan;
-    public float rate = 1f;
+    public float rate;
+    public float areaToSpawn;
 
     // Start is called before the first frame update
     void Start()
@@ -16,10 +17,9 @@ public class SpawnCubes : MonoBehaviour
 
     IEnumerator Spawner()
     {
-        Debug.Log("CIAOOOOOO");
         while(whatToSpwan != null)
         {
-            Instantiate(whatToSpwan, GetComponent<Transform>().position + Random.insideUnitSphere * 7, Quaternion.identity);
+            Instantiate(whatToSpwan, GetComponent<Transform>().position + Random.insideUnitSphere * areaToSpawn, Quaternion.identity);
             yield return new WaitForSeconds(1f);
         }
         
