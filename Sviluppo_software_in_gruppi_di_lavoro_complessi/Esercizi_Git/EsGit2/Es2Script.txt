@@ -21,3 +21,7 @@ git mv _C/D D
 #infatti git non considera subdirectory vuote, pertanto git rm _C non ha effetto
 git commit -m "due"
 git checkout student
+printf "text D\n" > D
+git add D
+git restore --staged D
+#rm D
