@@ -2,9 +2,10 @@ Sviluppo_software_in_gruppi_di_lavoro_complessi/Esercizi_Eiffel/Eiffel User File
 !Sviluppo_software_in_gruppi_di_lavoro_complessi/Esercizi_Eiffel/Eiffel User Files/19.05/projects/*/*.e
 !Sviluppo_software_in_gruppi_di_lavoro_complessi/Esercizi_Eiffel/Eiffel User Files/19.05/projects/*/*.ecf
 Programmazione_avanzata/porcocazzola
-Artificial_intelligence_for_video_games/UnityProjects/*/*
-!Artificial_intelligence_for_video_games/UnityProjects/*/Assets
-!Artificial_intelligence_for_video_games/UnityProjects/*/ProjectSettings
-!Artificial_intelligence_for_video_games/UnityProjects/*/*.sln
-!Artificial_intelligence_for_video_games/UnityProjects/*/*.vsconfig
+Artificial_intelligence_for_video_games/UnityProjects/UnityProject2
+Artificial_intelligence_for_video_games/UnityProjects/UnityProject1/*
+!Artificial_intelligence_for_video_games/UnityProjects/UnityProject1/Assets
+!Artificial_intelligence_for_video_games/UnityProjects/UnityProject1/ProjectSettings
+!Artificial_intelligence_for_video_games/UnityProjects/UnityProject1/*.sln
+!Artificial_intelligence_for_video_games/UnityProjects/UnityProject1/*.vsconfig
 ~$*.odt
