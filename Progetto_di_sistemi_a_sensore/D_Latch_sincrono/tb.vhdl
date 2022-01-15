@@ -8,7 +8,7 @@ architecture arch of tb is
 
 	begin
 	
-		dlatch_en : entity work.Dlatch_En port map(din, clk, en, qout);
+		dlatch_en : entity work.Dlatch_En port map(Din => din, Clk => clk, En => en, Qout => qout);
 		
 		ClockGen : process
 			constant period: time := 1 ms;--1000 Hz
@@ -17,16 +17,26 @@ architecture arch of tb is
 					wait for period;
 				end process;
 				
-		MyProcess : process
 		
-			begin
-				en <= '1';
-				din <= '0',
-						'1' after 5 ms,
-						'0' after 10 ms;
-				assert(false) report "tb ended" severity failure;
-			end process MyProcess;
+		en <= '0',
+				'1' after 20 ms,
+				'0' after 90 ms,
+				'1' after 115 ms;
+		din <= '0',
+				'1' after 50 ms,
+				'0' after 100 ms;
+				
 		
-
-
+		tmp: process
+			variable counter: integer := 0;
+				begin
+					if (counter <= 100) then
+						counter := counter + 1;
+					else
+						assert(false) report "tb ended" severity failure;
+					end if;
+					wait for 100 ms;
+				end process tmp;
+		
+		
 end architecture arch;
