@@ -1,13 +1,13 @@
 v 3
-file . "tb.vhdl" "20220115154428.000" "20220115164443.360":
-  entity tb at 1( 0) + 0 on 97;
-  architecture arch of tb at 4( 32) + 0 on 98;
-file . "Dlatch.vhdl" "20220109140700.000" "20220115164443.239":
-  entity dlatch at 1( 0) + 0 on 93;
-  architecture beh of dlatch at 6( 81) + 0 on 94;
-file . "And2.vhdl" "20220109140700.000" "20220115164443.173":
-  entity and2 at 1( 0) + 0 on 91;
-  architecture beh of and2 at 6( 80) + 0 on 92;
-file . "Dlatch_En.vhdl" "20220109140700.000" "20220115164443.299":
-  entity dlatch_en at 1( 0) + 0 on 95;
-  architecture struct of dlatch_en at 6( 96) + 0 on 96;
+file . "tb.vhdl" "20220115154428.000" "20220116102203.200":
+  entity tb at 1( 0) + 0 on 105;
+  architecture arch of tb at 4( 32) + 0 on 106;
+file . "Dlatch.vhdl" "20220109140700.000" "20220116102203.092":
+  entity dlatch at 1( 0) + 0 on 101;
+  architecture beh of dlatch at 6( 81) + 0 on 102;
+file . "And2.vhdl" "20220109140700.000" "20220116102203.048":
+  entity and2 at 1( 0) + 0 on 99;
+  architecture beh of and2 at 6( 80) + 0 on 100;
+file . "Dlatch_En.vhdl" "20220109140700.000" "20220116102203.135":
+  entity dlatch_en at 1( 0) + 0 on 103;
+  architecture struct of dlatch_en at 6( 96) + 0 on 104;

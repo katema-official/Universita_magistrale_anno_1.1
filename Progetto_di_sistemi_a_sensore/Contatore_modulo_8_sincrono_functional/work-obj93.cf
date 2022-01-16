@@ -1,7 +1,0 @@
-v 3
-file . "tb.vhdl" "20220115173556.000" "20220115183602.248":
-  entity tb at 1( 0) + 0 on 67;
-  architecture a of tb at 8( 106) + 0 on 68;
-file . "count8.vhdl" "20220115173340.000" "20220115183602.179":
-  entity count8 at 1( 0) + 0 on 65;
-  architecture functional of count8 at 11( 177) + 0 on 66;

@@ -34,9 +34,7 @@ begin
 			assert false report "tb finished" severity failure;
 		end process tmp;
 		
-		--if(now >= 100 ms) then
-		--	assert false report "tb finished" severity failure;
-		--end if;
+		
 
 end architecture a;
 
