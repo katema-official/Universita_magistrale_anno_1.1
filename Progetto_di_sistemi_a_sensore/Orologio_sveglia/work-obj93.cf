@@ -1,0 +1,13 @@
+v 3
+file . "Orologio.vhdl" "20220116160310.000" "20220116170315.127":
+  entity orologio at 1( 0) + 0 on 599;
+  architecture arch of orologio at 13( 310) + 0 on 600;
+file . "Clock_gen.vhdl" "20220116154548.000" "20220116170315.059":
+  entity clock_gen at 1( 0) + 0 on 597;
+  architecture arch of clock_gen at 9( 157) + 0 on 598;
+file . "AlarmClock.vhdl" "20220116155612.000" "20220116170315.187":
+  entity alarmclock at 1( 0) + 0 on 601;
+  architecture arch of alarmclock at 14( 359) + 0 on 602;
+file . "tb.vhdl" "20220116155526.000" "20220116170315.250":
+  entity tb at 1( 0) + 0 on 603;
+  architecture arch of tb at 8( 106) + 0 on 604;
