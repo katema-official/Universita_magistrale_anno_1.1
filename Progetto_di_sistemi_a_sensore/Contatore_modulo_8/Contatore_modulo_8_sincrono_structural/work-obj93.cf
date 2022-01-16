@@ -1,10 +1,10 @@
 v 3
-file . "count8.vhdl" "20220116103038.000" "20220116114940.885":
-  entity count8 at 1( 0) + 0 on 51;
-  architecture arch of count8 at 15( 289) + 0 on 52;
-file . "flip_flop_toggle.vhdl" "20220116104912.000" "20220116114940.931":
-  entity flip_flop_toggle at 1( 0) + 0 on 53;
-  architecture arch of flip_flop_toggle at 11( 185) + 0 on 54;
-file . "tb.vhdl" "20220116102424.000" "20220116114940.998":
-  entity tb at 1( 0) + 0 on 55;
-  architecture arch of tb at 8( 106) + 0 on 56;
+file . "count8.vhdl" "20220116105320.000" "20220116115802.687":
+  entity count8 at 1( 0) + 0 on 101;
+  architecture arch of count8 at 13( 213) + 0 on 102;
+file . "flip_flop_toggle.vhdl" "20220116105016.000" "20220116115758.787":
+  entity flip_flop_toggle at 1( 0) + 0 on 99;
+  architecture arch of flip_flop_toggle at 11( 185) + 0 on 100;
+file . "tb.vhdl" "20220116105642.000" "20220116115808.487":
+  entity tb at 1( 0) + 0 on 103;
+  architecture arch of tb at 8( 106) + 0 on 104;

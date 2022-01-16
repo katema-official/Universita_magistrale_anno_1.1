@@ -15,7 +15,7 @@ architecture arch of tb is
 	
 begin
 
-	count8_instance: entity work.count8 generic map(clk_frequency) port map(i, clk, outt);
+	count8_instance: entity work.count8(arch) generic map(clk_frequency) port map(i, clk, outt);
 	clock_gen: process
 		begin
 			clk <= '1', '0' after clk_frequency/2;
