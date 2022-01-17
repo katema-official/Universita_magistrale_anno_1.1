@@ -1,0 +1,96 @@
+GEOMETRIA
+
+1)
+No, non si può creare un oggetto riferito da s con l'istruzione make,
+dato che quest'ultima non è riferita nella clausola create della classe.
+L'errore sarebbe pertanto di (dovrei eseguire per scoprirlo, credo compile time)
+
+2) se la condizione che l'area deve essere maggiore di 0 fosse richiesta solo
+nella feature "area", e non fosse invece presente come invariante di classe,
+potremmo essere autorizzati a costruire un poligono con area negativa. Questo
+poligono continuerebbe ad esistere e a non sollevare alcun tipo di errore
+nel sistema fintanto che qualcuno non fa una chiamata esplicita alla feature
+"area", che però potrebbe anche non avvenire mai. Pertanto, un oggetto con un'area
+negativa potrebbe esistere nel sistema, e noi potremmo non accorgercene mai.
+Questo può causare problemi se tale poligono interagisce con altri poligoni
+con operazioni che danno per scontato che entrambe le aree siano positive.
+
+3)
+
+require
+	angle.abs.integer_remainder(90) = 0
+
+--il Professore la scrive come
+	is_integer: angle.floor = angle
+	keep_axes: angle.abs.floor.integer_remainder(90) = 0
+--anche se non credo (spero??) sia necessario.
+
+4)
+
+(non sono già specificate???)
+Non mi sembra opportuno specificare che area e perimetro sono > 0.0 nelle
+postcondizioni, dato che sono cose già specificate nell'invariante.
+
+Per regular polygon, invece:
+
+invariant
+	min_edge = max_edge
+
+5)
+
+un caso in cui implementare la tassellatura sarebbe facile è quando
+i tasselli che abbiamo a disposizione sono tutti quadrati che si 
+"incastrano perfettamente", e generano, quando opportunamente disposti,
+un quadrato più grande. Pertanto, dobbiamo richiedere che:
+-tutti i poligoni presenti in tiles siano quadrati
+-tutti questi quadrati abbiano lo stesso lato
+-se l è la lunghezza di un quadrato, e n è il numero di quadrati, vogliamo che
+lxl = n
+Di fatto possiamo costruire un quadrato enorme partendo da più quadrati piccoli,
+usandoli tutti.
+
+all_same_and_good_squares: BOOLEAN
+	local
+		l: INTEGER
+		n: INTEGER
+	do
+		across tiles as t 
+		from 
+			l := tiles.start.min_edge
+			n := 0
+		loop   
+			n := n + 1
+		all 
+			t.item.min_edge = tiles.start.max_edge
+		end
+		Result := (l * n**0.5)**2.ceil = (l * n**0.5)**2
+	
+require
+	all_same_and_good_square
+
+--mi sono appena reso conto che ci sono all_squares e all_equals. Allora...
+
+all_same_and_good_squares: BOOLEAN
+	local
+		l: INTEGER := tiles.first.min_edge
+		n: INTEGER := tiles.count
+	do
+		
+		Result := all_squares and all_equals
+		Result := Result and (l * n**0.5)**2.ceil = (l * n**0.5)**2
+
+require
+	all_same_and_good_square
+	
+
+--meglio sulle dispense, ma ora vado a mangiare che sto morendo.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+SCACCHI
+
+1) Una opportuna precondizione alla feature PIECE.make è:
+
+require
+	player.as_upper.is_equal("WHITE") or player.as_upper.is_equal("BLACK")
+
+dato che l'invariante della classe ci impone che il colore del pezzo
+sia sempre o bianco o nero.
+
+2) per specificare che il parametro attuale della feature KING:make può
+essere "SINGLE", possiamo scrivere:
+
+require else
+	player.as_upper.is_equal("SINGLE")
+
+la dicitura "require else", diversa da "require", è fondamentale, dato che
+King è una classe che eredita da Piece. Noi vogliamo pertanto al massimo (come
+in questo caso) indebolire le precondizioni della feature, così che il principio
+di Liskov sia rispettato.
+
+Una chiamata del tipo:
+create k.make("SINGLE")
+causa la creazione di un re bianco rappresentato con caratteri ascii, e che
+quindi, nella scacchiera, risulterà rappresentato come 'K' (come si può notare
+dalla feature out).
+
+3)
+BOARD.get:
+
+require
+	is_valid_code(where)
+
+non serve chiedere anche che ci sia un pezzo, dato che il risultato della
+get è un detachable PIECE, ovvero un PIECE che può essere anche Void.
+
+ensure
+	Result := matrix[pos.r, pos.c].get_presence
+
+--soluzione del Professore:
+	empty_void: is_empty(where) implies Result = Void
+	full_piece: not is_empty(where) implies attached Result
+--condensabili come:
+	not is_empty(where) = attached Result
+----
+
+
+BOARD.put:
+
+require
+	is_valid_code(where)
+
+ensure
+	matrix[pos.r, pos.c].get_presence = p
+
+--l'ho fatto bene, ma era meglio, visto che c'era già codice scritto:
+	get(where) = p
+
+BOARD.remove:
+
+require
+	is_valid_code(where)
+
+ensure
+	not attached matrix[pos.r, pos.c].get_presence
+
+--come per put, quindi
+	is_empty(where)
+
+4)
+Per assicurarci che la feature BOARD.move venga effettuata sempre in maniera
+corretta, ovvero che la mossa sia lecita, dobbiamo fare riferimento al metodo
+is_valid_move del pezzo che vogliamo spostare.
+
+require
+	get(fromw) /= Void impiles get(fromw).is_valid_move(Current, fromw, tow)
+
+Ovvero, il pezzo da muovere deve esistere e la mossa richiesta deve
+essere valida
+
+--ok, anche:
+	attached get(fromw) as o implies o.is_valid_move(Current, fromw, tow)
+
+5)
+Specifichiamo che in tutta la scacchiera non ci possono essere più di due re:
+
+across 
+	matrix.lower |..| matrix.height as r
+loop
+	across
+		matrix.lower |..| matrix.width as c
+	from
+		kings := 0
+	invariant
+		kings <= 2
+	loop
+		if matrix [r.item, c.item].get_presence.nameis_equal("KING") then
+			kings := kings + 1
+		end
+	end
+end
+
+Richiedere nell'invariante che il numero di re sia esattamente due comporterebbe
+dei problemi, potenzialmente, nella fase di creazione della scacchiera. Quando i
+giocatori stanno infatti "disponendo" le loro pedine sulla scacchiera, inizialmente
+questa non avrà nemmeno un re sopra, e l'invariante non verrà rispettata. Questo
+comportamento non sarebbe conforme alle nostre aspettative, dato che una scacchiera
+può avere 0 re o un singolo re, se la partita deve ancora iniziare e i giocatori
+stanno disponendo le pedine.
+
+
+
+
+
+
+	
