@@ -1,0 +1,4 @@
+v 3
+file . "conv_seriale_parallelo.vhdl" "20220118155752.000" "20220118165755.252":
+  entity conv_seriale_parallelo at 1( 0) + 0 on 11;
+  architecture arch of conv_seriale_parallelo at 11( 270) + 0 on 12;

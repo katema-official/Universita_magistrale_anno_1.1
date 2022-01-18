@@ -1,0 +1,156 @@
+BANK
+
+1)
+
+a.transfer(-1, b):
+operazione negata in quanto, per le precondizioni di transfer, non è possibile
+trasferire su un conto una quantità negativa di soldi. Non si possono svolgere
+operazioni su a o b per essere conformi al contratto, in quanto il problema sta
+nel valore -1.
+
+a.transfer(100, b)
+L'operazione è conforme al contratto SOLO quando abbiamo la garanzia che a /= b,
+ovvero che non siano due variabili che puntano alla stessa istanza (aliasing). Se
+le due variabili si riferiscono allo stesso oggetto, infatti, questa chiamata viola
+la precondizione no_aliasing di transfer.
+--inoltre, l'operazione si può fare solo se a ha effettivamente 100 euro da dare a b.
+
+a.transfer(100, a)
+Questa operazione violerà il contratto in quanto si va a violare la precondizione
+no_aliasing di transfer. Può essere risolta cambiando una delle a con b o con a.twin,
+che crea una copia identico dell'oggetto di partenza, ma in un'istanza separata.
+
+a.transfer(100, a.twin)
+Operazione lecita per il motivo scritto appena sopra.
+--di nuovo, solo se ha 100 euro sul conto
+
+b.transfer(b.balance, a)
+Operazione non lecita quando b.balance è uguale a 0, cosa che succede, per esempio,
+al momento della creazione di b.
+--balance deve essere maggiore di 0 e minore di b.available_amount
+
+2)
+create a.make
+a.set_credit_limit (X):
+al momento della crezione di un oggetto di tipo ACCOUNT, abbiamo che balance = 0
+e credit_limit = 1000. Pertanto, per impostare il credit_limit a X, dobbiamo assicurarci
+che la precondizione di set_credit_limit sia rispettata, ovvero che X sia maggiore o
+uguale del massimo tra 0 e -balance, che è sempre 0. Quindi, basta che:
+X = 0.
+e a questo punto, il credit limit di questo ACCOUNT sarà X.
+
+a.withdraw (W):
+per la prima precondizione di withdraw, W > 0. La seconda richiede invece che la quantità
+di denaro da prelevare non sia superiore ad available amount:
+W <= available_amount
+W <= balance + credit_limit
+W <= 0 + X
+Quindi: 0 < W <= X.
+Svolta questa operazione, avremo che:
+balance = -W
+
+a.set_credit_limit (Y):
+anche in questo caso, l'unica precondizione che dobbiamo verificare è che:
+Y >= (0).max(-balance)  ==>
+Y >= (0).max(W)
+Sapendo, dalla dimostrazione svolta nel punto precedente, che 0 < W <= X, otteniamo che
+Y >= W.
+Quindi, l'operazione è consentita fintanto che Y >= W, dopo la quale avremo che:
+credit_limit = Y 
+
+a.withdraw (Z):
+Come con W, richiediamo che Z > 0  e che la seconda precondizione, may_withdraw,
+sia rispettata:
+Z <= available_amount
+Z <= balance + credit_limit
+Z <= -W + Y
+Quindi, perché l'operazione sia ammissibile, deve essere vero che:
+0 < Z <= -W + Y.
+E balance sarà:
+balance := balance - amount
+balance := - W - Z
+
+Al termine di queste operazioni, balance restituirà:
+- W - Z
+
+3) 
+Si scriva una feature merge che unisce due ACCOUNT differenti: il balance risultante deve essere la somma e
+il credit_limit il maggiore dei due. Indicare le precondizioni e postcondizioni opportune, tenendo conto
+degli invarianti della classe, che non devono essere alterati
+
+merge(a2: ACCOUNT): ACCOUNT
+	require
+		no_aliasing: Current /= a2
+		
+	local
+		a3 : ACCOUNT
+	do
+		create a3.make
+		a3.set_credit_limit((credit_limit).max(a2.credit_limit))
+		a3.deposit(balance + a2.balance)
+		
+		withdraw(balance)		--per azzerare i soldi sui conti mergeati
+		a2.withdraw(a2.balance)
+
+		Result := a3
+	ensure
+		balance = 0
+		a2.balance = 0
+		a3.balance = old balance + old a2.balance
+		Result.credit_limit = (old credit_limit).max(old a2.credit_limit)
+
+4)
+Una prima idea potrebbe essere quella di estendere la classe ACCOUNT e crearne
+un sottotipo SAVING_ACCOUNT, rendendo però private le feature della classe padre
+che non vogliamo esporre ai client, come credit_limit e set_credit_limit (rendendo,
+nel make di questa eventuale classe, il credit_limit pari a 0, e senza mai più
+modificarlo). Il problema è che questo eventuale sottotipo andrebbe ad ereditare anche
+le proprietà dinvarianti di ACCOUNT, tra cui credit_limit > 0, che infrange le nostre
+speranze di ereditarietà. Si può allora pensare di creare una classe SAVING_ACCOUNT
+che si costruisce un oggetto ACCOUNT nel make e che fornisce le stesse feature di ACCOUNT
+ad eccezione di credit_limit e set_credit_limit, e che, ogni volta che agisce sul conto,
+lo fa tenendo di conto del fatto che il cerdit_limit di SAVING_ACCOUNT deve essere 0, e il
+balance non deve mai essere negativo.
+Ad esempio, la feature available_amount di questa classe, potrebbe essere implementata,
+in un'ottica di riutilizzo del codice, come:
+(ipotizziamo che "acc" sia una feature di tipo ACCOUNT)
+
+available_amount: INTEGER
+	do
+		Result := acc.available_amount - 1000
+	end
+
+oppure (mi è venuto in mente ora) potremmo istanziare, nel make di SAVING_ACCOUNT,
+un ACCOUNT "acc" e prelevare immediatamente 1000 euro. Così sarà come se il credito
+fosse di 0 euro. è comunque sempre necessario impedire di chiamare feature come
+credit_limit e set_credit_limit.
+
+
+log_balance
+	local
+		log: PLAIN_TEXT_FILE
+		x: INTEGER := 0
+	do
+		create log.make_open_append ("account.log")
+		log.put_string ("Balance is: " + balance.out + "%N")
+			-- The next operation fails
+		check
+			-- failure
+			False
+	rescue
+		if(x < 3):
+			x = x + 1
+		retry
+	end
+end
+
+--nope, l'if dei tentativi va dentro al corpo.
+
+In un caso "realistico", la problematica che si potrebbe verificare è che non sia possibile
+aprire il file "account.log" per una mancanza di permessi. Bisognerebbe quindi nella clausola
+rescue cercare di ottenere questi permessi, o eventualmente creare un nuovo file/scrivere
+il messaggio di log su stdout.
+
+
+
+

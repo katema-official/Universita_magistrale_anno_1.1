@@ -1,0 +1,66 @@
+RING_BUFFER
+
+1)
+count: INTEGER
+	require
+		niente (no davvero non mi viene in mente nulla)				
+
+	ensure
+		Result >= 0 and Result <= capacity
+
+is_empty: BOOLEAN
+	require
+		niente
+
+	ensure
+		Result = true implies not is_full
+		count = 0
+
+is_full: BOOLEAN
+	require
+		niente
+
+	ensure
+		Result = true implies not is_empty
+		count = capacity
+
+2)
+	capacity = data.count - 1 (per come è costruita la classe)
+	is_empty implies not is_full
+	is_full implies not is_empty
+	item = data[start]
+	start > 0 and start <= capacity
+	free > 0 and free <= capacity
+
+3)
+
+extend(a_value: G)
+	
+	ensure
+		across data as elem some as.item.is_equal(a_value)
+		capacity = old capacity
+		free /= start
+		count = old count + 1
+
+remove
+	
+	ensure
+		start /= old start
+		count = old count - 1
+		item /= old item
+
+4)
+create b.make (X):
+b.extend ('a')
+b.extend ('b')
+create b.make (Y)
+b.remove
+
+Per nessun valore. Anche se la creazione dei due ring_buffer andasse a buon fine
+(e per fare ciò è necessario che X >=2 e y > 0), la chiamata b.remove fallirebbe,
+perché non ci sono elementi da rimuovere (incerto su cosa accade in eiffel chiamando
+due volte la create sulla stessa variabile).
+
+
+
+
