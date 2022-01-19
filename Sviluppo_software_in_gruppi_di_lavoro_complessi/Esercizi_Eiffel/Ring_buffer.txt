@@ -37,7 +37,7 @@ is_full: BOOLEAN
 extend(a_value: G)
 	
 	ensure
-		across data as elem some as.item.is_equal(a_value)
+		across data as elem some as.item.is_equal(a_value) --data.has(a_value)
 		capacity = old capacity
 		free /= start
 		count = old count + 1

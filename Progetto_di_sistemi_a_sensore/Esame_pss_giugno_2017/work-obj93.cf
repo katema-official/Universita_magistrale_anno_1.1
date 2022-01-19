@@ -1,0 +1,13 @@
+v 3
+file . "orologio.vhdl" "20220119111332.000" "20220119121340.097":
+  entity orologio at 1( 0) + 0 on 19;
+  architecture a of orologio at 12( 291) + 0 on 20;
+file . "input_manager.vhdl" "20220119103356.000" "20220119113357.531":
+  entity input_manager at 1( 0) + 0 on 11;
+  architecture a of input_manager at 10( 226) + 0 on 12;
+file . "core.vhdl" "20220119105528.000" "20220119115529.693":
+  entity core at 1( 0) + 0 on 15;
+  architecture a of core at 12( 272) + 0 on 16;
+file . "display_mux.vhdl" "20220119110728.000" "20220119120730.810":
+  entity display_mux at 1( 0) + 0 on 17;
+  architecture a of display_mux at 12( 274) + 0 on 18;
