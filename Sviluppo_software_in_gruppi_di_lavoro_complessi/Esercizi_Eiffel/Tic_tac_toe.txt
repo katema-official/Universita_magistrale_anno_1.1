@@ -1,0 +1,73 @@
+TIC-TAC-TOE
+
+1)
+
+not (board.occurences("X") - board.occurences("O")).abs > 1
+not (is_winner("X") and is_winner("O"))
+is_tie implies not is_winner("X")
+is_tie implies not is_winner("O")
+(is_winner("X") or is_winner("O")) implies not is_tie
+turn <= dim**2
+not is_finished implies (across 1 |..| board.witdh as r some (across 1 |..| board.height as c some is_available(r.tiem, c.item))
+
+
+2)
+
+require
+	is_available(row, col)
+	turn < dim**2
+
+ensure
+	not is_available(row, col)
+	old is_turn("X") implies is_turn("O")
+	old is_turn("O") implies is_turn("X")
+
+3)
+
+ensure
+	first_row_is_now_last_column(old Current)
+
+first_row_is_now_last_column(older: like Current): BOOLEAN
+	do
+		Result := across 1 |..| older.height as r loop
+			across 1 |..| width as c loop
+				all older.item(1, c.item) = item(r.item, width)
+		//oppure
+		Result := true
+		across 1 |..| older.width as r loop
+			across 1 |..| width as c loop do
+				Result := Result and older.item(r.item, 1) = item(width, c.item)
+
+	end
+
+
+4)
+ensure then
+	Result.item(Result.count) /= "%N"
+
+
+Si implementi la feature MATRIX_WITH_SYMMETRIES.i ⌋
+s_equal in maniera che vengano considerate uguali anche due matrici i cui valori
+ coincidono dopo una rotazione di 180 gradi. Si specifichi che la feature non altera
+la matrice.
+
+5)
+
+is_equal(other: like Current): BOOLEAN
+	local
+		tmp: like Current
+	do
+		create tmp.make
+		Result := Precursor(other)
+		tmp.copy(other)	--tmp := other.twin
+		copy.rotate90.rotate90
+		Result := Result or Precursor.is_equal(tmp)
+	ensure
+		old Current = Current
+		old other = other
+
+
+
+
+
+
